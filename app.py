@@ -516,6 +516,23 @@ def inject_theme():
     }
 
     .stat-caption { color: #6B7280; font-size: 12px; margin-bottom: -6px; }
+
+    /* Ép chữ trong vùng nội dung chính luôn là màu tối, bất kể nền vàng/trắng/kem
+       và bất kể người dùng đang bật theme sáng hay tối của Streamlit.
+       (Không áp dụng cho sidebar nền navy, và không đụng tới các span/div đã
+       tự set màu riêng như hero-title, badge, topbar-value...) */
+    [data-testid="stAppViewContainer"] [data-testid="stMarkdownContainer"],
+    [data-testid="stAppViewContainer"] [data-testid="stMetricLabel"],
+    [data-testid="stAppViewContainer"] [data-testid="stMetricValue"],
+    [data-testid="stAppViewContainer"] [data-testid="stMetricDelta"] {
+        color: #1F2933 !important;
+    }
+    [data-testid="stAppViewContainer"] [data-testid="stCaptionContainer"] {
+        color: #4B5563 !important;
+    }
+    [data-testid="stAppViewContainer"] [data-testid="stWidgetLabel"] p {
+        color: #1F2933 !important;
+    }
     </style>
     """, unsafe_allow_html=True)
 
