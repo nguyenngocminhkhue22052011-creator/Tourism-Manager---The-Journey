@@ -1,587 +1,977 @@
 [
   {
-    "question": "Yếu tố nào sau đây KHÔNG phải là tài nguyên du lịch tự nhiên?",
+    "level": 1,
+    "set": 1,
+    "question": "Du lịch được định nghĩa là gì?",
     "options": [
-      "A. Bãi biển",
-      "B. Hang động",
-      "C. Lễ hội truyền thống",
-      "D. Núi rừng"
+      "Hoạt động di chuyển và lưu trú tạm thời ngoài nơi cư trú thường xuyên nhằm mục đích nghỉ ngơi, khám phá",
+      "Chỉ là việc đi công tác trong nước",
+      "Hoạt động chuyển nơi ở vĩnh viễn",
+      "Chỉ dành cho người nước ngoài"
     ],
-    "answer": "C",
-    "explanation": "Lễ hội truyền thống thuộc về tài nguyên du lịch nhân văn (do con người tạo ra), trong khi bãi biển, hang động, núi rừng là tài nguyên tự nhiên.",
-    "topic": "Địa lý du lịch",
-    "level": 1
+    "answer": 0,
+    "explanation": "Du lịch là hoạt động di chuyển, lưu trú tạm thời ngoài nơi cư trú thường xuyên vì nhiều mục đích khác nhau."
   },
   {
-    "question": "'Mùa du lịch cao điểm' (peak season) được hiểu là gì?",
+    "level": 1,
+    "set": 1,
+    "question": "Đâu KHÔNG phải là một loại hình du lịch phổ biến?",
     "options": [
-      "A. Thời điểm giá dịch vụ du lịch thấp nhất",
-      "B. Thời điểm lượng khách du lịch tăng cao nhất trong năm",
-      "C. Thời điểm các điểm đến đóng cửa bảo trì",
-      "D. Thời điểm không có khách quốc tế"
+      "Du lịch sinh thái",
+      "Du lịch nghỉ dưỡng",
+      "Du lịch MICE",
+      "Du lịch định cư"
     ],
-    "answer": "B",
-    "explanation": "Mùa cao điểm là giai đoạn nhu cầu du lịch tăng mạnh, thường do thời tiết thuận lợi hoặc kỳ nghỉ lễ, khiến giá dịch vụ thường tăng theo.",
-    "topic": "Địa lý du lịch",
-    "level": 1
+    "answer": 3,
+    "explanation": "Du lịch định cư không tồn tại vì du lịch mang tính chất tạm thời, không phải định cư lâu dài."
   },
   {
-    "question": "Khí hậu nhiệt đới gió mùa ảnh hưởng như thế nào đến hoạt động du lịch biển ở Việt Nam?",
+    "level": 1,
+    "set": 1,
+    "question": "'Điểm đến du lịch' (destination) là gì?",
     "options": [
-      "A. Không ảnh hưởng vì biển lúc nào cũng đẹp",
-      "B. Tạo ra sự phân mùa rõ rệt, mùa mưa bão hạn chế hoạt động du lịch biển",
-      "C. Chỉ ảnh hưởng đến du lịch núi",
-      "D. Làm tăng khách quanh năm đều nhau"
+      "Nơi khách du lịch di chuyển đến để trải nghiệm",
+      "Công ty tổ chức tour",
+      "Phương tiện vận chuyển khách",
+      "Tên gọi khác của khách sạn"
     ],
-    "answer": "B",
-    "explanation": "Mùa mưa bão (thường từ tháng 9-11 ở miền Trung) khiến biển động, các hoạt động tắm biển, lặn, tour đảo bị hạn chế hoặc hủy, ảnh hưởng trực tiếp đến lịch trình kinh doanh.",
-    "topic": "Địa lý du lịch",
-    "level": 2
+    "answer": 0,
+    "explanation": "Điểm đến du lịch là địa điểm mà khách lựa chọn để đến tham quan, trải nghiệm."
   },
   {
-    "question": "Một điểm đến có tài nguyên đẹp nhưng hạ tầng giao thông kém. Nhận định nào đúng nhất về 'tiềm năng du lịch' của điểm đến này?",
+    "level": 1,
+    "set": 1,
+    "question": "Ngành du lịch thuộc lĩnh vực kinh tế nào?",
     "options": [
-      "A. Điểm đến chắc chắn sẽ thất bại",
-      "B. Tiềm năng cao nhưng cần đầu tư hạ tầng để khai thác hiệu quả",
-      "C. Không cần làm gì vì tài nguyên tự nó thu hút khách",
-      "D. Nên bỏ qua điểm đến này hoàn toàn"
+      "Dịch vụ",
+      "Nông nghiệp",
+      "Công nghiệp nặng",
+      "Khai khoáng"
     ],
-    "answer": "B",
-    "explanation": "Tiềm năng du lịch phụ thuộc vào cả tài nguyên lẫn khả năng tiếp cận (accessibility). Tài nguyên tốt mà hạ tầng kém sẽ khó chuyển hóa thành sản phẩm du lịch khả thi, cần đầu tư đồng bộ.",
-    "topic": "Địa lý du lịch",
-    "level": 3
+    "answer": 0,
+    "explanation": "Du lịch là một ngành dịch vụ, cung cấp trải nghiệm và tiện ích cho khách hàng."
   },
   {
-    "question": "Bạn là nhà quản lý điểm đến, nhận thấy khách du lịch tập trung 90% vào 3 tháng hè. Chiến lược phân bố khách hợp lý nhất là gì?",
+    "level": 1,
+    "set": 1,
+    "question": "Mùa cao điểm du lịch (peak season) là gì?",
     "options": [
-      "A. Chỉ tập trung phục vụ tốt 3 tháng hè, các tháng còn lại đóng cửa",
-      "B. Phát triển sản phẩm du lịch bổ sung (hội nghị, nghỉ dưỡng sức khỏe, ẩm thực) để thu hút khách trái mùa",
-      "C. Tăng giá gấp đôi vào mùa hè để bù cho các tháng khác",
-      "D. Không cần thay đổi gì"
+      "Thời điểm lượng khách du lịch tăng cao nhất trong năm",
+      "Thời điểm không có khách nào",
+      "Thời điểm công ty đóng cửa",
+      "Thời điểm giá dịch vụ luôn thấp nhất"
     ],
-    "answer": "B",
-    "explanation": "Đa dạng hóa sản phẩm giúp giảm tính mùa vụ (seasonality), tăng hiệu suất sử dụng cơ sở vật chất và ổn định nguồn thu, việc làm quanh năm.",
-    "topic": "Địa lý du lịch",
-    "level": 5
+    "answer": 0,
+    "explanation": "Mùa cao điểm là giai đoạn nhu cầu du lịch tăng mạnh, thường đi kèm giá dịch vụ cao hơn."
   },
   {
-    "question": "Doanh thu (Revenue) của một công ty lữ hành được tính bằng công thức nào?",
+    "level": 1,
+    "set": 2,
+    "question": "Yếu tố nào quan trọng nhất khi phục vụ khách du lịch?",
     "options": [
-      "A. Chi phí cố định + Chi phí biến đổi",
-      "B. Giá bán x Số lượng bán ra",
-      "C. Lợi nhuận - Chi phí",
-      "D. Vốn đầu tư ban đầu"
+      "Lắng nghe và đáp ứng đúng nhu cầu khách hàng",
+      "Chỉ cần giá rẻ",
+      "Chỉ cần tốc độ xử lý nhanh",
+      "Chỉ cần đúng quy trình nội bộ"
     ],
-    "answer": "B",
-    "explanation": "Doanh thu = Giá bán x Số lượng sản phẩm/dịch vụ bán ra, là tổng số tiền thu về trước khi trừ chi phí.",
-    "topic": "Kinh doanh",
-    "level": 1
+    "answer": 0,
+    "explanation": "Lắng nghe và đáp ứng đúng nhu cầu là nền tảng của dịch vụ khách hàng tốt trong ngành du lịch."
   },
   {
-    "question": "Chi phí nào sau đây là chi phí cố định (fixed cost) đối với một khách sạn?",
+    "level": 1,
+    "set": 2,
+    "question": "Khi khách hàng phàn nàn, bước đầu tiên nên làm là gì?",
     "options": [
-      "A. Chi phí giặt là theo số khách",
-      "B. Tiền thuê mặt bằng hàng tháng",
-      "C. Chi phí đồ ăn buffet",
-      "D. Hoa hồng cho đại lý"
+      "Lắng nghe và thể hiện sự thấu hiểu",
+      "Tranh cãi để bảo vệ công ty",
+      "Phớt lờ và chuyển cho người khác",
+      "Yêu cầu khách viết đơn khiếu nại trước"
     ],
-    "answer": "B",
-    "explanation": "Tiền thuê mặt bằng không thay đổi theo số lượng khách, nên là chi phí cố định. Các chi phí còn lại thay đổi theo số khách nên là chi phí biến đổi.",
-    "topic": "Kinh doanh",
-    "level": 2
+    "answer": 0,
+    "explanation": "Lắng nghe và thấu hiểu giúp xoa dịu khách hàng trước khi tìm giải pháp phù hợp."
   },
   {
-    "question": "Một tour du lịch có giá bán 3.000.000đ, chi phí biến đổi 1.800.000đ/khách, chi phí cố định 60.000.000đ/tháng. Điểm hòa vốn (số khách/tháng) là bao nhiêu?",
+    "level": 1,
+    "set": 2,
+    "question": "'Customer satisfaction' (sự hài lòng khách hàng) được đo lường tốt nhất qua đâu?",
     "options": [
-      "A. 20 khách",
-      "B. 33 khách",
-      "C. 50 khách",
-      "D. 100 khách"
+      "Khảo sát và phản hồi sau khi sử dụng dịch vụ",
+      "Doanh thu công ty",
+      "Số lượng nhân viên",
+      "Giá dịch vụ đang bán"
     ],
-    "answer": "C",
-    "explanation": "Điểm hòa vốn = Chi phí cố định / (Giá bán - Chi phí biến đổi) = 60.000.000 / (3.000.000 - 1.800.000) = 60.000.000/1.200.000 = 50 khách.",
-    "topic": "Kinh doanh",
-    "level": 3
+    "answer": 0,
+    "explanation": "Khảo sát/phản hồi trực tiếp từ khách hàng là cách chính xác nhất để đo sự hài lòng."
   },
   {
-    "question": "Một resort đối mặt với đối thủ cạnh tranh giảm giá mạnh. Phản ứng nào thể hiện tư duy chiến lược tốt nhất, thay vì chỉ giảm giá theo?",
+    "level": 1,
+    "set": 2,
+    "question": "Vì sao dịch vụ khách hàng tốt lại quan trọng với công ty du lịch?",
     "options": [
-      "A. Giảm giá bằng đối thủ ngay lập tức, bất kể ảnh hưởng lợi nhuận",
-      "B. Phân tích giá trị khác biệt (trải nghiệm, dịch vụ, thương hiệu) để cạnh tranh phi giá thay vì chỉ chạy đua giá",
-      "C. Đóng cửa resort vì không cạnh tranh được",
-      "D. Phớt lờ hoàn toàn động thái của đối thủ"
+      "Tạo lòng trung thành và khách quay lại, giới thiệu thêm khách mới",
+      "Không ảnh hưởng đến doanh thu",
+      "Chỉ giúp giảm chi phí marketing một chút",
+      "Không liên quan đến uy tín thương hiệu"
     ],
-    "answer": "B",
-    "explanation": "Chạy đua giảm giá dễ dẫn đến chiến tranh giá cả làm hại cả ngành. Cạnh tranh phi giá (differentiation) qua chất lượng, trải nghiệm giúp bảo vệ biên lợi nhuận bền vững hơn.",
-    "topic": "Kinh doanh",
-    "level": 4
+    "answer": 0,
+    "explanation": "Dịch vụ tốt giúp giữ chân khách hàng và tạo hiệu ứng truyền miệng tích cực."
   },
   {
-    "question": "Là chủ một công ty lữ hành nhỏ, bạn phải quyết định giữa: (1) mở rộng sang thị trường khách quốc tế với rủi ro cao nhưng lợi nhuận tiềm năng lớn, hoặc (2) củng cố thị trường nội địa ổn định nhưng tăng trưởng chậm. Yếu tố nào quan trọng nhất để ra quyết định?",
+    "level": 1,
+    "set": 2,
+    "question": "Thái độ nào sau đây PHÙ HỢP nhất khi giao tiếp với khách hàng khó tính?",
     "options": [
-      "A. Chỉ dựa vào cảm tính của người quản lý",
-      "B. Đánh giá năng lực tài chính, khả năng chịu rủi ro và nguồn lực vận hành hiện có của doanh nghiệp",
-      "C. Luôn chọn phương án lợi nhuận cao nhất bất kể rủi ro",
-      "D. Hỏi ý kiến đối thủ cạnh tranh"
+      "Kiên nhẫn, chuyên nghiệp và tìm giải pháp",
+      "Nóng nảy để khách hiểu công ty cũng có lý",
+      "Im lặng không phản hồi",
+      "Đổ lỗi cho khách hàng"
     ],
-    "answer": "B",
-    "explanation": "Quyết định chiến lược cần cân bằng giữa cơ hội tăng trưởng và năng lực thực tế (tài chính, nhân sự, quản trị rủi ro) của doanh nghiệp, không chỉ chạy theo lợi nhuận tiềm năng.",
-    "topic": "Kinh doanh",
-    "level": 5
+    "answer": 0,
+    "explanation": "Kiên nhẫn và chuyên nghiệp giúp giải quyết vấn đề hiệu quả, giữ hình ảnh công ty."
   },
   {
-    "question": "'Branding' trong du lịch có nghĩa là gì?",
+    "level": 1,
+    "set": 3,
+    "question": "Doanh nghiệp lữ hành là gì?",
     "options": [
-      "A. Xây dựng và định vị hình ảnh, giá trị riêng biệt cho điểm đến hoặc doanh nghiệp",
-      "B. In logo lên đồng phục nhân viên",
-      "C. Chỉ đơn giản là đặt tên công ty",
-      "D. Quảng cáo trên truyền hình"
+      "Tổ chức xây dựng, bán và tổ chức thực hiện các chương trình du lịch",
+      "Chỉ bán vé máy bay",
+      "Chỉ cho thuê xe du lịch",
+      "Chỉ kinh doanh khách sạn"
     ],
-    "answer": "A",
-    "explanation": "Branding là quá trình xây dựng nhận diện và giá trị cảm nhận riêng biệt trong tâm trí khách hàng, không chỉ dừng ở logo hay tên gọi.",
-    "topic": "Marketing",
-    "level": 1
+    "answer": 0,
+    "explanation": "Doanh nghiệp lữ hành thiết kế, bán và tổ chức các chương trình du lịch trọn gói hoặc từng phần."
   },
   {
-    "question": "Customer Insight là gì?",
+    "level": 1,
+    "set": 3,
+    "question": "'Tour trọn gói' (package tour) bao gồm những gì?",
     "options": [
-      "A. Doanh thu",
-      "B. Hiểu biết sâu sắc về nhu cầu, hành vi và động cơ của khách hàng",
-      "C. Chi phí vận hành",
-      "D. Quảng cáo trên mạng xã hội"
+      "Nhiều dịch vụ như vận chuyển, lưu trú, ăn uống, tham quan được bán chung",
+      "Chỉ có vé tham quan",
+      "Chỉ có dịch vụ ăn uống",
+      "Chỉ có phương tiện di chuyển"
     ],
-    "answer": "B",
-    "explanation": "Customer Insight là những hiểu biết sâu về khách hàng (nhu cầu ẩn, động cơ, hành vi) giúp doanh nghiệp thiết kế sản phẩm và thông điệp phù hợp hơn là chỉ dựa vào dữ liệu bề mặt.",
-    "topic": "Marketing",
-    "level": 2
+    "answer": 0,
+    "explanation": "Tour trọn gói kết hợp nhiều dịch vụ thành một sản phẩm bán cho khách."
   },
   {
-    "question": "Một công ty du lịch muốn xác định 'khách hàng mục tiêu' cho tour trekking mạo hiểm. Tiêu chí phân khúc nào phù hợp nhất?",
+    "level": 1,
+    "set": 3,
+    "question": "Ngân sách (budget) trong kinh doanh dùng để làm gì?",
     "options": [
-      "A. Chỉ theo độ tuổi",
-      "B. Theo tâm lý và sở thích (ưa mạo hiểm, thích trải nghiệm thiên nhiên) kết hợp thu nhập và thể trạng",
-      "C. Theo giới tính duy nhất",
-      "D. Chọn ngẫu nhiên toàn bộ thị trường"
+      "Lập kế hoạch và kiểm soát chi tiêu, đầu tư của doanh nghiệp",
+      "Chỉ để trả lương nhân viên",
+      "Chỉ dùng khi công ty gặp khủng hoảng",
+      "Không có vai trò quan trọng"
     ],
-    "answer": "B",
-    "explanation": "Phân khúc theo tâm lý (psychographic) kết hợp với các yếu tố nhân khẩu học liên quan (thu nhập, thể trạng) sẽ chính xác hơn cho sản phẩm ngách như trekking mạo hiểm.",
-    "topic": "Marketing",
-    "level": 3
+    "answer": 0,
+    "explanation": "Ngân sách giúp doanh nghiệp lập kế hoạch tài chính và kiểm soát chi tiêu hợp lý."
   },
   {
-    "question": "Một chiến dịch Digital Marketing tạo được nhiều lượt tương tác trên mạng xã hội nhưng tỷ lệ chuyển đổi thành đơn đặt tour rất thấp. Nguyên nhân có khả năng cao nhất là gì?",
+    "level": 1,
+    "set": 3,
+    "question": "Vì sao doanh nghiệp du lịch cần đa dạng hóa sản phẩm?",
     "options": [
-      "A. Nội dung không phù hợp với insight khách hàng mục tiêu, hoặc phễu chuyển đổi (booking) có rào cản",
-      "B. Mạng xã hội không hiệu quả cho du lịch nói chung",
-      "C. Không cần phân tích, chỉ cần chi thêm ngân sách quảng cáo",
-      "D. Khách hàng không thích du lịch"
+      "Giảm rủi ro phụ thuộc vào một thị trường/mùa vụ và thu hút nhiều nhóm khách hơn",
+      "Không có lý do gì đặc biệt",
+      "Chỉ để tốn thêm chi phí",
+      "Chỉ áp dụng cho công ty lớn"
     ],
-    "answer": "A",
-    "explanation": "Tương tác cao nhưng chuyển đổi thấp thường do lệch insight (nội dung giải trí nhưng không kích thích nhu cầu mua) hoặc quy trình đặt tour phức tạp, cần rà soát cả nội dung lẫn hành trình khách hàng.",
-    "topic": "Marketing",
-    "level": 4
+    "answer": 0,
+    "explanation": "Đa dạng hóa giúp doanh nghiệp ổn định doanh thu quanh năm và tiếp cận nhiều phân khúc khách."
   },
   {
-    "question": "Doanh nghiệp của bạn quảng bá điểm đến bằng hình ảnh 'yên bình, ít khách' để thu hút nhóm khách cao cấp, nhưng thực tế điểm đến đang bắt đầu quá tải. Quyết định marketing đúng đắn là gì?",
+    "level": 1,
+    "set": 3,
+    "question": "Nhân sự nào KHÔNG thuộc bộ phận vận hành tour trực tiếp?",
     "options": [
-      "A. Tiếp tục quảng bá y hệt để tối đa hóa lượng đặt tour ngắn hạn",
-      "B. Điều chỉnh thông điệp truyền thông trung thực hơn và phối hợp với quản lý điểm đến để kiểm soát lượng khách, tránh phá vỡ trải nghiệm đã cam kết",
-      "C. Ngừng mọi hoạt động marketing",
-      "D. Đổ lỗi cho khách hàng vì đã đến quá đông"
+      "Kế toán trưởng công ty",
+      "Hướng dẫn viên du lịch",
+      "Nhân viên điều hành tour",
+      "Lái xe du lịch"
     ],
-    "answer": "B",
-    "explanation": "Marketing có trách nhiệm cần gắn với quản trị điểm đến bền vững: quảng bá sai sự thật sẽ làm mất uy tín thương hiệu và đẩy nhanh tình trạng overtourism, gây hại dài hạn.",
-    "topic": "Marketing",
-    "level": 5
+    "answer": 0,
+    "explanation": "Kế toán trưởng thuộc bộ phận tài chính, không trực tiếp vận hành tour ngoài thực địa."
   },
   {
-    "question": "Bước đầu tiên trong quy trình tuyển dụng nhân sự ngành du lịch thường là gì?",
+    "level": 2,
+    "set": 1,
+    "question": "Mục tiêu chính của marketing du lịch là gì?",
     "options": [
-      "A. Ký hợp đồng",
-      "B. Xác định nhu cầu và mô tả công việc (job description)",
-      "C. Đào tạo hội nhập",
-      "D. Đánh giá hiệu suất"
+      "Thu hút và giữ chân khách hàng thông qua giá trị sản phẩm/dịch vụ phù hợp",
+      "Chỉ để giảm giá liên tục",
+      "Chỉ để tăng số lượng nhân viên",
+      "Không liên quan đến doanh thu"
     ],
-    "answer": "B",
-    "explanation": "Trước khi tuyển dụng, doanh nghiệp cần xác định rõ vị trí cần tuyển và mô tả công việc để thu hút đúng ứng viên phù hợp.",
-    "topic": "Quản trị nhân sự",
-    "level": 1
+    "answer": 0,
+    "explanation": "Marketing giúp truyền tải giá trị sản phẩm đến đúng khách hàng mục tiêu, thúc đẩy doanh thu."
   },
   {
-    "question": "Đào tạo hội nhập (onboarding) cho hướng dẫn viên mới nhằm mục đích chính là gì?",
+    "level": 2,
+    "set": 1,
+    "question": "'Phân khúc thị trường' (market segmentation) nghĩa là gì?",
     "options": [
-      "A. Kiểm tra trình độ ngoại ngữ",
-      "B. Giúp nhân viên mới nắm quy trình, văn hóa doanh nghiệp và làm quen công việc nhanh chóng",
-      "C. Sa thải nhân viên không phù hợp",
-      "D. Tăng lương cho nhân viên"
+      "Chia khách hàng thành các nhóm có đặc điểm/nhu cầu tương đồng",
+      "Chia công ty thành nhiều chi nhánh",
+      "Chia nhân viên theo cấp bậc",
+      "Chia lợi nhuận cho cổ đông"
     ],
-    "answer": "B",
-    "explanation": "Onboarding giúp rút ngắn thời gian nhân viên mới hòa nhập, giảm sai sót ban đầu và tăng khả năng gắn bó lâu dài.",
-    "topic": "Quản trị nhân sự",
-    "level": 2
+    "answer": 0,
+    "explanation": "Phân khúc thị trường giúp doanh nghiệp thiết kế sản phẩm và thông điệp phù hợp từng nhóm khách."
   },
   {
-    "question": "Hai nhân viên lễ tân khách sạn thường xuyên mâu thuẫn về việc phân ca làm. Cách xử lý mâu thuẫn hiệu quả nhất là gì?",
+    "level": 2,
+    "set": 1,
+    "question": "Kênh nào sau đây KHÔNG phải kênh marketing du lịch phổ biến hiện nay?",
     "options": [
-      "A. Sa thải cả hai để tránh phiền phức",
-      "B. Lắng nghe cả hai phía, tìm nguyên nhân gốc rễ (VD: lịch phân ca không công bằng) và điều chỉnh quy trình phân ca minh bạch hơn",
-      "C. Phớt lờ vì đó là chuyện cá nhân",
-      "D. Chỉ nghe một phía rồi kết luận ngay"
+      "Gửi thư tay truyền thống hàng loạt",
+      "Mạng xã hội (Facebook, TikTok, Instagram)",
+      "Influencer/KOL du lịch",
+      "Website và SEO"
     ],
-    "answer": "B",
-    "explanation": "Xử lý mâu thuẫn hiệu quả cần công bằng, tìm nguyên nhân gốc rễ và cải thiện quy trình (như lịch phân ca) để tránh tái diễn, thay vì chỉ xử lý bề mặt.",
-    "topic": "Quản trị nhân sự",
-    "level": 3
+    "answer": 0,
+    "explanation": "Gửi thư tay hàng loạt không còn là kênh marketing phổ biến trong ngành du lịch hiện đại."
   },
   {
-    "question": "Vào mùa cao điểm, nhiều nhân viên khách sạn xin nghỉ vì áp lực công việc và lương làm thêm giờ chưa thỏa đáng. Đâu là giải pháp toàn diện nhất?",
+    "level": 2,
+    "set": 1,
+    "question": "Thương hiệu (brand) mang lại lợi ích gì cho doanh nghiệp du lịch?",
     "options": [
-      "A. Bắt buộc nhân viên ở lại làm việc dù không muốn",
-      "B. Kết hợp cải thiện chính sách lương thưởng làm thêm giờ, tuyển thêm nhân sự thời vụ và cải thiện phân bổ ca làm hợp lý",
-      "C. Không làm gì, để nhân viên tự quyết định",
-      "D. Giảm giờ hoạt động của khách sạn"
+      "Tạo sự khác biệt và lòng tin với khách hàng",
+      "Không có tác dụng thực tế",
+      "Chỉ tốn chi phí không cần thiết",
+      "Chỉ quan trọng với công ty nước ngoài"
     ],
-    "answer": "B",
-    "explanation": "Vấn đề nhân sự mùa cao điểm cần giải pháp đa chiều: đãi ngộ công bằng, bổ sung nhân lực thời vụ và tổ chức ca làm hợp lý để giảm áp lực mà vẫn đảm bảo vận hành.",
-    "topic": "Quản trị nhân sự",
-    "level": 4
+    "answer": 0,
+    "explanation": "Thương hiệu mạnh giúp doanh nghiệp tạo sự khác biệt, tăng lòng tin và giá trị cảm nhận."
   },
   {
-    "question": "Là quản lý một chuỗi khách sạn, bạn nhận thấy văn hóa doanh nghiệp đang lỏng lẻo khiến dịch vụ không đồng nhất giữa các chi nhánh. Chiến lược dài hạn nào phù hợp nhất?",
+    "level": 2,
+    "set": 1,
+    "question": "Nội dung trải nghiệm thực tế của khách (UGC) trên mạng xã hội có vai trò gì trong marketing?",
     "options": [
-      "A. Chỉ ban hành thêm quy định xử phạt nghiêm khắc",
-      "B. Xây dựng bộ giá trị cốt lõi rõ ràng, đào tạo lặp lại và gắn văn hóa vào tiêu chí đánh giá, khen thưởng nhân viên",
-      "C. Sáp nhập tất cả chi nhánh thành một để dễ quản lý",
-      "D. Không cần thay đổi vì mỗi chi nhánh có đặc thù riêng"
+      "Tăng độ tin cậy vì đến từ khách hàng thật, ảnh hưởng quyết định của khách tiềm năng",
+      "Không có giá trị vì không phải nội dung chuyên nghiệp",
+      "Chỉ gây hại cho thương hiệu",
+      "Chỉ áp dụng cho ngành công nghệ"
     ],
-    "answer": "B",
-    "explanation": "Văn hóa doanh nghiệp bền vững được xây dựng qua giá trị cốt lõi rõ ràng, đào tạo liên tục và gắn liền với hệ thống đánh giá/khen thưởng, không chỉ dựa vào kỷ luật.",
-    "topic": "Quản trị nhân sự",
-    "level": 5
+    "answer": 0,
+    "explanation": "UGC (nội dung do người dùng tạo) thường đáng tin cậy hơn quảng cáo, ảnh hưởng mạnh đến quyết định mua."
   },
   {
-    "question": "Customer Experience (trải nghiệm khách hàng) bao gồm những gì?",
+    "level": 2,
+    "set": 2,
+    "question": "'Giá linh hoạt theo mùa' (dynamic pricing) là chiến lược gì?",
     "options": [
-      "A. Chỉ giá cả sản phẩm",
-      "B. Toàn bộ cảm nhận của khách hàng trong suốt hành trình tiếp xúc với doanh nghiệp",
-      "C. Chỉ chất lượng phòng khách sạn",
-      "D. Chỉ thái độ nhân viên lễ tân"
+      "Điều chỉnh giá tùy theo nhu cầu, mùa vụ và thời điểm đặt",
+      "Luôn giữ giá cố định quanh năm",
+      "Chỉ giảm giá khi công ty thua lỗ",
+      "Không liên quan đến nhu cầu thị trường"
     ],
-    "answer": "B",
-    "explanation": "Trải nghiệm khách hàng bao trùm mọi điểm chạm (touchpoint): trước, trong và sau khi sử dụng dịch vụ, không chỉ một khía cạnh đơn lẻ.",
-    "topic": "Quản trị khách hàng",
-    "level": 1
+    "answer": 0,
+    "explanation": "Giá linh hoạt giúp tối ưu doanh thu bằng cách điều chỉnh theo cung-cầu thực tế."
   },
   {
-    "question": "Customer Satisfaction (sự hài lòng của khách hàng) thường được đo lường qua công cụ nào?",
+    "level": 2,
+    "set": 2,
+    "question": "Doanh thu (revenue) khác với lợi nhuận (profit) như thế nào?",
     "options": [
-      "A. Báo cáo tài chính",
-      "B. Khảo sát sau tour, đánh giá trực tuyến",
-      "C. Số lượng nhân viên",
-      "D. Giá cổ phiếu công ty"
+      "Doanh thu là tổng tiền thu về, lợi nhuận là doanh thu trừ đi toàn bộ chi phí",
+      "Doanh thu và lợi nhuận là một khái niệm giống nhau",
+      "Lợi nhuận luôn lớn hơn doanh thu",
+      "Doanh thu chỉ tính sau khi trừ thuế"
     ],
-    "answer": "B",
-    "explanation": "Khảo sát sau dịch vụ và đánh giá trực tuyến (review) là công cụ phổ biến để đo lường mức độ hài lòng thực tế của khách hàng.",
-    "topic": "Quản trị khách hàng",
-    "level": 2
+    "answer": 0,
+    "explanation": "Doanh thu là tổng tiền bán được, lợi nhuận là phần còn lại sau khi trừ mọi chi phí."
   },
   {
-    "question": "Một khách hàng khiếu nại vì phòng khách sạn không đúng như hình quảng cáo. Bước xử lý khiếu nại đầu tiên nên là gì?",
+    "level": 2,
+    "set": 2,
+    "question": "Vì sao không nên định giá tour quá thấp để cạnh tranh?",
     "options": [
-      "A. Tranh luận để chứng minh khách sai",
-      "B. Lắng nghe, xin lỗi chân thành và xác minh vấn đề trước khi đưa ra giải pháp",
-      "C. Phớt lờ khiếu nại",
-      "D. Ngay lập tức hoàn tiền 100% mà không tìm hiểu"
+      "Có thể ảnh hưởng đến chất lượng dịch vụ và lợi nhuận bền vững",
+      "Giá thấp luôn tốt cho công ty",
+      "Không ảnh hưởng gì đến doanh nghiệp",
+      "Khách hàng sẽ không quan tâm đến giá"
     ],
-    "answer": "B",
-    "explanation": "Quy trình xử lý khiếu nại chuẩn bắt đầu bằng lắng nghe và xác minh sự việc, thể hiện tôn trọng khách hàng trước khi đưa ra giải pháp phù hợp.",
-    "topic": "Quản trị khách hàng",
-    "level": 3
+    "answer": 0,
+    "explanation": "Giá quá thấp có thể bào mòn lợi nhuận và buộc cắt giảm chất lượng, ảnh hưởng lâu dài."
   },
   {
-    "question": "Doanh nghiệp muốn xây dựng lòng trung thành (loyalty) của khách hàng ngoài chương trình tích điểm. Giải pháp nào mang tính chiến lược hơn?",
+    "level": 2,
+    "set": 2,
+    "question": "'Break-even point' (điểm hòa vốn) là gì?",
     "options": [
-      "A. Chỉ giảm giá liên tục",
-      "B. Cá nhân hóa trải nghiệm dựa trên lịch sử và sở thích của khách, tạo kết nối cảm xúc lâu dài",
-      "C. Gửi email quảng cáo hàng ngày",
-      "D. Không cần làm gì thêm ngoài tích điểm"
+      "Mức doanh thu bằng đúng tổng chi phí, chưa có lãi hay lỗ",
+      "Mức doanh thu cao nhất có thể đạt được",
+      "Mức chi phí thấp nhất công ty từng chi",
+      "Thời điểm công ty phá sản"
     ],
-    "answer": "B",
-    "explanation": "Lòng trung thành bền vững đến từ trải nghiệm cá nhân hóa và kết nối cảm xúc, không chỉ từ ưu đãi giá, vì giá dễ bị đối thủ sao chép.",
-    "topic": "Quản trị khách hàng",
-    "level": 4
+    "answer": 0,
+    "explanation": "Điểm hòa vốn là khi doanh thu vừa đủ bù chi phí, chưa sinh lời."
   },
   {
-    "question": "Một nhóm khách VIP liên tục phàn nàn dù dịch vụ đã đúng cam kết hợp đồng. Với vai trò quản lý, bạn nên tiếp cận vấn đề như thế nào?",
+    "level": 2,
+    "set": 2,
+    "question": "Ưu đãi combo (bundle) trong bán tour mang lại lợi ích gì?",
     "options": [
-      "A. Từ chối phục vụ nhóm khách này trong tương lai ngay lập tức",
-      "B. Tìm hiểu kỳ vọng thực sự (có thể vượt quá những gì hợp đồng nêu) để cân nhắc điều chỉnh dịch vụ hoặc quản lý kỳ vọng khách hàng rõ ràng hơn từ đầu",
-      "C. Bỏ qua vì hợp đồng đã đúng",
-      "D. Bồi thường vô điều kiện mọi yêu cầu để làm hài lòng"
+      "Tăng giá trị đơn hàng và khuyến khích khách mua nhiều dịch vụ hơn",
+      "Luôn làm giảm doanh thu",
+      "Không ảnh hưởng đến quyết định mua của khách",
+      "Chỉ áp dụng được cho khách đoàn"
     ],
-    "answer": "B",
-    "explanation": "Khiếu nại lặp lại dù đúng hợp đồng thường phản ánh khoảng cách giữa kỳ vọng và thực tế; quản lý kỳ vọng ngay từ giai đoạn bán hàng là giải pháp gốc rễ hơn là chỉ phản ứng từng vụ việc.",
-    "topic": "Quản trị khách hàng",
-    "level": 5
+    "answer": 0,
+    "explanation": "Combo giúp tăng giá trị trung bình mỗi đơn hàng và tạo cảm giác tiết kiệm cho khách."
   },
   {
-    "question": "Destination Management (quản trị điểm đến) là gì?",
+    "level": 2,
+    "set": 3,
+    "question": "Vai trò chính của bộ phận điều hành tour (operations) là gì?",
     "options": [
-      "A. Quản lý một khách sạn đơn lẻ",
-      "B. Việc điều phối các bên liên quan để phát triển và quản lý điểm đến du lịch một cách bền vững",
-      "C. Chỉ là công việc quảng cáo điểm đến",
-      "D. Xây dựng đường xá"
+      "Sắp xếp, phối hợp các dịch vụ để tour diễn ra suôn sẻ",
+      "Chỉ bán vé tour",
+      "Chỉ chăm sóc mạng xã hội",
+      "Chỉ quản lý lương nhân viên"
     ],
-    "answer": "B",
-    "explanation": "Quản trị điểm đến là quá trình phối hợp nhiều bên (chính quyền, doanh nghiệp, cộng đồng) để phát triển du lịch bền vững cho một khu vực.",
-    "topic": "Quản trị điểm đến",
-    "level": 1
+    "answer": 0,
+    "explanation": "Bộ phận điều hành đảm bảo các dịch vụ (xe, khách sạn, HDV...) được phối hợp nhịp nhàng."
   },
   {
-    "question": "'Overtourism' (quá tải du lịch) là hiện tượng gì?",
+    "level": 2,
+    "set": 3,
+    "question": "Vì sao cần có kế hoạch dự phòng (backup plan) cho mỗi tour?",
     "options": [
-      "A. Điểm đến có quá ít khách du lịch",
-      "B. Lượng khách du lịch vượt quá khả năng chịu tải, gây ảnh hưởng tiêu cực đến môi trường và cộng đồng",
-      "C. Khách du lịch không đến vào mùa hè",
-      "D. Doanh thu du lịch giảm sút"
+      "Để xử lý kịp thời khi có sự cố bất ngờ như thời tiết, phương tiện hỏng",
+      "Không cần thiết nếu tour đơn giản",
+      "Chỉ cần cho tour quốc tế",
+      "Chỉ áp dụng cho tour mạo hiểm"
     ],
-    "answer": "B",
-    "explanation": "Overtourism xảy ra khi số lượng khách vượt ngưỡng chịu tải của điểm đến, gây ùn tắc, ô nhiễm, xuống cấp tài nguyên và bức xúc từ cộng đồng địa phương.",
-    "topic": "Quản trị điểm đến",
-    "level": 2
+    "answer": 0,
+    "explanation": "Kế hoạch dự phòng giúp giảm thiểu ảnh hưởng khi có sự cố ngoài dự kiến."
   },
   {
-    "question": "Du lịch cộng đồng (community-based tourism) mang lại lợi ích chính nào cho người dân địa phương?",
+    "level": 2,
+    "set": 3,
+    "question": "Checklist trước khi khởi hành tour KHÔNG cần bao gồm nội dung nào?",
     "options": [
-      "A. Không mang lại lợi ích gì",
-      "B. Tạo thu nhập trực tiếp và giữ vai trò chủ động cho cộng đồng trong hoạt động du lịch",
-      "C. Chỉ có lợi cho doanh nghiệp lữ hành",
-      "D. Làm mất bản sắc văn hóa địa phương hoàn toàn"
+      "Thông tin cá nhân của toàn bộ nhân viên công ty",
+      "Xác nhận phương tiện di chuyển",
+      "Xác nhận đặt phòng lưu trú",
+      "Kiểm tra danh sách khách và giấy tờ"
     ],
-    "answer": "B",
-    "explanation": "Du lịch cộng đồng trao quyền và lợi ích kinh tế trực tiếp cho người dân địa phương, đồng thời khuyến khích họ tham gia bảo tồn văn hóa, tài nguyên của chính mình.",
-    "topic": "Quản trị điểm đến",
-    "level": 3
+    "answer": 0,
+    "explanation": "Checklist khởi hành tập trung vào khách và dịch vụ tour, không cần thông tin toàn bộ nhân sự công ty."
   },
   {
-    "question": "Một điểm đến đang phát triển 'du lịch bền vững'. Chỉ số nào sau đây PHÙ HỢP nhất để đo lường mức độ bền vững?",
+    "level": 2,
+    "set": 3,
+    "question": "Hướng dẫn viên du lịch có vai trò gì ngoài việc thuyết minh?",
     "options": [
-      "A. Chỉ số doanh thu du lịch hàng năm",
-      "B. Kết hợp các chỉ số về sức chứa môi trường, mức độ hài lòng của cộng đồng địa phương và bảo tồn tài nguyên văn hóa-tự nhiên",
-      "C. Số lượng khách sạn 5 sao mới xây",
-      "D. Số chuyến bay quốc tế đến điểm đến"
+      "Xử lý tình huống phát sinh và đảm bảo trải nghiệm an toàn cho khách",
+      "Chỉ đọc kịch bản có sẵn",
+      "Không cần tương tác với khách",
+      "Chỉ chịu trách nhiệm về doanh thu tour"
     ],
-    "answer": "B",
-    "explanation": "Du lịch bền vững cần đo lường đa chiều: môi trường (sức chứa), xã hội (sự hài lòng của cộng đồng) và văn hóa (bảo tồn), không chỉ dựa vào chỉ số kinh tế đơn thuần.",
-    "topic": "Quản trị điểm đến",
-    "level": 4
+    "answer": 0,
+    "explanation": "HDV còn đóng vai trò xử lý tình huống, chăm sóc và đảm bảo an toàn cho đoàn khách."
   },
   {
-    "question": "Một địa điểm bỗng trở nên viral trên mạng xã hội khiến lượng khách tăng gấp 5 lần trong một tháng, gây ùn tắc và rác thải. Là nhà quản lý điểm đến, chiến lược ứng phó toàn diện nhất là gì?",
+    "level": 2,
+    "set": 3,
+    "question": "'Lead time' trong đặt tour là gì?",
     "options": [
-      "A. Cấm hoàn toàn khách du lịch đến điểm đến",
-      "B. Áp dụng giới hạn số lượng khách/ngày, phân luồng thời gian tham quan, tăng cường hạ tầng xử lý rác và truyền thông nâng cao ý thức du khách song song với giám sát dài hạn",
-      "C. Không làm gì, để thị trường tự điều tiết",
-      "D. Chỉ tăng giá vé tham quan thật cao để hạn chế khách mà không có biện pháp nào khác"
+      "Khoảng thời gian từ lúc khách đặt tour đến lúc khởi hành",
+      "Thời gian tour kéo dài bao lâu",
+      "Thời gian nhân viên làm việc mỗi ngày",
+      "Thời gian bảo hành dịch vụ"
     ],
-    "answer": "B",
-    "explanation": "Ứng phó với tình trạng viral quá tải cần giải pháp đa chiều: kiểm soát sức chứa, quản lý dòng khách, đầu tư hạ tầng và truyền thông ý thức, kết hợp giám sát liên tục để điều chỉnh kịp thời.",
-    "topic": "Quản trị điểm đến",
-    "level": 5
+    "answer": 0,
+    "explanation": "Lead time là khoảng cách thời gian giữa lúc đặt và lúc thực hiện tour, ảnh hưởng đến công tác chuẩn bị."
   },
   {
-    "question": "Trong vận hành tour, ai thường chịu trách nhiệm trực tiếp hướng dẫn và hỗ trợ khách tại điểm đến?",
+    "level": 3,
+    "set": 1,
+    "question": "Vì sao đào tạo nhân viên định kỳ lại quan trọng trong ngành du lịch?",
     "options": [
-      "A. Kế toán công ty",
-      "B. Hướng dẫn viên du lịch (tour guide)",
-      "C. Giám đốc điều hành",
-      "D. Nhân viên marketing"
+      "Nâng cao chất lượng dịch vụ và khả năng xử lý tình huống thực tế",
+      "Chỉ để tốn thêm ngân sách",
+      "Không ảnh hưởng đến sự hài lòng của khách",
+      "Chỉ cần thiết cho nhân viên mới"
     ],
-    "answer": "B",
-    "explanation": "Hướng dẫn viên là người trực tiếp đồng hành, hướng dẫn và xử lý các vấn đề phát sinh với khách trong suốt hành trình.",
-    "topic": "Vận hành",
-    "level": 1
+    "answer": 0,
+    "explanation": "Đào tạo định kỳ giúp nhân viên cập nhật kỹ năng và nâng cao chất lượng phục vụ liên tục."
   },
   {
-    "question": "Logistics trong du lịch chủ yếu liên quan đến điều gì?",
+    "level": 3,
+    "set": 1,
+    "question": "'Employee retention' (giữ chân nhân viên) quan trọng vì lý do gì?",
     "options": [
-      "A. Thiết kế logo công ty",
-      "B. Điều phối vận chuyển, lịch trình và nguồn lực để đảm bảo tour diễn ra suôn sẻ",
-      "C. Chỉ liên quan đến ẩm thực",
-      "D. Chỉ liên quan đến quảng cáo"
+      "Giảm chi phí tuyển dụng, đào tạo lại và giữ ổn định chất lượng dịch vụ",
+      "Không ảnh hưởng đến hoạt động kinh doanh",
+      "Chỉ quan trọng với công ty lớn",
+      "Nhân viên nghỉ việc không gây tốn kém gì"
     ],
-    "answer": "B",
-    "explanation": "Logistics du lịch bao gồm điều phối phương tiện, thời gian, nhân sự và các nguồn lực khác để tour vận hành trơn tru, đúng lịch trình.",
-    "topic": "Vận hành",
-    "level": 2
+    "answer": 0,
+    "explanation": "Giữ chân nhân viên giỏi giúp tiết kiệm chi phí và duy trì chất lượng dịch vụ ổn định."
   },
   {
-    "question": "Một khách sạn thường xuyên bị chậm trễ trong quy trình check-in vào giờ cao điểm. Giải pháp vận hành hợp lý nhất là gì?",
+    "level": 3,
+    "set": 1,
+    "question": "Chính sách lương thưởng hợp lý trong mùa cao điểm giúp ích gì?",
     "options": [
-      "A. Yêu cầu khách tự làm thủ tục hoàn toàn",
-      "B. Áp dụng check-in trực tuyến trước, bố trí thêm quầy/nhân viên vào giờ cao điểm và tối ưu quy trình xử lý",
-      "C. Không làm gì vì đây là chuyện bình thường",
-      "D. Đóng cửa khách sạn vào giờ cao điểm"
+      "Giảm tình trạng nhân viên nghỉ việc/kiệt sức do áp lực công việc tăng cao",
+      "Không liên quan đến hiệu suất làm việc",
+      "Chỉ cần áp dụng cho cấp quản lý",
+      "Luôn làm giảm lợi nhuận công ty một cách không cần thiết"
     ],
-    "answer": "B",
-    "explanation": "Tối ưu vận hành cần kết hợp công nghệ (check-in online) và bố trí nguồn lực linh hoạt theo giờ cao điểm để giảm thời gian chờ mà vẫn đảm bảo trải nghiệm.",
-    "topic": "Vận hành",
-    "level": 3
+    "answer": 0,
+    "explanation": "Đãi ngộ hợp lý trong giai đoạn cao điểm giúp duy trì động lực và giữ chân nhân sự."
   },
   {
-    "question": "Một tour 3 ngày 2 đêm có nhà cung cấp vận chuyển liên tục trễ giờ, ảnh hưởng đến toàn bộ lịch trình. Giải pháp vận hành dài hạn nào là hợp lý nhất?",
+    "level": 3,
+    "set": 1,
+    "question": "Khi xảy ra mâu thuẫn nội bộ giữa các bộ phận, người quản lý nên làm gì trước tiên?",
     "options": [
-      "A. Tiếp tục hợp tác và im lặng chấp nhận",
-      "B. Đánh giá lại hợp đồng với nhà cung cấp, đặt điều khoản phạt trễ giờ rõ ràng, và tìm thêm đối tác dự phòng",
-      "C. Hủy toàn bộ tour vĩnh viễn",
-      "D. Đổ lỗi hoàn toàn cho hướng dẫn viên"
+      "Tìm hiểu nguyên nhân từ nhiều phía và tạo kênh đối thoại",
+      "Ngay lập tức sa thải người liên quan",
+      "Phớt lờ và để các bên tự giải quyết",
+      "Công khai chỉ trích trước toàn công ty"
     ],
-    "answer": "B",
-    "explanation": "Quản trị nhà cung cấp cần có điều khoản ràng buộc rõ ràng (SLA) và phương án dự phòng (backup supplier) để giảm rủi ro phụ thuộc vào một đối tác duy nhất.",
-    "topic": "Vận hành",
-    "level": 4
+    "answer": 0,
+    "explanation": "Tìm hiểu nguyên nhân và tạo đối thoại giúp giải quyết mâu thuẫn hiệu quả, bền vững hơn."
   },
   {
-    "question": "Bạn quản lý vận hành một chuỗi tour liên tỉnh với nhiều nhà cung cấp (xe, khách sạn, nhà hàng). Hệ thống nào giúp giảm thiểu rủi ro vận hành hiệu quả nhất về lâu dài?",
+    "level": 3,
+    "set": 1,
+    "question": "Tuyển dụng đúng người cho vị trí hướng dẫn viên cần ưu tiên yếu tố nào?",
     "options": [
-      "A. Không cần hệ thống, xử lý theo tình huống",
-      "B. Xây dựng quy trình chuẩn hóa (SOP), hệ thống giám sát thời gian thực và mạng lưới nhà cung cấp dự phòng đa dạng",
-      "C. Chỉ dựa vào kinh nghiệm cá nhân của hướng dẫn viên",
-      "D. Giảm số lượng tour để dễ quản lý, bất kể ảnh hưởng doanh thu"
+      "Kỹ năng giao tiếp, xử lý tình huống và kiến thức chuyên môn",
+      "Chỉ cần ngoại hình",
+      "Chỉ cần bằng cấp cao nhất có thể",
+      "Không cần kinh nghiệm thực tế"
     ],
-    "answer": "B",
-    "explanation": "Vận hành quy mô lớn cần chuẩn hóa quy trình, có công cụ giám sát real-time và mạng lưới đối tác dự phòng để đảm bảo tính ổn định khi có sự cố bất ngờ.",
-    "topic": "Vận hành",
-    "level": 5
+    "answer": 0,
+    "explanation": "HDV cần kỹ năng mềm và chuyên môn tốt để xử lý các tình huống đa dạng khi dẫn tour."
   },
   {
-    "question": "Rủi ro nào sau đây thuộc nhóm 'thiên tai' trong quản trị rủi ro du lịch?",
+    "level": 3,
+    "set": 2,
+    "question": "'Chuẩn hóa quy trình dịch vụ' (SOP) mang lại lợi ích gì?",
     "options": [
-      "A. Bão lũ",
-      "B. Khách hàng khiếu nại",
-      "C. Nhân viên nghỉ việc",
-      "D. Giá xăng tăng"
+      "Đảm bảo chất lượng đồng đều giữa các chi nhánh/nhân viên",
+      "Làm mất đi sự linh hoạt hoàn toàn",
+      "Không cần thiết với doanh nghiệp nhỏ",
+      "Chỉ áp dụng cho ngành sản xuất"
     ],
-    "answer": "A",
-    "explanation": "Bão lũ là rủi ro thiên tai (natural disaster risk), một trong những nhóm rủi ro quan trọng cần có kế hoạch ứng phó riêng trong du lịch.",
-    "topic": "Quản trị rủi ro",
-    "level": 1
+    "answer": 0,
+    "explanation": "SOP giúp duy trì chất lượng dịch vụ nhất quán dù ở chi nhánh hay nhân viên nào."
   },
   {
-    "question": "Mục đích chính của 'bảo hiểm du lịch' đối với doanh nghiệp lữ hành là gì?",
+    "level": 3,
+    "set": 2,
+    "question": "Vì sao cần thu thập phản hồi khách hàng sau mỗi tour?",
     "options": [
-      "A. Tăng doanh thu bán tour",
-      "B. Giảm thiểu thiệt hại tài chính khi xảy ra rủi ro như tai nạn, hủy chuyến",
-      "C. Thay thế cho hướng dẫn viên",
-      "D. Không có tác dụng thực tế"
+      "Để phát hiện điểm yếu và cải thiện chất lượng dịch vụ liên tục",
+      "Chỉ để làm thủ tục hành chính",
+      "Không ảnh hưởng đến quyết định kinh doanh",
+      "Chỉ cần làm 1 lần duy nhất trong năm"
     ],
-    "answer": "B",
-    "explanation": "Bảo hiểm giúp chuyển giao một phần rủi ro tài chính sang bên bảo hiểm khi có sự cố ngoài ý muốn như tai nạn, hủy chuyến, ốm đau.",
-    "topic": "Quản trị rủi ro",
-    "level": 2
+    "answer": 0,
+    "explanation": "Phản hồi khách hàng là nguồn dữ liệu quan trọng để cải tiến sản phẩm và dịch vụ."
   },
   {
-    "question": "Xe chở khách gặp sự cố kỹ thuật giữa đường khiến tour bị trễ 3 giờ. Bước xử lý ưu tiên đầu tiên của người quản lý là gì?",
+    "level": 3,
+    "set": 2,
+    "question": "KPI nào phù hợp để đo lường chất lượng vận hành tour?",
     "options": [
-      "A. Đảm bảo an toàn cho khách và tìm phương tiện thay thế ngay lập tức",
-      "B. Đăng bài xin lỗi lên mạng xã hội trước",
-      "C. Yêu cầu khách tự tìm cách di chuyển",
-      "D. Chờ xe sửa xong dù mất bao lâu cũng được, không thông báo gì cho khách"
+      "Tỷ lệ tour đúng giờ và tỷ lệ khiếu nại",
+      "Số lượng bài đăng mạng xã hội",
+      "Số lượng nhân viên nghỉ phép",
+      "Diện tích văn phòng công ty"
     ],
-    "answer": "A",
-    "explanation": "Trong sự cố vận chuyển, ưu tiên số một luôn là an toàn của khách hàng, sau đó mới đến các giải pháp thay thế và truyền thông.",
-    "topic": "Quản trị rủi ro",
-    "level": 3
+    "answer": 0,
+    "explanation": "Tỷ lệ đúng giờ và khiếu nại phản ánh trực tiếp chất lượng vận hành thực tế."
   },
   {
-    "question": "Trước mùa bão, một công ty lữ hành nhận đặt tour biển 2 tháng tới. Biện pháp quản trị rủi ro chủ động nào nên áp dụng ngay từ khâu bán hàng?",
+    "level": 3,
+    "set": 2,
+    "question": "Khi phát hiện lỗi trong quy trình vận hành, doanh nghiệp nên làm gì?",
     "options": [
-      "A. Không đề cập gì đến rủi ro thời tiết khi bán tour",
-      "B. Thông báo rõ chính sách hoàn/hủy/đổi lịch do thời tiết ngay trong hợp đồng và tư vấn minh bạch cho khách",
-      "C. Hứa chắc chắn thời tiết sẽ đẹp",
-      "D. Từ chối bán mọi tour biển trong mùa mưa bão"
+      "Phân tích nguyên nhân gốc rễ và điều chỉnh quy trình",
+      "Bỏ qua nếu chưa có khách phàn nàn",
+      "Chỉ khiển trách nhân viên liên quan mà không thay đổi quy trình",
+      "Chờ đến cuối năm mới xem xét"
     ],
-    "answer": "B",
-    "explanation": "Quản trị rủi ro chủ động bắt đầu từ minh bạch chính sách ngay khi bán hàng, giúp giảm tranh chấp và bảo vệ uy tín khi rủi ro thời tiết xảy ra.",
-    "topic": "Quản trị rủi ro",
-    "level": 4
+    "answer": 0,
+    "explanation": "Phân tích nguyên nhân gốc rễ giúp ngăn lỗi lặp lại, thay vì chỉ xử lý triệu chứng."
   },
   {
-    "question": "Một đoàn khách gặp tai nạn giao thông nhẹ trong tour, một số khách bị thương nhẹ và đăng tải sự việc lên mạng xã hội. Chiến lược xử lý toàn diện nhất bao gồm những gì?",
+    "level": 3,
+    "set": 2,
+    "question": "'Trải nghiệm khách hàng' (customer experience) khác 'dịch vụ khách hàng' như thế nào?",
     "options": [
-      "A. Chỉ xử lý y tế cho khách, bỏ qua truyền thông",
-      "B. Đồng thời xử lý y tế/an toàn cho khách, kích hoạt bảo hiểm, minh bạch thông tin với truyền thông và rút kinh nghiệm cải thiện quy trình an toàn",
-      "C. Ỉm sự việc và yêu cầu khách gỡ bài đăng",
-      "D. Đổ lỗi hoàn toàn cho tài xế và ngừng hợp tác ngay lập tức mà không điều tra"
+      "Trải nghiệm bao gồm toàn bộ hành trình tương tác, dịch vụ chỉ là một phần trong đó",
+      "Hai khái niệm hoàn toàn giống nhau",
+      "Trải nghiệm chỉ tính từ lúc thanh toán",
+      "Dịch vụ khách hàng rộng hơn trải nghiệm khách hàng"
     ],
-    "answer": "B",
-    "explanation": "Xử lý khủng hoảng an toàn cần đồng bộ nhiều mặt: ưu tiên an toàn/y tế, minh bạch truyền thông để giữ uy tín, kích hoạt bảo hiểm, và rà soát quy trình để phòng ngừa tái diễn.",
-    "topic": "Quản trị rủi ro",
-    "level": 5
+    "answer": 0,
+    "explanation": "Trải nghiệm khách hàng bao trùm mọi điểm chạm, còn dịch vụ khách hàng là một phần trong đó."
   },
   {
-    "question": "AI trong du lịch có thể được ứng dụng phổ biến nhất ở đâu?",
+    "level": 3,
+    "set": 3,
+    "question": "Vì sao cần đa dạng hóa nhà cung cấp dịch vụ (xe, khách sạn)?",
     "options": [
-      "A. Chatbot tư vấn và gợi ý lịch trình cho khách",
-      "B. Chỉ dùng để nấu ăn",
-      "C. Chỉ dùng trong xây dựng khách sạn",
-      "D. Không có ứng dụng nào trong du lịch"
+      "Giảm rủi ro gián đoạn khi một đối tác gặp sự cố",
+      "Không có lợi ích gì đặc biệt",
+      "Chỉ làm tăng chi phí quản lý không cần thiết",
+      "Chỉ áp dụng cho công ty quốc tế"
     ],
-    "answer": "A",
-    "explanation": "Chatbot AI hỗ trợ tư vấn 24/7, gợi ý lịch trình cá nhân hóa là một trong những ứng dụng phổ biến và hiệu quả nhất của AI trong ngành du lịch.",
-    "topic": "Công nghệ",
-    "level": 1
+    "answer": 0,
+    "explanation": "Đa dạng hóa đối tác giúp doanh nghiệp linh hoạt ứng phó khi một nhà cung cấp gặp vấn đề."
   },
   {
-    "question": "'Smart Tourism' (du lịch thông minh) tập trung vào yếu tố nào?",
+    "level": 3,
+    "set": 3,
+    "question": "Hợp đồng với đối tác nên có điều khoản nào để bảo vệ doanh nghiệp?",
     "options": [
-      "A. Sử dụng công nghệ để nâng cao trải nghiệm khách và hiệu quả quản lý điểm đến",
-      "B. Chỉ là tên gọi marketing không có ý nghĩa thực tế",
-      "C. Loại bỏ hoàn toàn yếu tố con người khỏi du lịch",
-      "D. Chỉ áp dụng cho khách sạn 5 sao"
+      "Điều khoản về chất lượng dịch vụ, bồi thường và xử lý vi phạm",
+      "Chỉ cần ghi giá dịch vụ",
+      "Không cần điều khoản gì đặc biệt",
+      "Chỉ cần thỏa thuận miệng"
     ],
-    "answer": "A",
-    "explanation": "Smart Tourism ứng dụng công nghệ (IoT, dữ liệu, ứng dụng di động...) để cải thiện trải nghiệm du khách và tối ưu vận hành, quản lý điểm đến.",
-    "topic": "Công nghệ",
-    "level": 2
+    "answer": 0,
+    "explanation": "Điều khoản rõ ràng về chất lượng và bồi thường giúp bảo vệ quyền lợi khi có tranh chấp."
   },
   {
-    "question": "Big Data trong du lịch có thể giúp doanh nghiệp làm gì hiệu quả nhất?",
+    "level": 3,
+    "set": 3,
+    "question": "Khi đối tác cung cấp dịch vụ kém liên tục, doanh nghiệp nên ưu tiên làm gì?",
     "options": [
-      "A. Phân tích hành vi khách hàng để dự báo nhu cầu và cá nhân hóa dịch vụ",
-      "B. Thay thế hoàn toàn nhân viên bán hàng",
-      "C. Chỉ dùng để lưu trữ hình ảnh quảng cáo",
-      "D. Không có giá trị thực tiễn"
+      "Trao đổi thẳng thắn, yêu cầu cải thiện và cân nhắc tìm đối tác thay thế nếu cần",
+      "Ngay lập tức chấm dứt hợp đồng mà không trao đổi",
+      "Tiếp tục hợp tác mà không có phản hồi gì",
+      "Đổ lỗi hoàn toàn cho khách hàng"
     ],
-    "answer": "A",
-    "explanation": "Phân tích Big Data giúp nhận diện xu hướng, dự báo nhu cầu và cá nhân hóa trải nghiệm/ưu đãi cho từng nhóm khách hàng.",
-    "topic": "Công nghệ",
-    "level": 3
+    "answer": 0,
+    "explanation": "Trao đổi rõ ràng và có phương án thay thế là cách xử lý chuyên nghiệp, giảm rủi ro."
   },
   {
-    "question": "Một khách sạn muốn ứng dụng công nghệ để cá nhân hóa dịch vụ (ví dụ: gợi ý món ăn theo sở thích, nhắc lịch spa). Rủi ro cần lưu ý nhất khi triển khai là gì?",
+    "level": 3,
+    "set": 3,
+    "question": "Lợi ích của việc xây dựng quan hệ đối tác lâu dài là gì?",
     "options": [
-      "A. Không có rủi ro nào cần quan tâm",
-      "B. Bảo mật và quyền riêng tư dữ liệu khách hàng cần được đảm bảo đúng quy định pháp luật",
-      "C. Công nghệ luôn khiến khách hàng khó chịu",
-      "D. Chỉ cần mua phần mềm đắt tiền nhất là đủ"
+      "Có được giá tốt hơn, ưu tiên dịch vụ và độ tin cậy cao hơn",
+      "Không mang lại lợi ích thực sự",
+      "Chỉ làm tăng sự phụ thuộc một cách tiêu cực",
+      "Chỉ có lợi cho đối tác, không có lợi cho doanh nghiệp"
     ],
-    "answer": "B",
-    "explanation": "Khi thu thập và sử dụng dữ liệu cá nhân khách hàng để cá nhân hóa, doanh nghiệp phải tuân thủ quy định bảo mật, tránh rò rỉ hoặc lạm dụng thông tin gây mất niềm tin.",
-    "topic": "Công nghệ",
-    "level": 4
+    "answer": 0,
+    "explanation": "Quan hệ lâu dài thường đi kèm ưu đãi, độ tin cậy và ưu tiên phục vụ tốt hơn."
   },
   {
-    "question": "Ban lãnh đạo một điểm đến muốn áp dụng công nghệ để quản lý sức chứa (kiểm soát lượng khách theo thời gian thực) nhằm chống overtourism. Giải pháp công nghệ toàn diện nào phù hợp nhất?",
+    "level": 3,
+    "set": 3,
+    "question": "Đâu là rủi ro khi phụ thuộc quá nhiều vào MỘT nhà cung cấp duy nhất?",
     "options": [
-      "A. Không cần công nghệ, chỉ cần dựng biển cấm",
-      "B. Hệ thống cảm biến/đếm khách kết hợp ứng dụng đặt vé theo khung giờ và dashboard giám sát thời gian thực cho ban quản lý",
-      "C. Chỉ dùng mạng xã hội để thông báo tình trạng đông đúc",
-      "D. Xây thêm nhiều bãi đỗ xe là đủ giải quyết vấn đề"
+      "Doanh nghiệp dễ bị động khi đối tác đó gặp sự cố hoặc tăng giá đột ngột",
+      "Không có rủi ro nào",
+      "Giúp doanh nghiệp luôn có giá tốt nhất",
+      "Chỉ ảnh hưởng đến đối tác, không ảnh hưởng doanh nghiệp"
     ],
-    "answer": "B",
-    "explanation": "Quản lý sức chứa hiệu quả cần hệ thống dữ liệu thời gian thực (cảm biến, đặt chỗ theo khung giờ) kết hợp công cụ giám sát để ban quản lý điều tiết dòng khách chủ động, không chỉ dựa vào biện pháp thủ công.",
-    "topic": "Công nghệ",
-    "level": 5
+    "answer": 0,
+    "explanation": "Phụ thuộc vào một đối tác duy nhất khiến doanh nghiệp dễ bị ảnh hưởng khi đối tác gặp vấn đề."
+  },
+  {
+    "level": 4,
+    "set": 1,
+    "question": "Dòng tiền (cash flow) khác lợi nhuận kế toán như thế nào?",
+    "options": [
+      "Dòng tiền phản ánh tiền thực tế ra/vào, lợi nhuận kế toán có thể bao gồm khoản chưa thu/chi thực tế",
+      "Hai khái niệm hoàn toàn giống nhau",
+      "Dòng tiền luôn bằng lợi nhuận",
+      "Lợi nhuận không liên quan đến tài chính"
+    ],
+    "answer": 0,
+    "explanation": "Dòng tiền là tiền thực nhận/chi ra, trong khi lợi nhuận kế toán có thể ghi nhận theo thời điểm khác."
+  },
+  {
+    "level": 4,
+    "set": 1,
+    "question": "Vì sao doanh nghiệp du lịch cần quỹ dự phòng tài chính?",
+    "options": [
+      "Để ứng phó với mùa thấp điểm hoặc khủng hoảng bất ngờ",
+      "Không cần thiết nếu kinh doanh ổn định",
+      "Chỉ cần thiết với công ty mới thành lập",
+      "Chỉ dùng để chia thêm lợi nhuận cho cổ đông"
+    ],
+    "answer": 0,
+    "explanation": "Quỹ dự phòng giúp doanh nghiệp duy trì hoạt động khi doanh thu sụt giảm bất ngờ."
+  },
+  {
+    "level": 4,
+    "set": 1,
+    "question": "Chỉ số nào phản ánh hiệu quả sử dụng vốn của doanh nghiệp?",
+    "options": [
+      "ROI (Return on Investment - tỷ suất lợi nhuận trên vốn đầu tư)",
+      "Số lượng nhân viên",
+      "Số lượng tour đã bán",
+      "Số lượng chi nhánh"
+    ],
+    "answer": 0,
+    "explanation": "ROI đo lường hiệu quả sinh lời trên mỗi đồng vốn đầu tư, phản ánh hiệu quả sử dụng vốn."
+  },
+  {
+    "level": 4,
+    "set": 1,
+    "question": "Khi doanh thu giảm nhưng chi phí cố định không đổi, doanh nghiệp nên ưu tiên giải pháp nào?",
+    "options": [
+      "Rà soát tối ưu chi phí biến đổi và tìm nguồn doanh thu bổ sung",
+      "Ngay lập tức sa thải toàn bộ nhân sự",
+      "Vay nợ không kiểm soát để duy trì hoạt động",
+      "Không làm gì và chờ đợi thị trường tự phục hồi"
+    ],
+    "answer": 0,
+    "explanation": "Tối ưu chi phí biến đổi và đa dạng nguồn thu là cách tiếp cận bền vững hơn cắt giảm đột ngột."
+  },
+  {
+    "level": 4,
+    "set": 1,
+    "question": "Vì sao việc định giá tour cần tính đến chi phí cơ hội (opportunity cost)?",
+    "options": [
+      "Vì nguồn lực dùng cho tour này không thể dùng cho cơ hội kinh doanh khác cùng lúc",
+      "Vì chi phí cơ hội không ảnh hưởng đến quyết định giá",
+      "Vì chi phí cơ hội luôn bằng 0",
+      "Vì đây là yếu tố không liên quan đến tài chính"
+    ],
+    "answer": 0,
+    "explanation": "Chi phí cơ hội phản ánh giá trị của lựa chọn bị bỏ lỡ khi dùng nguồn lực cho phương án khác."
+  },
+  {
+    "level": 4,
+    "set": 2,
+    "question": "Bước đầu tiên trong quy trình quản trị rủi ro là gì?",
+    "options": [
+      "Nhận diện các rủi ro tiềm ẩn có thể xảy ra",
+      "Ngay lập tức mua bảo hiểm cho mọi thứ",
+      "Bỏ qua rủi ro nhỏ để tập trung vào lợi nhuận",
+      "Chờ rủi ro xảy ra rồi mới xử lý"
+    ],
+    "answer": 0,
+    "explanation": "Nhận diện rủi ro là bước nền tảng để có thể đánh giá và xây dựng phương án ứng phó phù hợp."
+  },
+  {
+    "level": 4,
+    "set": 2,
+    "question": "Bảo hiểm du lịch cho khách hàng mang lại lợi ích gì cho doanh nghiệp?",
+    "options": [
+      "Giảm thiểu thiệt hại tài chính và trách nhiệm pháp lý khi có sự cố",
+      "Không có lợi ích thực tế nào",
+      "Chỉ làm tăng chi phí mà không có giá trị",
+      "Chỉ bắt buộc với tour quốc tế"
+    ],
+    "answer": 0,
+    "explanation": "Bảo hiểm giúp chia sẻ rủi ro tài chính và bảo vệ doanh nghiệp trước các sự cố ngoài ý muốn."
+  },
+  {
+    "level": 4,
+    "set": 2,
+    "question": "Khi đánh giá mức độ rủi ro của một tour mạo hiểm mới, cần cân nhắc yếu tố nào?",
+    "options": [
+      "Xác suất xảy ra sự cố và mức độ nghiêm trọng của hậu quả",
+      "Chỉ cần quan tâm đến giá bán tour",
+      "Chỉ cần quan tâm đến số lượng khách đăng ký",
+      "Không cần đánh giá gì trước khi triển khai"
+    ],
+    "answer": 0,
+    "explanation": "Đánh giá rủi ro cần xét cả xác suất xảy ra và mức độ nghiêm trọng nếu sự cố xảy ra."
+  },
+  {
+    "level": 4,
+    "set": 2,
+    "question": "Kế hoạch ứng phó khủng hoảng (crisis response plan) nên được xây dựng khi nào?",
+    "options": [
+      "Chủ động xây dựng trước, không chờ đến khi khủng hoảng xảy ra",
+      "Chỉ xây dựng sau khi đã gặp khủng hoảng",
+      "Không cần thiết nếu doanh nghiệp nhỏ",
+      "Chỉ cần thiết với công ty niêm yết"
+    ],
+    "answer": 0,
+    "explanation": "Chủ động chuẩn bị trước giúp doanh nghiệp phản ứng nhanh và hiệu quả hơn khi khủng hoảng thực sự xảy ra."
+  },
+  {
+    "level": 4,
+    "set": 2,
+    "question": "Vì sao đa dạng hóa điểm đến/tuyến tour giúp giảm rủi ro kinh doanh?",
+    "options": [
+      "Giảm phụ thuộc vào một thị trường/khu vực có thể gặp bất ổn (thời tiết, chính trị...)",
+      "Không có tác dụng giảm rủi ro",
+      "Chỉ giúp tăng chi phí vận hành",
+      "Chỉ áp dụng cho công ty lớn"
+    ],
+    "answer": 0,
+    "explanation": "Đa dạng hóa giúp doanh nghiệp không bị ảnh hưởng nặng nề nếu một điểm đến gặp sự cố."
+  },
+  {
+    "level": 4,
+    "set": 3,
+    "question": "'Customer lifetime value' (giá trị vòng đời khách hàng) là gì?",
+    "options": [
+      "Tổng giá trị lợi nhuận một khách hàng mang lại trong suốt thời gian gắn bó với doanh nghiệp",
+      "Giá trị của một lần mua duy nhất",
+      "Số năm khách hàng còn sống",
+      "Chi phí để có được một khách hàng mới"
+    ],
+    "answer": 0,
+    "explanation": "CLV giúp doanh nghiệp đánh giá giá trị dài hạn của việc giữ chân khách hàng."
+  },
+  {
+    "level": 4,
+    "set": 3,
+    "question": "Vì sao định vị thương hiệu (brand positioning) rõ ràng lại quan trọng?",
+    "options": [
+      "Giúp khách hàng phân biệt và ghi nhớ doanh nghiệp giữa nhiều đối thủ",
+      "Không ảnh hưởng đến quyết định mua",
+      "Chỉ quan trọng với thương hiệu quốc tế",
+      "Chỉ cần thiết khi mới thành lập công ty"
+    ],
+    "answer": 0,
+    "explanation": "Định vị rõ ràng giúp thương hiệu nổi bật và tạo liên tưởng đúng trong tâm trí khách hàng."
+  },
+  {
+    "level": 4,
+    "set": 3,
+    "question": "Chiến lược 'content marketing' hiệu quả trong du lịch cần tập trung vào điều gì?",
+    "options": [
+      "Kể câu chuyện trải nghiệm chân thực, giá trị cho khách hàng mục tiêu",
+      "Chỉ cần đăng nhiều bài quảng cáo",
+      "Chỉ cần hình ảnh đẹp mà không có nội dung",
+      "Không cần hiểu khách hàng mục tiêu"
+    ],
+    "answer": 0,
+    "explanation": "Nội dung chân thực, giá trị và đúng insight khách hàng tạo hiệu quả marketing bền vững hơn quảng cáo đơn thuần."
+  },
+  {
+    "level": 4,
+    "set": 3,
+    "question": "Khủng hoảng truyền thông trên mạng xã hội nên được xử lý theo nguyên tắc nào?",
+    "options": [
+      "Phản hồi nhanh, minh bạch và có trách nhiệm",
+      "Im lặng chờ sự việc tự lắng xuống",
+      "Xóa mọi bình luận tiêu cực ngay lập tức",
+      "Đổ lỗi hoàn toàn cho khách hàng công khai"
+    ],
+    "answer": 0,
+    "explanation": "Phản hồi nhanh, minh bạch giúp kiểm soát khủng hoảng và giữ uy tín thương hiệu."
+  },
+  {
+    "level": 4,
+    "set": 3,
+    "question": "Vì sao doanh nghiệp cần theo dõi đối thủ cạnh tranh thường xuyên?",
+    "options": [
+      "Để kịp thời điều chỉnh chiến lược giá, sản phẩm và marketing phù hợp",
+      "Không cần thiết nếu đã có khách quen",
+      "Chỉ cần theo dõi một lần khi mới thành lập",
+      "Việc này không ảnh hưởng đến kết quả kinh doanh"
+    ],
+    "answer": 0,
+    "explanation": "Theo dõi đối thủ giúp doanh nghiệp phản ứng kịp thời trước thay đổi của thị trường."
+  },
+  {
+    "level": 5,
+    "set": 1,
+    "question": "Ưu tiên hàng đầu khi xử lý khủng hoảng liên quan đến an toàn khách hàng là gì?",
+    "options": [
+      "Đảm bảo an toàn tính mạng và sức khỏe của khách trước tiên",
+      "Bảo vệ hình ảnh công ty trước tiên",
+      "Giảm thiểu chi phí xử lý trước tiên",
+      "Tìm người chịu trách nhiệm trước tiên"
+    ],
+    "answer": 0,
+    "explanation": "An toàn con người luôn là ưu tiên số một trong mọi tình huống khủng hoảng."
+  },
+  {
+    "level": 5,
+    "set": 1,
+    "question": "Trong khủng hoảng truyền thông, vì sao 'sự im lặng kéo dài' thường là lựa chọn RỦI RO?",
+    "options": [
+      "Có thể khiến công chúng suy diễn tiêu cực và mất niềm tin vào thương hiệu",
+      "Vì im lặng luôn giúp khủng hoảng tự biến mất",
+      "Vì báo chí sẽ ngừng đưa tin nếu công ty im lặng",
+      "Vì im lặng không có tác động gì đến dư luận"
+    ],
+    "answer": 0,
+    "explanation": "Im lặng kéo dài dễ khiến dư luận suy diễn theo hướng tiêu cực và tăng mất niềm tin."
+  },
+  {
+    "level": 5,
+    "set": 1,
+    "question": "Sau khi khủng hoảng được xử lý, bước quan trọng tiếp theo là gì?",
+    "options": [
+      "Đánh giá lại quy trình, rút kinh nghiệm và cải thiện để phòng ngừa tái diễn",
+      "Coi như không có gì xảy ra",
+      "Chỉ cần xin lỗi công khai một lần là đủ",
+      "Không cần xem xét lại vì sự việc đã qua"
+    ],
+    "answer": 0,
+    "explanation": "Rút kinh nghiệm và cải thiện quy trình giúp doanh nghiệp phòng ngừa các khủng hoảng tương tự trong tương lai."
+  },
+  {
+    "level": 5,
+    "set": 1,
+    "question": "Vì sao doanh nghiệp cần có người phát ngôn chính thức khi khủng hoảng xảy ra?",
+    "options": [
+      "Đảm bảo thông tin nhất quán, tránh nhiều nguồn phát ngôn gây hiểu lầm",
+      "Không cần thiết, ai cũng có thể trả lời",
+      "Chỉ để giảm bớt công việc cho ban giám đốc",
+      "Chỉ áp dụng cho công ty niêm yết"
+    ],
+    "answer": 0,
+    "explanation": "Người phát ngôn thống nhất giúp thông tin ra ngoài nhất quán, tránh mâu thuẫn gây thêm khủng hoảng."
+  },
+  {
+    "level": 5,
+    "set": 1,
+    "question": "Khi khủng hoảng liên quan đến lỗi thực sự của doanh nghiệp, cách tiếp cận phù hợp là gì?",
+    "options": [
+      "Thừa nhận trách nhiệm, xin lỗi chân thành và đưa ra phương án khắc phục cụ thể",
+      "Phủ nhận hoàn toàn để bảo vệ hình ảnh",
+      "Đổ lỗi cho đối tác dù không liên quan",
+      "Chờ dư luận quên đi mà không phản hồi"
+    ],
+    "answer": 0,
+    "explanation": "Thừa nhận trách nhiệm và có phương án khắc phục cụ thể là cách xây dựng lại niềm tin hiệu quả nhất."
+  },
+  {
+    "level": 5,
+    "set": 2,
+    "question": "'Lợi thế cạnh tranh bền vững' (sustainable competitive advantage) có đặc điểm gì?",
+    "options": [
+      "Khó bị đối thủ sao chép và tạo giá trị lâu dài cho khách hàng",
+      "Có thể bị sao chép dễ dàng trong thời gian ngắn",
+      "Chỉ tồn tại trong một mùa vụ",
+      "Không liên quan đến giá trị khách hàng"
+    ],
+    "answer": 0,
+    "explanation": "Lợi thế cạnh tranh bền vững phải khó sao chép và duy trì giá trị cho khách hàng theo thời gian."
+  },
+  {
+    "level": 5,
+    "set": 2,
+    "question": "Chiến lược 'đại dương xanh' (blue ocean strategy) trong du lịch nghĩa là gì?",
+    "options": [
+      "Tạo ra thị trường/sản phẩm mới chưa có cạnh tranh thay vì cạnh tranh trực tiếp ở thị trường hiện có",
+      "Chỉ tập trung giảm giá thấp hơn đối thủ",
+      "Chỉ bán tour biển đảo",
+      "Sao chép hoàn toàn sản phẩm đối thủ"
+    ],
+    "answer": 0,
+    "explanation": "Đại dương xanh là tạo ra không gian thị trường mới, tránh cạnh tranh trực diện."
+  },
+  {
+    "level": 5,
+    "set": 2,
+    "question": "Khi mở rộng sang thị trường quốc tế mới, doanh nghiệp cần nghiên cứu điều gì trước tiên?",
+    "options": [
+      "Văn hóa, hành vi tiêu dùng và quy định pháp lý của thị trường đó",
+      "Chỉ cần dịch website sang ngôn ngữ bản địa",
+      "Không cần nghiên cứu gì thêm",
+      "Chỉ cần sao chép chiến lược trong nước"
+    ],
+    "answer": 0,
+    "explanation": "Hiểu văn hóa, hành vi và pháp lý địa phương là nền tảng để thâm nhập thị trường quốc tế thành công."
+  },
+  {
+    "level": 5,
+    "set": 2,
+    "question": "Vì sao chuyển đổi số (digital transformation) quan trọng với doanh nghiệp du lịch hiện nay?",
+    "options": [
+      "Giúp tối ưu vận hành, tiếp cận khách hàng hiệu quả hơn và thích ứng xu hướng đặt dịch vụ online",
+      "Không ảnh hưởng đến khả năng cạnh tranh",
+      "Chỉ cần thiết với doanh nghiệp công nghệ",
+      "Chỉ là xu hướng nhất thời không cần đầu tư"
+    ],
+    "answer": 0,
+    "explanation": "Chuyển đổi số giúp doanh nghiệp vận hành hiệu quả và đáp ứng thói quen tiêu dùng số của khách hàng."
+  },
+  {
+    "level": 5,
+    "set": 2,
+    "question": "Chỉ số nào phản ánh sức khỏe chiến lược dài hạn của doanh nghiệp du lịch tốt hơn lợi nhuận ngắn hạn?",
+    "options": [
+      "Tỷ lệ khách quay lại và mức độ trung thành thương hiệu",
+      "Doanh thu của riêng một tháng cao điểm",
+      "Số lượng bài đăng mạng xã hội trong tuần",
+      "Số lượng nhân viên mới tuyển trong quý"
+    ],
+    "answer": 0,
+    "explanation": "Tỷ lệ khách quay lại và lòng trung thành phản ánh sức khỏe kinh doanh bền vững hơn con số ngắn hạn."
+  },
+  {
+    "level": 5,
+    "set": 3,
+    "question": "'Du lịch bền vững' (sustainable tourism) hướng đến mục tiêu gì?",
+    "options": [
+      "Cân bằng giữa lợi ích kinh tế, môi trường và cộng đồng địa phương",
+      "Chỉ tối đa hóa lợi nhuận ngắn hạn",
+      "Chỉ tập trung vào số lượng khách càng nhiều càng tốt",
+      "Không quan tâm đến tác động môi trường"
+    ],
+    "answer": 0,
+    "explanation": "Du lịch bền vững cân bằng giữa phát triển kinh tế, bảo vệ môi trường và lợi ích cộng đồng."
+  },
+  {
+    "level": 5,
+    "set": 3,
+    "question": "'Overtourism' (du lịch quá tải) gây ra hậu quả gì cho điểm đến?",
+    "options": [
+      "Quá tải hạ tầng, ô nhiễm môi trường và xung đột với cộng đồng địa phương",
+      "Luôn mang lại lợi ích tích cực tuyệt đối",
+      "Không có tác động gì đáng kể",
+      "Chỉ ảnh hưởng đến doanh nghiệp, không ảnh hưởng cộng đồng"
+    ],
+    "answer": 0,
+    "explanation": "Overtourism gây áp lực lớn lên hạ tầng, môi trường và đời sống cộng đồng địa phương."
+  },
+  {
+    "level": 5,
+    "set": 3,
+    "question": "Doanh nghiệp có thể góp phần phát triển du lịch bền vững bằng cách nào?",
+    "options": [
+      "Giới hạn sức chứa hợp lý, hợp tác với cộng đồng và giảm tác động môi trường",
+      "Tăng tối đa lượng khách bất kể sức chứa điểm đến",
+      "Không cần quan tâm đến môi trường nếu vẫn có lợi nhuận",
+      "Chỉ cần quảng cáo là 'xanh' mà không thay đổi thực tế vận hành"
+    ],
+    "answer": 0,
+    "explanation": "Hành động thực chất như giới hạn sức chứa và hợp tác cộng đồng mới tạo ra du lịch bền vững thật sự."
+  },
+  {
+    "level": 5,
+    "set": 3,
+    "question": "Xu hướng công nghệ nào đang định hình tương lai ngành du lịch?",
+    "options": [
+      "Trí tuệ nhân tạo (AI) cá nhân hóa trải nghiệm và tự động hóa dịch vụ",
+      "Quay lại hoàn toàn phương thức đặt tour thủ công truyền thống",
+      "Không có xu hướng công nghệ nào đáng chú ý",
+      "Công nghệ không ảnh hưởng đến ngành du lịch"
+    ],
+    "answer": 0,
+    "explanation": "AI và tự động hóa đang giúp cá nhân hóa trải nghiệm và tối ưu vận hành trong ngành du lịch."
+  },
+  {
+    "level": 5,
+    "set": 3,
+    "question": "Vì sao doanh nghiệp du lịch cần xây dựng khả năng thích ứng (resilience) trước biến động toàn cầu?",
+    "options": [
+      "Vì ngành du lịch rất nhạy cảm với dịch bệnh, thiên tai, biến động kinh tế và chính trị",
+      "Vì ngành du lịch không bao giờ bị ảnh hưởng bởi các yếu tố bên ngoài",
+      "Vì khả năng thích ứng không liên quan đến sự tồn tại của doanh nghiệp",
+      "Vì đây là yêu cầu bắt buộc theo luật ở mọi quốc gia"
+    ],
+    "answer": 0,
+    "explanation": "Ngành du lịch rất nhạy cảm với các cú sốc bên ngoài, nên khả năng thích ứng là yếu tố sống còn."
   }
 ]
