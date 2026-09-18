@@ -30,7 +30,7 @@ def get_secret(key, default=""):
     return os.environ.get(key, default)
 
 
-GEMINI_MODEL = get_secret("GEMINI_MODEL", "gemini-3.6-flash")
+GEMINI_MODEL = get_secret("GEMINI_MODEL", "gemini-2.5-flash")
 GEMINI_API_KEY = get_secret("GEMINI_API_KEY", "").strip()
 
 LEVEL_NAMES = {
