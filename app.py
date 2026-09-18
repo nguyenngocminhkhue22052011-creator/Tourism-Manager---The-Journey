@@ -6,9 +6,9 @@ import random
 import streamlit as st
 
 try:
-    from google import genai
+    from openai import OpenAI
 except ImportError:
-    genai = None
+    OpenAI = None
 
 
 # ============================================================
@@ -30,8 +30,10 @@ def get_secret(key, default=""):
     return os.environ.get(key, default)
 
 
-GEMINI_MODEL = get_secret("GEMINI_MODEL", "gemini-2.5-flash")
-GEMINI_API_KEY = get_secret("GEMINI_API_KEY", "").strip()
+OPENAI_MODEL = get_secret("OPENAI_MODEL", "gpt-5-mini")
+OPENAI_API_KEY = get_secret("OPENAI_API_KEY", "").strip()
+
+_openai_init_error = None
 
 LEVEL_NAMES = {
     1: "Level 1 · Cơ bản",
@@ -44,37 +46,46 @@ LEVEL_ICONS = {1: "🔰", 2: "⭐", 3: "🏆", 4: "🚀", 5: "👑"}
 
 
 @st.cache_resource
-def get_gemini_client():
-    if not GEMINI_API_KEY or genai is None:
+def get_openai_client():
+    global _openai_init_error
+    if not OPENAI_API_KEY:
+        _openai_init_error = "Chưa cấu hình OPENAI_API_KEY (secrets.toml hoặc biến môi trường)."
+        return None
+    if OpenAI is None:
+        _openai_init_error = "Chưa cài thư viện openai. Chạy: pip install -U openai"
         return None
     try:
-        return genai.Client(api_key=GEMINI_API_KEY)
+        return OpenAI(api_key=OPENAI_API_KEY)
     except Exception as e:
-        print("Không thể khởi tạo Gemini:", e)
+        _openai_init_error = f"Lỗi khởi tạo ChatGPT: {e}"
+        print("Không thể khởi tạo ChatGPT:", e)
         return None
 
 
-client = get_gemini_client()
+client = get_openai_client()
 
 
 # ============================================================
-# 2. HÀM HỖ TRỢ GEMINI
+# 2. HÀM HỖ TRỢ CHATGPT (OPENAI)
 # ============================================================
 
-def call_gemini(prompt):
+def call_chatgpt(prompt):
     if client is None:
-        return None, "Chưa có GEMINI_API_KEY hoặc Gemini chưa được khởi tạo."
+        return None, "Chưa có OPENAI_API_KEY hoặc ChatGPT chưa được khởi tạo."
     try:
-        response = client.models.generate_content(model=GEMINI_MODEL, contents=prompt)
-        text = getattr(response, "text", None)
+        response = client.chat.completions.create(
+            model=OPENAI_MODEL,
+            messages=[{"role": "user", "content": prompt}],
+        )
+        text = response.choices[0].message.content
         if not text:
-            return None, "Gemini không trả về nội dung."
+            return None, "ChatGPT không trả về nội dung."
         return text.strip(), None
     except Exception as e:
         error_text = str(e)
-        if "429" in error_text or "RESOURCE_EXHAUSTED" in error_text or "quota" in error_text.lower():
-            return None, "Gemini đang hết quota (429 RESOURCE_EXHAUSTED). Hệ thống đã chuyển sang chế độ Offline."
-        return None, f"Lỗi Gemini: {error_text}"
+        if "429" in error_text or "rate_limit" in error_text.lower() or "quota" in error_text.lower():
+            return None, "ChatGPT đang hết quota (429 rate limit). Hệ thống đã chuyển sang chế độ Offline."
+        return None, f"Lỗi ChatGPT: {error_text}"
 
 
 def extract_json_from_text(text):
@@ -197,7 +208,7 @@ def generate_offline_crisis_evaluation(user_solution, crisis):
     if not weaknesses:
         weaknesses.append("Có thể bổ sung thêm phương án dự phòng.")
 
-    feedback = ("Đây là đánh giá Offline vì Gemini hiện không khả dụng. Khi có thể sử dụng Gemini, "
+    feedback = ("Đây là đánh giá Offline vì ChatGPT hiện không khả dụng. Khi có thể sử dụng ChatGPT, "
                 "hệ thống sẽ đánh giá câu trả lời theo ngữ cảnh cụ thể của tình huống.")
 
     return {**scores, "strengths": strengths, "weaknesses": weaknesses, "feedback": feedback}
@@ -788,8 +799,10 @@ def sidebar_nav():
                 go(key)
 
         st.markdown("---")
-        st.caption(f"Gemini model: `{GEMINI_MODEL}`")
-        st.caption("🟢 Đã kết nối Gemini" if client else "🟡 Chế độ Offline")
+        st.caption(f"ChatGPT model: `{OPENAI_MODEL}`")
+        st.caption("🟢 Đã kết nối ChatGPT" if client else "🟡 Chế độ Offline")
+        if not client and _openai_init_error:
+            st.caption(f"⚠️ {_openai_init_error}")
 
         if st.button("💾 Save Game", use_container_width=True):
             m.save_progress()
@@ -1113,12 +1126,12 @@ Nếu có thể, hãy đưa ví dụ thực tế trong ngành du lịch.
 Câu hỏi:
 {query}
 """
-                    answer, error = call_gemini(prompt)
+                    answer, error = call_chatgpt(prompt)
                     if answer is None:
                         answer = generate_offline_tutor_response(query)
 
             if error and error != "offline":
-                st.warning(f"⚠️ Gemini không khả dụng: {error}\n\n→ Đang dùng Offline Tutor.")
+                st.warning(f"⚠️ ChatGPT không khả dụng: {error}\n\n→ Đang dùng Offline Tutor.")
             st.markdown(answer)
 
         st.session_state.chat_history.append({"role": "assistant", "content": answer})
@@ -1215,11 +1228,11 @@ Trả về ĐÚNG JSON:
 }}
 Không thêm Markdown, không thêm ```json, không giải thích bên ngoài JSON.
 """
-        raw_response, error = call_gemini(prompt)
+        raw_response, error = call_chatgpt(prompt)
         if raw_response:
             evaluation = extract_json_from_text(raw_response)
             if evaluation is None:
-                error = "Gemini trả về dữ liệu không đúng JSON."
+                error = "ChatGPT trả về dữ liệu không đúng JSON."
         if evaluation is None:
             evaluation = generate_offline_crisis_evaluation(user_solution, crisis)
 
@@ -1241,9 +1254,9 @@ def render_crisis_result(result):
 
     with st.container(border=True):
         if error and error != "offline":
-            st.warning(f"⚠️ Gemini không khả dụng: {error}\n\nHệ thống đã chuyển sang Offline Evaluation.")
+            st.warning(f"⚠️ ChatGPT không khả dụng: {error}\n\nHệ thống đã chuyển sang Offline Evaluation.")
         elif error == "offline":
-            st.info("ℹ️ Đang dùng bộ đánh giá Offline vì Gemini hiện không khả dụng.")
+            st.info("ℹ️ Đang dùng bộ đánh giá Offline vì ChatGPT hiện không khả dụng.")
 
         st.markdown(f"### 🎯 Điểm tổng: {total_score}/10")
         st.progress(total_score / 10)
