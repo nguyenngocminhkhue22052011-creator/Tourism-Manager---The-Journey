@@ -503,6 +503,31 @@ def inject_theme():
     section[data-testid="stSidebar"] * { color: #F1EAD6 !important; }
     section[data-testid="stSidebar"] hr { border-color: rgba(241,234,214,0.2); }
 
+    /* Nút trong sidebar: nền đủ tối để chữ kem sáng luôn rõ, có viền nhẹ
+       phân biệt với nền sidebar; trạng thái đang chọn (primary) nổi bật vàng gold */
+    section[data-testid="stSidebar"] .stButton > button {
+        background: rgba(241, 234, 214, 0.08) !important;
+        border: 1px solid rgba(241, 234, 214, 0.35) !important;
+        border-radius: 10px !important;
+        font-weight: 600 !important;
+        text-align: left !important;
+    }
+    section[data-testid="stSidebar"] .stButton > button:hover {
+        background: rgba(212, 160, 23, 0.25) !important;
+        border-color: #D4A017 !important;
+    }
+    section[data-testid="stSidebar"] .stButton > button[kind="primary"] {
+        background: #D4A017 !important;
+        border: 1px solid #D4A017 !important;
+    }
+    section[data-testid="stSidebar"] .stButton > button[kind="primary"] * {
+        color: #0B2545 !important;
+        font-weight: 700 !important;
+    }
+    section[data-testid="stSidebar"] .stButton > button[kind="primary"]:hover {
+        background: #E8B923 !important;
+    }
+
     h1, h2, h3 { font-family: 'Poppins', sans-serif !important; color: #0B2545 !important; }
 
     .hero-banner {
