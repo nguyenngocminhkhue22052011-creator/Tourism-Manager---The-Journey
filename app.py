@@ -505,14 +505,41 @@ def inject_theme():
     .badge-progress { background: #FEF3C7; color: #B45309; }
     .badge-locked { background: #E5E7EB; color: #6B7280; }
 
-    .stButton>button {
-        border-radius: 10px;
-        font-weight: 600;
-        border: none;
+    /* Nút bấm trong vùng nội dung chính: mặc định phải NHÌN RÕ ngay
+       (nền trắng, viền + chữ navy đậm) — chỉ đổi màu khi hover/bấm. */
+    [data-testid="stAppViewContainer"] .stButton > button {
+        background: #FFFFFF !important;
+        color: #0B2545 !important;
+        border: 2px solid #0B2545 !important;
+        border-radius: 10px !important;
+        font-weight: 600 !important;
+        transition: all 0.15s ease-in-out;
     }
-    .stButton>button[kind="primary"] {
-        background: #0B2545;
-        color: #FDF6E3;
+    [data-testid="stAppViewContainer"] .stButton > button:hover {
+        background: #0B2545 !important;
+        color: #FDF6E3 !important;
+        border-color: #0B2545 !important;
+    }
+    [data-testid="stAppViewContainer"] .stButton > button:disabled {
+        background: #E5E7EB !important;
+        color: #9CA3AF !important;
+        border-color: #E5E7EB !important;
+    }
+    /* Nút primary (Thực hiện, nav đang chọn...): nền navy sẵn, hover sang vàng gold */
+    [data-testid="stAppViewContainer"] .stButton > button[kind="primary"] {
+        background: #0B2545 !important;
+        color: #FDF6E3 !important;
+        border-color: #0B2545 !important;
+    }
+    [data-testid="stAppViewContainer"] .stButton > button[kind="primary"]:hover {
+        background: #D4A017 !important;
+        color: #0B2545 !important;
+        border-color: #D4A017 !important;
+    }
+    /* Đảm bảo chữ trong nút luôn ăn theo màu của nút (không bị luật ép màu chữ chung ghi đè) */
+    [data-testid="stAppViewContainer"] .stButton > button [data-testid="stMarkdownContainer"],
+    [data-testid="stAppViewContainer"] .stButton > button [data-testid="stMarkdownContainer"] p {
+        color: inherit !important;
     }
 
     .stat-caption { color: #6B7280; font-size: 12px; margin-bottom: -6px; }
@@ -627,8 +654,7 @@ def sidebar_nav():
             ("quiz_levels", "📚 Quiz (5 Level)"),
             ("ai_tutor", "🤝 AI Tutor"),
             ("crisis", "🌪️ Crisis Management"),
-            ("hr", "🧑‍💼 HR Management"),
-            ("budget", "💰 Budget Allocation"),
+            ("operations", "🏢 Vận hành Doanh nghiệp"),
             ("history", "📜 Lịch sử hoạt động"),
         ]
         current_top = st.session_state.page if st.session_state.page in [p for p, _ in nav_items] else \
@@ -670,8 +696,7 @@ def page_home():
         ("📚 Quiz 5 Level", "Ôn tập kiến thức du lịch & kinh doanh theo cấp độ.", "quiz_levels"),
         ("🤝 AI Tutor", "Hỏi đáp cùng trợ lý AI về quản trị du lịch.", "ai_tutor"),
         ("🌪️ Crisis Management", "Xử lý tình huống khủng hoảng thực tế.", "crisis"),
-        ("🧑‍💼 HR Management", "Tuyển dụng & đào tạo nhân sự.", "hr"),
-        ("💰 Budget Allocation", "Phân bổ ngân sách kinh doanh.", "budget"),
+        ("🏢 Vận hành Doanh nghiệp", "Tuyển/đào tạo nhân sự & phân bổ ngân sách — 1 hệ thống thống nhất.", "operations"),
         ("📜 Lịch sử", "Xem lại các quyết định đã thực hiện.", "history"),
     ]
     for i, (title, desc, page_key) in enumerate(cards):
@@ -1091,35 +1116,90 @@ def action_card(name, cost, effect_text, stat_label, stat_value, budget, on_clic
 
 
 # ============================================================
-# 13. HR MANAGEMENT
+# 13. VẬN HÀNH DOANH NGHIỆP — HR + BUDGET GỘP THÀNH 1 HỆ THỐNG
+#     (Mọi quyết định đầu tư nguồn lực nằm chung 1 nơi, có chung
+#     mục tiêu và chung "vòng giá trị" để người chơi thấy rõ
+#     nhân sự và tài chính liên kết với nhau như thế nào.)
 # ============================================================
 
-def page_hr():
+def page_operations():
     m = st.session_state.model
-    hero_banner("HR MANAGEMENT", "Quản trị nhân sự doanh nghiệp du lịch")
+    hero_banner("TRUNG TÂM VẬN HÀNH DOANH NGHIỆP", "Đầu tư Nhân sự & Tài chính để phát triển bền vững")
     topbar()
 
-    with st.container(border=True):
-        st.markdown("#### 🧑‍💼 Tình trạng nhân sự")
-        c1, c2 = st.columns(2)
-        c1.metric("👥 Staff", m.staff_count)
-        c2.metric("😊 Employee Satisfaction", f"{round(m.stats['employee_satisfaction'])}/100")
+    # ---- Mục đích của hệ thống — trả lời "tạo ra để làm gì" ----
+    st.markdown("""
+    <div class="biz-card gold">
+        <b>🎯 Mục đích của Trung tâm Vận hành</b><br>
+        <span style="color:#374151;font-size:13px;line-height:1.6;">
+        Đây là nơi bạn ra <b>quyết định đầu tư nguồn lực</b> cho doanh nghiệp du lịch của mình.
+        Hai nhóm quyết định — <b>Nhân sự</b> và <b>Tài chính</b> — luôn ảnh hưởng lẫn nhau theo
+        1 vòng giá trị duy nhất:
+        </span><br><br>
+        <span style="color:#0B2545;font-size:13px;font-weight:600;">
+        🧑‍💼 Tuyển &amp; đào tạo nhân sự → 🧳 Dịch vụ tốt hơn → 📢 Marketing &amp; nâng cấp cơ sở →
+        🏛️ Uy tín &amp; khách hàng tăng → 💰 Thu doanh thu → 🔁 Có thêm ngân sách để tái đầu tư
+        </span>
+    </div>
+    """, unsafe_allow_html=True)
 
-    col1, col2 = st.columns(2)
-    with col1:
-        action_card(
-            "👤 Hire Staff — Tuyển thêm nhân viên", 500,
-            "Tăng 1 nhân viên và +3 Employee Satisfaction. Giúp tăng năng lực phục vụ khách hàng.",
-            "Employee Satisfaction", m.stats["employee_satisfaction"], m.budget,
-            "hr_hire", hire_staff,
-        )
-    with col2:
-        action_card(
-            "🎓 Train Staff — Đào tạo nhân viên", 800,
-            "Tăng +8 Employee Satisfaction và +5 Customer Satisfaction. Nâng cao chất lượng phục vụ lâu dài.",
-            "Customer Satisfaction", m.stats["customer_satisfaction"], m.budget,
-            "hr_train", train_staff,
-        )
+    # ---- Tổng quan tài nguyên dùng chung cho cả 2 nhóm quyết định ----
+    with st.container(border=True):
+        st.markdown("#### 📋 Tổng quan tài nguyên hiện có")
+        c1, c2, c3, c4 = st.columns(4)
+        c1.metric("💵 Budget", f"${m.budget}")
+        c2.metric("👥 Staff", m.staff_count)
+        c3.metric("😊 Employee Satisfaction", f"{round(m.stats['employee_satisfaction'])}/100")
+        c4.metric("📊 Financial Health", f"{round(m.stats['financial_health'])}/100")
+
+    tab_hr, tab_budget = st.tabs(["🧑‍💼 NHÂN SỰ — Hire & Train", "💰 TÀI CHÍNH — Marketing & Ngân sách"])
+
+    with tab_hr:
+        st.caption("Đầu tư vào con người: nhân sự nhiều & giỏi hơn → phục vụ khách tốt hơn.")
+        col1, col2 = st.columns(2)
+        with col1:
+            action_card(
+                "👤 Hire Staff — Tuyển thêm nhân viên", 500,
+                "Tăng 1 nhân viên và +3 Employee Satisfaction. Giúp tăng năng lực phục vụ khách hàng "
+                "và tăng doanh thu thu được mỗi lần Collect Revenue.",
+                "Employee Satisfaction", m.stats["employee_satisfaction"], m.budget,
+                "hr_hire", hire_staff,
+            )
+        with col2:
+            action_card(
+                "🎓 Train Staff — Đào tạo nhân viên", 800,
+                "Tăng +8 Employee Satisfaction và +5 Customer Satisfaction. Nâng cao chất lượng "
+                "phục vụ lâu dài, không cần tuyển thêm người.",
+                "Customer Satisfaction", m.stats["customer_satisfaction"], m.budget,
+                "hr_train", train_staff,
+            )
+
+    with tab_budget:
+        st.caption("Đầu tư tài chính: marketing & cơ sở vật chất → uy tín tăng → thu về doanh thu để tái đầu tư.")
+        revenue_estimate = m.staff_count * 250
+        col1, col2, col3 = st.columns(3)
+        with col1:
+            action_card(
+                "📢 Marketing Campaign", 1000,
+                "Tăng +7 Business Reputation và +5 Customer Satisfaction. Thu hút thêm khách hàng mới.",
+                "Business Reputation", m.stats["business_reputation"], m.budget,
+                "budget_marketing", marketing_campaign,
+            )
+        with col2:
+            action_card(
+                "🏗️ Facility Upgrade", 1500,
+                "Tăng +10 Sustainability và +8 Customer Satisfaction. Cải thiện cơ sở vật chất lâu dài.",
+                "Sustainability", m.stats["sustainability"], m.budget,
+                "budget_facility", facility_upgrade,
+            )
+        with col3:
+            action_card(
+                "💰 Collect Revenue", 0,
+                f"Thu về ước tính ${revenue_estimate} (${250} x {m.staff_count} nhân viên) và "
+                "+3 Financial Health. Không tốn chi phí — càng nhiều/nhân sự giỏi thì thu càng nhiều.",
+                "Financial Health", m.stats["financial_health"], m.budget,
+                "budget_revenue", collect_revenue,
+            )
 
 
 def hire_staff():
@@ -1138,49 +1218,6 @@ def train_staff():
     m.stats["customer_satisfaction"] = min(100, m.stats["customer_satisfaction"] + 5)
     m.log_activity("Đào tạo nhân viên.")
     st.toast("Đã đào tạo nhân viên! Employee +8, Customer +5", icon="🎓")
-
-
-# ============================================================
-# 14. BUDGET ALLOCATION
-# ============================================================
-
-def page_budget():
-    m = st.session_state.model
-    hero_banner("BUDGET ALLOCATION", "Phân bổ ngân sách kinh doanh du lịch")
-    topbar()
-
-    with st.container(border=True):
-        st.markdown("#### 💰 Tình trạng tài chính")
-        c1, c2, c3 = st.columns(3)
-        c1.metric("💵 Budget", f"${m.budget}")
-        c2.metric("🏛️ Reputation", f"{round(m.stats['business_reputation'])}/100")
-        c3.metric("📊 Financial Health", f"{round(m.stats['financial_health'])}/100")
-
-    revenue_estimate = m.staff_count * 250
-
-    col1, col2, col3 = st.columns(3)
-    with col1:
-        action_card(
-            "📢 Marketing Campaign", 1000,
-            "Tăng +7 Business Reputation và +5 Customer Satisfaction. Thu hút thêm khách hàng mới.",
-            "Business Reputation", m.stats["business_reputation"], m.budget,
-            "budget_marketing", marketing_campaign,
-        )
-    with col2:
-        action_card(
-            "🏗️ Facility Upgrade", 1500,
-            "Tăng +10 Sustainability và +8 Customer Satisfaction. Cải thiện cơ sở vật chất lâu dài.",
-            "Sustainability", m.stats["sustainability"], m.budget,
-            "budget_facility", facility_upgrade,
-        )
-    with col3:
-        action_card(
-            "💰 Collect Revenue", 0,
-            f"Thu về ước tính ${revenue_estimate} (${250} x {m.staff_count} nhân viên) và +3 Financial Health. "
-            "Không tốn chi phí.",
-            "Financial Health", m.stats["financial_health"], m.budget,
-            "budget_revenue", collect_revenue,
-        )
 
 
 def marketing_campaign():
@@ -1254,10 +1291,8 @@ def main():
         page_ai_tutor()
     elif page == "crisis":
         page_crisis()
-    elif page == "hr":
-        page_hr()
-    elif page == "budget":
-        page_budget()
+    elif page == "operations":
+        page_operations()
     elif page == "history":
         page_history()
     else:
