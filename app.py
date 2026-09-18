@@ -221,13 +221,13 @@ class TourismGameModel:
         self.history_log = []
         self.used_crises = []
 
-        self.quiz_progress = {
-            str(i): {"correct": 0, "total": 0, "completed": False} for i in range(1, 6)
-        }
-
         self.quiz_data = self.load_json(QUIZ_FILE, [])
         self.crises = self.load_json(CRISIS_FILE, [])
-        self.quiz_levels = self.build_quiz_levels()
+
+        # Cấu trúc: { level: { set_no: [câu hỏi...] } }
+        self.quiz_structure = self.build_quiz_structure()
+        # Tiến trình: { "1": {"sets": {"1": {...}, "2": {...}}, "completed": False}, ... }
+        self.quiz_progress = self._init_quiz_progress()
 
         self.load_progress()
 
@@ -242,31 +242,79 @@ class TourismGameModel:
             print(f"Lỗi đọc {path}: {e}")
             return default
 
-    # ---- QUIZ LEVELS ----
+    # ---- QUIZ: LEVEL > NHIỀU BỘ (SET) ----
 
-    def build_quiz_levels(self):
-        levels = {i: [] for i in range(1, 6)}
+    @staticmethod
+    def _split_into_sets(questions, max_sets=3):
+        """Chia 1 danh sách câu hỏi thành tối đa max_sets bộ đều nhau."""
+        if not questions:
+            return {}
+        num_sets = min(max_sets, len(questions)) or 1
+        chunk = max(1, math.ceil(len(questions) / num_sets))
+        sets = {}
+        for index, q in enumerate(questions):
+            set_no = min(num_sets, index // chunk + 1)
+            sets.setdefault(set_no, []).append(q)
+        return sets
+
+    def build_quiz_structure(self):
+        """Trả về { level(1-5): { set_no: [câu hỏi] } }.
+        Ưu tiên trường "level" + "set" có sẵn trong quiz_data.json;
+        nếu thiếu, tự suy ra để mỗi level có tối đa 3 bộ."""
+
+        structure = {i: {} for i in range(1, 6)}
         if not self.quiz_data:
-            return levels
+            return structure
 
-        has_level_field = any(isinstance(q, dict) and "level" in q for q in self.quiz_data)
+        has_level = any(isinstance(q, dict) and "level" in q for q in self.quiz_data)
+        has_set = any(isinstance(q, dict) and "set" in q for q in self.quiz_data)
 
-        if has_level_field:
+        def clamp_level(v):
+            try:
+                return max(1, min(5, int(v)))
+            except (ValueError, TypeError):
+                return 1
+
+        if has_level and has_set:
             for q in self.quiz_data:
+                lvl = clamp_level(q.get("level", 1))
                 try:
-                    lvl = int(q.get("level", 1))
+                    set_no = max(1, int(q.get("set", 1)))
                 except (ValueError, TypeError):
-                    lvl = 1
-                lvl = max(1, min(5, lvl))
-                levels[lvl].append(q)
+                    set_no = 1
+                structure[lvl].setdefault(set_no, []).append(q)
+        elif has_level:
+            by_level = {i: [] for i in range(1, 6)}
+            for q in self.quiz_data:
+                by_level[clamp_level(q.get("level", 1))].append(q)
+            for lvl, qs in by_level.items():
+                structure[lvl] = self._split_into_sets(qs)
         else:
             n = len(self.quiz_data)
             chunk = max(1, math.ceil(n / 5))
+            by_level = {i: [] for i in range(1, 6)}
             for index, q in enumerate(self.quiz_data):
-                lvl = min(5, index // chunk + 1)
-                levels[lvl].append(q)
+                by_level[min(5, index // chunk + 1)].append(q)
+            for lvl, qs in by_level.items():
+                structure[lvl] = self._split_into_sets(qs)
 
-        return levels
+        return structure
+
+    def _init_quiz_progress(self):
+        progress = {}
+        for level in range(1, 6):
+            set_ids = self.get_set_ids(level)
+            progress[str(level)] = {
+                "sets": {str(s): {"correct": 0, "total": 0, "completed": False} for s in set_ids},
+                "completed": False,
+            }
+        return progress
+
+    def get_set_ids(self, level):
+        return sorted(self.quiz_structure.get(level, {}).keys())
+
+    def get_set_questions(self, level, set_no):
+        return self.quiz_structure.get(level, {}).get(set_no, [])
 
     def is_level_unlocked(self, level):
         if level == 1:
@@ -274,19 +322,38 @@ class TourismGameModel:
         prev = self.quiz_progress.get(str(level - 1), {})
         return prev.get("completed", False)
 
-    def record_quiz_answer(self, level, correct):
-        key = str(level)
-        prog = self.quiz_progress.setdefault(key, {"correct": 0, "total": 0, "completed": False})
-        prog["total"] += 1
+    def get_set_progress(self, level, set_no):
+        lvl_prog = self.quiz_progress.get(str(level), {})
+        return lvl_prog.get("sets", {}).get(str(set_no), {"correct": 0, "total": 0, "completed": False})
+
+    def record_quiz_answer(self, level, set_no, correct):
+        lvl_key, set_key = str(level), str(set_no)
+        lvl_prog = self.quiz_progress.setdefault(lvl_key, {"sets": {}, "completed": False})
+        set_prog = lvl_prog["sets"].setdefault(set_key, {"correct": 0, "total": 0, "completed": False})
+        set_prog["total"] += 1
         if correct:
-            prog["correct"] += 1
+            set_prog["correct"] += 1
         self.save_progress()
 
-    def complete_level(self, level):
-        key = str(level)
-        self.quiz_progress.setdefault(key, {"correct": 0, "total": 0, "completed": False})
-        self.quiz_progress[key]["completed"] = True
+    def complete_set(self, level, set_no):
+        """Đánh dấu 1 bộ đã hoàn thành. Nếu TẤT CẢ các bộ trong level đã
+        hoàn thành thì đánh dấu cả level hoàn thành (mở khoá level tiếp theo).
+        Trả về True nếu đây là lần đầu cả LEVEL được hoàn thành."""
+        lvl_key, set_key = str(level), str(set_no)
+        lvl_prog = self.quiz_progress.setdefault(lvl_key, {"sets": {}, "completed": False})
+        set_prog = lvl_prog["sets"].setdefault(set_key, {"correct": 0, "total": 0, "completed": False})
+        set_prog["completed"] = True
+
+        was_level_completed = lvl_prog["completed"]
+        set_ids = self.get_set_ids(level)
+        all_sets_done = bool(set_ids) and all(
+            lvl_prog["sets"].get(str(s), {}).get("completed", False) for s in set_ids
+        )
+        if all_sets_done:
+            lvl_prog["completed"] = True
+
         self.save_progress()
+        return (not was_level_completed) and lvl_prog["completed"]
 
     # ---- SAVE / LOAD ----
 
@@ -318,9 +385,13 @@ class TourismGameModel:
                     self.stats[key] = saved_stats[key]
             self.history_log = data.get("history_log", [])
             saved_quiz_progress = data.get("quiz_progress", {})
-            for key in self.quiz_progress:
-                if key in saved_quiz_progress:
-                    self.quiz_progress[key].update(saved_quiz_progress[key])
+            for lvl_key, lvl_val in saved_quiz_progress.items():
+                if lvl_key not in self.quiz_progress or not isinstance(lvl_val, dict):
+                    continue
+                self.quiz_progress[lvl_key]["completed"] = lvl_val.get("completed", False)
+                for set_key, set_val in lvl_val.get("sets", {}).items():
+                    if set_key in self.quiz_progress[lvl_key]["sets"] and isinstance(set_val, dict):
+                        self.quiz_progress[lvl_key]["sets"][set_key].update(set_val)
             self.update_level_only()
         except Exception as e:
             print("Lỗi load save:", e)
@@ -615,6 +686,8 @@ def init_state():
         st.session_state.page = "home"
     if "current_level" not in st.session_state:
         st.session_state.current_level = None
+    if "current_set" not in st.session_state:
+        st.session_state.current_set = None
     if "level_questions" not in st.session_state:
         st.session_state.level_questions = []
     if "level_pos" not in st.session_state:
@@ -658,7 +731,7 @@ def sidebar_nav():
             ("history", "📜 Lịch sử hoạt động"),
         ]
         current_top = st.session_state.page if st.session_state.page in [p for p, _ in nav_items] else \
-            ("quiz_levels" if st.session_state.page in ("quiz_play", "quiz_result") else st.session_state.page)
+            ("quiz_levels" if st.session_state.page in ("quiz_sets", "quiz_play", "quiz_result") else st.session_state.page)
 
         for key, label in nav_items:
             is_active = key == current_top
@@ -733,12 +806,12 @@ def trigger_random_event():
 
 
 # ============================================================
-# 9. QUIZ — CHỌN LEVEL
+# 9. QUIZ — CHỌN LEVEL → CHỌN BỘ (SET) → CHƠI
 # ============================================================
 
 def page_quiz_levels():
     m = st.session_state.model
-    hero_banner("QUIZ NGHIỆP VỤ", "Hoàn thành level để mở khoá level tiếp theo")
+    hero_banner("QUIZ NGHIỆP VỤ", "Hoàn thành TẤT CẢ các bộ trong 1 level để mở khoá level tiếp theo")
     topbar()
 
     if not m.quiz_data:
@@ -747,13 +820,15 @@ def page_quiz_levels():
 
     cols = st.columns(5)
     for level in range(1, 6):
-        questions = m.quiz_levels.get(level, [])
-        progress = m.quiz_progress.get(str(level), {"correct": 0, "total": 0, "completed": False})
+        set_ids = m.get_set_ids(level)
+        lvl_progress = m.quiz_progress.get(str(level), {"sets": {}, "completed": False})
         unlocked = m.is_level_unlocked(level)
+        sets_done = sum(1 for s in set_ids if lvl_progress["sets"].get(str(s), {}).get("completed", False))
+        total_sets = len(set_ids)
 
-        if progress["completed"]:
+        if lvl_progress["completed"]:
             badge = '<span class="badge badge-done">✓ Hoàn thành</span>'
-        elif progress["total"] > 0:
+        elif sets_done > 0:
             badge = '<span class="badge badge-progress">Đang làm</span>'
         elif not unlocked:
             badge = '<span class="badge badge-locked">🔒 Đã khoá</span>'
@@ -766,22 +841,70 @@ def page_quiz_levels():
             <div class="{card_class}" style="text-align:center;">
                 <div style="font-size:26px;">{LEVEL_ICONS.get(level, "📘") if unlocked else "🔒"}</div>
                 <b>{LEVEL_NAMES.get(level)}</b><br>
-                <span style="color:#6B7280;font-size:12px;">{len(questions)} câu hỏi</span><br>
+                <span style="color:#6B7280;font-size:12px;">{total_sets} bộ quiz</span><br>
                 {badge}<br><br>
-                <span style="font-size:11px;color:#6B7280;">{progress['correct']}/{progress['total']} đúng</span>
+                <span style="font-size:11px;color:#6B7280;">Đã hoàn thành {sets_done}/{total_sets} bộ</span>
             </div>
             """, unsafe_allow_html=True)
 
-            disabled = (not unlocked) or (not questions)
-            if st.button("Bắt đầu", key=f"start_lvl_{level}", use_container_width=True, disabled=disabled):
-                start_quiz_level(level)
+            disabled = (not unlocked) or (total_sets == 0)
+            if st.button("Xem các bộ →", key=f"open_lvl_{level}", use_container_width=True, disabled=disabled):
+                st.session_state.current_level = level
+                go("quiz_sets")
 
 
-def start_quiz_level(level):
+def page_quiz_sets():
     m = st.session_state.model
-    questions = list(m.quiz_levels.get(level, []))
+    level = st.session_state.current_level
+    if level is None or not m.is_level_unlocked(level):
+        go("quiz_levels")
+        return
+
+    set_ids = m.get_set_ids(level)
+    hero_banner(f"CHỌN BỘ QUIZ — {LEVEL_NAMES.get(level, '')}", f"{len(set_ids)} bộ · làm hết cả 3 bộ để mở khoá level tiếp theo")
+    topbar()
+
+    if not set_ids:
+        st.warning("Level này chưa có bộ quiz nào.")
+        st.button("← Chọn level khác", on_click=lambda: go("quiz_levels"))
+        return
+
+    cols = st.columns(len(set_ids))
+    for i, set_no in enumerate(set_ids):
+        questions = m.get_set_questions(level, set_no)
+        prog = m.get_set_progress(level, set_no)
+
+        if prog["completed"]:
+            badge = '<span class="badge badge-done">✓ Hoàn thành</span>'
+        elif prog["total"] > 0:
+            badge = '<span class="badge badge-progress">Đang làm</span>'
+        else:
+            badge = '<span class="badge badge-locked">Chưa bắt đầu</span>'
+
+        with cols[i]:
+            st.markdown(f"""
+            <div class="biz-card" style="text-align:center;">
+                <div style="font-size:22px;">📦</div>
+                <b>Bộ {set_no}</b><br>
+                <span style="color:#6B7280;font-size:12px;">{len(questions)} câu hỏi</span><br>
+                {badge}<br><br>
+                <span style="font-size:11px;color:#6B7280;">{prog['correct']}/{prog['total']} đúng</span>
+            </div>
+            """, unsafe_allow_html=True)
+            if st.button("Bắt đầu bộ này", key=f"start_set_{level}_{set_no}", use_container_width=True,
+                         disabled=not questions):
+                start_quiz_set(level, set_no)
+
+    if st.button("← Chọn level khác"):
+        go("quiz_levels")
+
+
+def start_quiz_set(level, set_no):
+    m = st.session_state.model
+    questions = list(m.get_set_questions(level, set_no))
     random.shuffle(questions)
     st.session_state.current_level = level
+    st.session_state.current_set = set_no
     st.session_state.level_questions = questions
     st.session_state.level_pos = 0
     st.session_state.level_correct = 0
@@ -792,15 +915,16 @@ def start_quiz_level(level):
 def page_quiz_play():
     m = st.session_state.model
     level = st.session_state.current_level
+    set_no = st.session_state.current_set
     questions = st.session_state.level_questions
     pos = st.session_state.level_pos
     total = len(questions)
 
     if not questions or pos >= total:
-        go("quiz_levels")
+        go("quiz_sets")
         return
 
-    hero_banner(f"QUIZ — {LEVEL_NAMES.get(level, '')}", f"Câu {pos + 1}/{total}")
+    hero_banner(f"QUIZ — {LEVEL_NAMES.get(level, '')} · Bộ {set_no}", f"Câu {pos + 1}/{total}")
     topbar()
     st.progress((pos + (1 if st.session_state.answered else 0)) / total)
 
@@ -808,7 +932,7 @@ def page_quiz_play():
     with st.container(border=True):
         st.markdown(f"##### 🗺️ {question.get('question', 'Question')}")
         options = question.get("options", [])
-        selected = st.radio("Chọn đáp án:", options, key=f"quiz_radio_{level}_{pos}",
+        selected = st.radio("Chọn đáp án:", options, key=f"quiz_radio_{level}_{set_no}_{pos}",
                              index=None, disabled=st.session_state.answered)
 
         if not st.session_state.answered:
@@ -820,14 +944,14 @@ def page_quiz_play():
                     correct_answer = question.get("answer", question.get("correct_answer", 0))
                     is_correct = str(selected_index) == str(correct_answer)
 
-                    m.record_quiz_answer(level, is_correct)
+                    m.record_quiz_answer(level, set_no, is_correct)
                     st.session_state.answered = True
                     st.session_state.last_correct = is_correct
 
                     if is_correct:
                         st.session_state.level_correct += 1
                         m.update_xp(30)
-                        m.log_activity(f"Trả lời đúng 1 câu Quiz Level {level} (+30 XP).")
+                        m.log_activity(f"Trả lời đúng 1 câu Quiz {LEVEL_NAMES.get(level)} - Bộ {set_no} (+30 XP).")
                     st.rerun()
         else:
             if st.session_state.last_correct:
@@ -835,7 +959,7 @@ def page_quiz_play():
             else:
                 st.error(f"✗ Chưa chính xác. {question.get('explanation', '')}")
 
-            label = "Câu tiếp theo →" if pos + 1 < total else "Xem kết quả level →"
+            label = "Câu tiếp theo →" if pos + 1 < total else "Xem kết quả bộ này →"
             if st.button(label, type="primary"):
                 st.session_state.level_pos += 1
                 st.session_state.answered = False
@@ -844,49 +968,66 @@ def page_quiz_play():
                 else:
                     st.rerun()
 
-    if st.button("← Chọn level khác"):
-        go("quiz_levels")
+    if st.button("← Chọn bộ khác"):
+        go("quiz_sets")
 
 
 def page_quiz_result():
     m = st.session_state.model
     level = st.session_state.current_level
+    set_no = st.session_state.current_set
     total = len(st.session_state.level_questions)
     correct = st.session_state.level_correct
 
-    was_completed = m.quiz_progress.get(str(level), {}).get("completed", False)
-    m.complete_level(level)
+    level_just_completed = m.complete_set(level, set_no)
+
+    m.update_xp(20)
+    m.log_activity(f"Hoàn thành Bộ {set_no} — {LEVEL_NAMES.get(level)} (+20 XP).")
 
     bonus_xp = 0
-    if not was_completed:
-        bonus_xp = 50
+    if level_just_completed:
+        bonus_xp = 80
         m.update_xp(bonus_xp)
-        m.log_activity(f"Hoàn thành Quiz {LEVEL_NAMES.get(level)} (+{bonus_xp} XP).")
+        m.log_activity(f"🎉 Hoàn thành TẤT CẢ các bộ của {LEVEL_NAMES.get(level)} (+{bonus_xp} XP).")
 
-    hero_banner("HOÀN THÀNH LEVEL", LEVEL_NAMES.get(level, ""))
+    hero_banner(f"HOÀN THÀNH BỘ {set_no}", LEVEL_NAMES.get(level, ""))
     topbar()
 
+    set_ids = m.get_set_ids(level)
+    lvl_progress = m.quiz_progress.get(str(level), {"sets": {}, "completed": False})
+    sets_done = sum(1 for s in set_ids if lvl_progress["sets"].get(str(s), {}).get("completed", False))
+
     with st.container(border=True):
-        st.markdown(f"### Kết quả: {correct}/{total} câu đúng")
+        st.markdown(f"### Kết quả bộ {set_no}: {correct}/{total} câu đúng")
         st.progress(correct / total if total else 0)
-        if bonus_xp:
-            st.success(f"🎉 Lần đầu hoàn thành level này: +{bonus_xp} XP thưởng!")
+        st.caption(f"Tiến trình level: đã hoàn thành {sets_done}/{len(set_ids)} bộ")
+        st.progress(sets_done / len(set_ids) if set_ids else 0)
 
-        next_level = level + 1
-        if next_level <= 5:
-            st.info(f"Level {next_level} đã được mở khoá!" if not was_completed
-                    else f"Bạn đã mở khoá Level {next_level} từ trước.")
+        if level_just_completed:
+            st.success(f"🎉 Bạn vừa hoàn thành TOÀN BỘ {LEVEL_NAMES.get(level)}! (+{bonus_xp} XP thưởng)")
+            next_level = level + 1
+            if next_level <= 5:
+                st.info(f"🔓 Level {next_level} đã được mở khoá!")
+            else:
+                st.info("🏆 Bạn đã hoàn thành toàn bộ 5 level!")
+        elif lvl_progress["completed"]:
+            st.info("Bạn đã hoàn thành toàn bộ level này từ trước — có thể ôn lại bất kỳ bộ nào.")
         else:
-            st.info("🏆 Bạn đã hoàn thành toàn bộ 5 level!")
+            st.info(f"Hoàn thành thêm {len(set_ids) - sets_done} bộ nữa để mở khoá level tiếp theo.")
 
-        c1, c2 = st.columns(2)
+        c1, c2, c3 = st.columns(3)
         with c1:
+            if st.button("📦 Các bộ khác trong level", use_container_width=True):
+                go("quiz_sets")
+        with c2:
             if st.button("📚 Xem tất cả level", use_container_width=True):
                 go("quiz_levels")
-        with c2:
+        with c3:
+            next_level = level + 1
             if next_level <= 5 and m.is_level_unlocked(next_level):
                 if st.button(f"Chơi Level {next_level} →", type="primary", use_container_width=True):
-                    start_quiz_level(next_level)
+                    st.session_state.current_level = next_level
+                    go("quiz_sets")
 
 
 # ============================================================
@@ -1283,6 +1424,8 @@ def main():
         page_home()
     elif page == "quiz_levels":
         page_quiz_levels()
+    elif page == "quiz_sets":
+        page_quiz_sets()
     elif page == "quiz_play":
         page_quiz_play()
     elif page == "quiz_result":
