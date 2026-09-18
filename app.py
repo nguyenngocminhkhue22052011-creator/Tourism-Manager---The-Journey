@@ -110,6 +110,16 @@ def safe_score(value, default=5):
         return float(default)
 
 
+def format_vnd(amount):
+    """Định dạng số tiền theo kiểu Việt Nam, ví dụ 12.500.000 ₫"""
+    try:
+        amount = int(round(float(amount)))
+    except (ValueError, TypeError):
+        amount = 0
+    sign = "-" if amount < 0 else ""
+    return f"{sign}{abs(amount):,}".replace(",", ".") + " ₫"
+
+
 # ============================================================
 # 3. OFFLINE AI TUTOR / CRISIS (giữ nguyên logic)
 # ============================================================
@@ -207,8 +217,11 @@ class TourismGameModel:
     def __init__(self):
         self.xp = 0
         self.level_name = "Tourism Beginner"
-        self.budget = 5000
+        self.budget = 50_000_000
         self.staff_count = 5
+        self.market_index = 100.0
+        self.market_history = [100.0]
+        self.turn = 0
 
         self.stats = {
             "customer_satisfaction": 75,
@@ -362,6 +375,8 @@ class TourismGameModel:
             "xp": self.xp, "level_name": self.level_name, "budget": self.budget,
             "staff_count": self.staff_count, "stats": self.stats,
             "history_log": self.history_log, "quiz_progress": self.quiz_progress,
+            "market_index": self.market_index, "market_history": self.market_history,
+            "turn": self.turn,
         }
         try:
             with open(SAVE_FILE, "w", encoding="utf-8") as file:
@@ -379,6 +394,9 @@ class TourismGameModel:
             self.level_name = data.get("level_name", self.level_name)
             self.budget = data.get("budget", self.budget)
             self.staff_count = data.get("staff_count", self.staff_count)
+            self.market_index = data.get("market_index", self.market_index)
+            self.market_history = data.get("market_history", self.market_history)
+            self.turn = data.get("turn", self.turn)
             saved_stats = data.get("stats", {})
             for key in self.stats:
                 if key in saved_stats:
@@ -674,8 +692,9 @@ def topbar():
     items = [
         ("⭐ XP", m.xp),
         ("💼 Level", m.level_name),
-        ("💰 Budget", f"${m.budget}"),
-        ("👥 Staff", m.staff_count),
+        ("💰 Ngân sách", format_vnd(m.budget)),
+        ("👥 Nhân sự", m.staff_count),
+        ("📈 Chỉ số TT", f"{m.market_index:.1f}"),
     ]
     html = '<div class="topbar">'
     for label, value in items:
@@ -729,6 +748,8 @@ def init_state():
         st.session_state.crisis_result = None
     if "chat_history" not in st.session_state:
         st.session_state.chat_history = []
+    if "last_turn_result" not in st.session_state:
+        st.session_state.last_turn_result = None
 
 
 def go(page):
@@ -817,17 +838,17 @@ def trigger_random_event():
     m = st.session_state.model
     events = [
         {"text": "Một travel blogger nổi tiếng đăng bài tích cực về doanh nghiệp.",
-         "budget_change": -300, "reputation_change": 5},
+         "budget_change": -3_000_000, "reputation_change": 5},
         {"text": "Một khách hàng đăng bài phàn nàn trên mạng xã hội.",
-         "budget_change": -500, "reputation_change": -2},
+         "budget_change": -5_000_000, "reputation_change": -2},
         {"text": "Một đối tác địa phương đề xuất hợp tác quảng bá.",
-         "budget_change": 800, "reputation_change": 10},
+         "budget_change": 8_000_000, "reputation_change": 10},
     ]
     event = random.choice(events)
     m.budget = max(0, m.budget + event["budget_change"])
     m.stats["business_reputation"] = max(0, min(100, m.stats["business_reputation"] + event["reputation_change"]))
     m.log_activity(f"Random Event: {event['text']}")
-    st.success(f"{event['text']}  |  Ngân sách {event['budget_change']:+}$  |  Uy tín {event['reputation_change']:+}")
+    st.success(f"{event['text']}  |  Ngân sách {event['budget_change']:+,}đ  |  Uy tín {event['reputation_change']:+}")
 
 
 # ============================================================
@@ -1267,7 +1288,7 @@ def action_card(name, cost, effect_text, stat_label, stat_value, budget, on_clic
         <div class="{card_class}">
             <b>{name}</b><br>
             <span style="color:{'#0B2545' if afford else '#DC2626'};font-size:13px;">
-                💵 Chi phí: ${cost}{'' if afford else ' (không đủ ngân sách)'}
+                💵 Chi phí: {format_vnd(cost)}{'' if afford else ' (không đủ ngân sách)'}
             </span><br>
             <span style="color:#6B7280;font-size:12px;">{effect_text}</span>
         </div>
@@ -1290,7 +1311,7 @@ def action_card(name, cost, effect_text, stat_label, stat_value, budget, on_clic
 
 def page_operations():
     m = st.session_state.model
-    hero_banner("TRUNG TÂM VẬN HÀNH DOANH NGHIỆP", "Đầu tư Nhân sự & Tài chính để phát triển bền vững")
+    hero_banner("TRUNG TÂM VẬN HÀNH DOANH NGHIỆP", "Đầu tư Nhân sự & Tài chính, theo dõi thị trường theo từng lượt")
     topbar()
 
     # ---- Mục đích của hệ thống — trả lời "tạo ra để làm gì" ----
@@ -1298,42 +1319,49 @@ def page_operations():
     <div class="biz-card gold">
         <b>🎯 Mục đích của Trung tâm Vận hành</b><br>
         <span style="color:#374151;font-size:13px;line-height:1.6;">
-        Đây là nơi bạn ra <b>quyết định đầu tư nguồn lực</b> cho doanh nghiệp du lịch của mình.
-        Hai nhóm quyết định — <b>Nhân sự</b> và <b>Tài chính</b> — luôn ảnh hưởng lẫn nhau theo
-        1 vòng giá trị duy nhất:
+        Đây là nơi bạn ra <b>quyết định đầu tư nguồn lực</b> cho doanh nghiệp du lịch của mình,
+        rồi bấm <b>Kết thúc lượt</b> để bước sang tuần kinh doanh tiếp theo. Mỗi lượt, chỉ số thị
+        trường du lịch (biến động như một biểu đồ chứng khoán) sẽ thay đổi, và một sự kiện ngẫu
+        nhiên có thể xảy ra — ví dụ đoàn thanh tra bất chợt, đoàn khách lớn, thời tiết xấu, hay đối
+        tác ngỏ lời hợp tác. Vượt qua sự kiện thành công sẽ mang lại tiền thưởng.
         </span><br><br>
         <span style="color:#0B2545;font-size:13px;font-weight:600;">
-        🧑‍💼 Tuyển &amp; đào tạo nhân sự → 🧳 Dịch vụ tốt hơn → 📢 Marketing &amp; nâng cấp cơ sở →
-        🏛️ Uy tín &amp; khách hàng tăng → 💰 Thu doanh thu → 🔁 Có thêm ngân sách để tái đầu tư
+        🧑‍💼 Tuyển &amp; đào tạo nhân sự → 📢 Marketing &amp; nâng cấp cơ sở → 🔚 Kết thúc lượt →
+        📈 Thị trường biến động + 🎲 Sự kiện ngẫu nhiên → 💰 Doanh thu &amp; hệ quả → 🔁 Tái đầu tư
         </span>
     </div>
     """, unsafe_allow_html=True)
 
-    # ---- Tổng quan tài nguyên dùng chung cho cả 2 nhóm quyết định ----
+    # ---- Tổng quan tài nguyên dùng chung cho các nhóm quyết định ----
     with st.container(border=True):
         st.markdown("#### 📋 Tổng quan tài nguyên hiện có")
-        c1, c2, c3, c4 = st.columns(4)
-        c1.metric("💵 Budget", f"${m.budget}")
-        c2.metric("👥 Staff", m.staff_count)
-        c3.metric("😊 Employee Satisfaction", f"{round(m.stats['employee_satisfaction'])}/100")
-        c4.metric("📊 Financial Health", f"{round(m.stats['financial_health'])}/100")
+        c1, c2, c3, c4, c5 = st.columns(5)
+        c1.metric("💵 Ngân sách", format_vnd(m.budget))
+        c2.metric("👥 Nhân sự", m.staff_count)
+        c3.metric("😊 Hài lòng NV", f"{round(m.stats['employee_satisfaction'])}/100")
+        c4.metric("📊 Sức khoẻ TC", f"{round(m.stats['financial_health'])}/100")
+        c5.metric("📈 Chỉ số thị trường", f"{m.market_index:.1f}")
 
-    tab_hr, tab_budget = st.tabs(["🧑‍💼 NHÂN SỰ — Hire & Train", "💰 TÀI CHÍNH — Marketing & Ngân sách"])
+    tab_hr, tab_budget, tab_market = st.tabs([
+        "🧑‍💼 NHÂN SỰ — Hire & Train",
+        "💰 TÀI CHÍNH — Marketing & Nâng cấp",
+        "📈 THỊ TRƯỜNG — Kết thúc lượt",
+    ])
 
     with tab_hr:
         st.caption("Đầu tư vào con người: nhân sự nhiều & giỏi hơn → phục vụ khách tốt hơn.")
         col1, col2 = st.columns(2)
         with col1:
             action_card(
-                "👤 Hire Staff — Tuyển thêm nhân viên", 500,
-                "Tăng 1 nhân viên và +3 Employee Satisfaction. Giúp tăng năng lực phục vụ khách hàng "
-                "và tăng doanh thu thu được mỗi lần Collect Revenue.",
+                "👤 Hire Staff — Tuyển thêm nhân viên", 5_000_000,
+                "Tăng 1 nhân viên và +3 Employee Satisfaction. Nhân sự càng nhiều, doanh thu tự động "
+                "mỗi lượt càng cao.",
                 "Employee Satisfaction", m.stats["employee_satisfaction"], m.budget,
                 "hr_hire", hire_staff,
             )
         with col2:
             action_card(
-                "🎓 Train Staff — Đào tạo nhân viên", 800,
+                "🎓 Train Staff — Đào tạo nhân viên", 8_000_000,
                 "Tăng +8 Employee Satisfaction và +5 Customer Satisfaction. Nâng cao chất lượng "
                 "phục vụ lâu dài, không cần tuyển thêm người.",
                 "Customer Satisfaction", m.stats["customer_satisfaction"], m.budget,
@@ -1341,36 +1369,161 @@ def page_operations():
             )
 
     with tab_budget:
-        st.caption("Đầu tư tài chính: marketing & cơ sở vật chất → uy tín tăng → thu về doanh thu để tái đầu tư.")
-        revenue_estimate = m.staff_count * 250
-        col1, col2, col3 = st.columns(3)
+        st.caption("Đầu tư tài chính: marketing & cơ sở vật chất → uy tín và độ bền vững tăng → dễ "
+                    "vượt qua các sự kiện ngẫu nhiên hơn (ví dụ thanh tra bất chợt).")
+        col1, col2 = st.columns(2)
         with col1:
             action_card(
-                "📢 Marketing Campaign", 1000,
+                "📢 Marketing Campaign", 10_000_000,
                 "Tăng +7 Business Reputation và +5 Customer Satisfaction. Thu hút thêm khách hàng mới.",
                 "Business Reputation", m.stats["business_reputation"], m.budget,
                 "budget_marketing", marketing_campaign,
             )
         with col2:
             action_card(
-                "🏗️ Facility Upgrade", 1500,
+                "🏗️ Facility Upgrade", 15_000_000,
                 "Tăng +10 Sustainability và +8 Customer Satisfaction. Cải thiện cơ sở vật chất lâu dài.",
                 "Sustainability", m.stats["sustainability"], m.budget,
                 "budget_facility", facility_upgrade,
             )
-        with col3:
-            action_card(
-                "💰 Collect Revenue", 0,
-                f"Thu về ước tính ${revenue_estimate} (${250} x {m.staff_count} nhân viên) và "
-                "+3 Financial Health. Không tốn chi phí — càng nhiều/nhân sự giỏi thì thu càng nhiều.",
-                "Financial Health", m.stats["financial_health"], m.budget,
-                "budget_revenue", collect_revenue,
-            )
+        st.info("💡 Doanh thu không còn thu thủ công nữa — sang tab **Thị trường**, mỗi lần "
+                "**Kết thúc lượt** doanh thu sẽ tự động được cộng dựa theo số nhân sự và chỉ số thị trường.")
+
+    with tab_market:
+        st.caption("Chỉ số thị trường du lịch biến động qua từng lượt, giống một biểu đồ chứng khoán. "
+                    "Kết thúc lượt để thu doanh thu tự động và đối mặt với một sự kiện ngẫu nhiên.")
+
+        prev_index = m.market_history[-2] if len(m.market_history) >= 2 else m.market_history[-1]
+        delta = m.market_index - prev_index
+        c1, c2 = st.columns([1, 3])
+        with c1:
+            st.metric("📈 Chỉ số thị trường", f"{m.market_index:.1f}", delta=f"{delta:+.1f}")
+            st.metric("🔁 Lượt hiện tại", m.turn)
+        with c2:
+            st.line_chart(m.market_history, height=200)
+
+        if st.button("🔚 Kết thúc lượt (Sang tuần mới)", type="primary", use_container_width=True):
+            event, outcome, revenue = advance_turn()
+            st.session_state.last_turn_result = {"event": event, "outcome": outcome, "revenue": revenue}
+            st.rerun()
+
+        result = st.session_state.last_turn_result
+        if result:
+            event, outcome, revenue = result["event"], result["outcome"], result["revenue"]
+            with st.container(border=True):
+                st.markdown(f"#### {event['icon']} {event['name']} — Lượt {m.turn}")
+                if outcome["success"]:
+                    st.success(outcome["message"])
+                else:
+                    st.error(outcome["message"])
+                st.markdown(f"💰 Doanh thu tự động lượt này: **{format_vnd(revenue)}** "
+                            f"(chỉ số thị trường {m.market_index:.1f})")
+
+
+# ---- Sự kiện ngẫu nhiên trong Trung tâm Vận hành ----
+
+def event_inspection(m):
+    score = (m.stats["sustainability"] + m.stats["business_reputation"]) / 2
+    if score >= 65:
+        reward = random.randint(2, 4) * 1_000_000
+        return {"success": True, "budget_delta": reward, "stat_deltas": {"business_reputation": 2},
+                "message": f"Đoàn thanh tra đánh giá tốt về cơ sở vật chất & uy tín, thưởng {format_vnd(reward)}."}
+    fine = random.randint(4, 8) * 1_000_000
+    return {"success": False, "budget_delta": -fine, "stat_deltas": {"business_reputation": -5},
+            "message": f"Đoàn thanh tra bất chợt phát hiện thiếu sót, doanh nghiệp bị phạt {format_vnd(fine)}."}
+
+
+def event_big_group(m):
+    if m.stats["customer_satisfaction"] >= 60:
+        bonus = random.randint(3, 8) * 1_000_000
+        return {"success": True, "budget_delta": bonus, "stat_deltas": {"customer_satisfaction": 2},
+                "message": f"Một đoàn khách lớn rất hài lòng với dịch vụ, mang lại {format_vnd(bonus)}."}
+    loss = random.randint(1, 2) * 1_000_000
+    return {"success": False, "budget_delta": -loss, "stat_deltas": {"customer_satisfaction": -3},
+            "message": f"Đoàn khách lớn huỷ tour vì dịch vụ chưa tốt, thiệt hại {format_vnd(loss)}."}
+
+
+def event_bad_weather(m):
+    loss = random.randint(2, 6) * 1_000_000
+    return {"success": False, "budget_delta": -loss, "stat_deltas": {},
+            "message": f"Thời tiết xấu khiến một số tour bị huỷ, thiệt hại {format_vnd(loss)}."}
+
+
+def event_market_boom(m):
+    return {"success": True, "budget_delta": 0, "stat_deltas": {"business_reputation": 1},
+            "message": "Thị trường du lịch tăng trưởng nóng, chỉ số thị trường được đẩy lên rõ rệt."}
+
+
+def event_market_crisis(m):
+    loss = random.randint(1, 3) * 1_000_000
+    return {"success": False, "budget_delta": -loss, "stat_deltas": {},
+            "message": f"Biến động kinh tế khiến doanh thu tạm thời giảm {format_vnd(loss)}."}
+
+
+def event_partner_offer(m):
+    if m.stats["business_reputation"] >= 70:
+        bonus = random.randint(6, 12) * 1_000_000
+        return {"success": True, "budget_delta": bonus, "stat_deltas": {},
+                "message": f"Ký kết hợp tác thành công với một đối tác chiến lược, nhận {format_vnd(bonus)}."}
+    return {"success": False, "budget_delta": 0, "stat_deltas": {},
+            "message": "Một đối tác ngỏ lời hợp tác nhưng từ chối vì uy tín doanh nghiệp chưa đủ cao."}
+
+
+OPERATIONS_EVENTS = [
+    {"icon": "🕵️", "name": "Thanh tra bất chợt", "handler": event_inspection},
+    {"icon": "👨‍👩‍👧‍👦", "name": "Đoàn khách lớn đặt tour", "handler": event_big_group},
+    {"icon": "🌧️", "name": "Thời tiết xấu", "handler": event_bad_weather},
+    {"icon": "📈", "name": "Thị trường tăng trưởng nóng", "handler": event_market_boom},
+    {"icon": "📉", "name": "Biến động kinh tế", "handler": event_market_crisis},
+    {"icon": "🤝", "name": "Đối tác ngỏ lời hợp tác", "handler": event_partner_offer},
+]
+
+
+def advance_turn():
+    """Vòng lặp chính của Trung tâm Vận hành: mỗi lượt thị trường biến động
+    như chứng khoán, 1 sự kiện ngẫu nhiên xảy ra, và doanh thu được tự động
+    thu về dựa trên số nhân sự và chỉ số thị trường."""
+    m = st.session_state.model
+    m.turn += 1
+
+    baseline = random.uniform(-6, 6)
+    reputation_bonus = (m.stats["business_reputation"] - 50) / 50 * 2
+    sustain_bonus = (m.stats["sustainability"] - 50) / 50 * 2
+    change_pct = baseline + reputation_bonus + sustain_bonus
+
+    event = random.choice(OPERATIONS_EVENTS)
+    outcome = event["handler"](m)
+
+    if event["name"] == "Thị trường tăng trưởng nóng":
+        change_pct += random.uniform(8, 18)
+    elif event["name"] == "Biến động kinh tế":
+        change_pct -= random.uniform(8, 18)
+
+    m.market_index = max(10.0, round(m.market_index * (1 + change_pct / 100), 1))
+    m.market_history.append(m.market_index)
+    if len(m.market_history) > 30:
+        m.market_history = m.market_history[-30:]
+
+    m.budget = max(0, m.budget + outcome["budget_delta"])
+    for key, delta in outcome.get("stat_deltas", {}).items():
+        m.stats[key] = round(max(0, min(100, m.stats[key] + delta)), 1)
+
+    base_revenue = m.staff_count * 2_500_000
+    revenue = round(base_revenue * (m.market_index / 100))
+    m.budget += revenue
+    m.stats["financial_health"] = round(min(100, m.stats["financial_health"] + 1), 1)
+
+    m.log_activity(f"[Lượt {m.turn}] {event['icon']} {event['name']}: {outcome['message']}")
+    m.log_activity(f"[Lượt {m.turn}] 💰 Doanh thu tự động: {format_vnd(revenue)} (chỉ số thị trường {m.market_index}).")
+    m.update_xp(15)
+    m.save_progress()
+
+    return event, outcome, revenue
 
 
 def hire_staff():
     m = st.session_state.model
-    m.budget -= 500
+    m.budget -= 5_000_000
     m.staff_count += 1
     m.stats["employee_satisfaction"] = min(100, m.stats["employee_satisfaction"] + 3)
     m.log_activity("Tuyển thêm 1 nhân viên.")
@@ -1379,7 +1532,7 @@ def hire_staff():
 
 def train_staff():
     m = st.session_state.model
-    m.budget -= 800
+    m.budget -= 8_000_000
     m.stats["employee_satisfaction"] = min(100, m.stats["employee_satisfaction"] + 8)
     m.stats["customer_satisfaction"] = min(100, m.stats["customer_satisfaction"] + 5)
     m.log_activity("Đào tạo nhân viên.")
@@ -1388,7 +1541,7 @@ def train_staff():
 
 def marketing_campaign():
     m = st.session_state.model
-    m.budget -= 1000
+    m.budget -= 10_000_000
     m.stats["business_reputation"] = min(100, m.stats["business_reputation"] + 7)
     m.stats["customer_satisfaction"] = min(100, m.stats["customer_satisfaction"] + 5)
     m.log_activity("Thực hiện chiến dịch Marketing.")
@@ -1397,20 +1550,11 @@ def marketing_campaign():
 
 def facility_upgrade():
     m = st.session_state.model
-    m.budget -= 1500
+    m.budget -= 15_000_000
     m.stats["sustainability"] = min(100, m.stats["sustainability"] + 10)
     m.stats["customer_satisfaction"] = min(100, m.stats["customer_satisfaction"] + 8)
     m.log_activity("Nâng cấp cơ sở vật chất.")
     st.toast("Nâng cấp thành công! Sustainability +10, Customer +8", icon="🏗️")
-
-
-def collect_revenue():
-    m = st.session_state.model
-    revenue = m.staff_count * 250
-    m.budget += revenue
-    m.stats["financial_health"] = min(100, m.stats["financial_health"] + 3)
-    m.log_activity(f"Thu doanh thu ${revenue}.")
-    st.toast(f"Đã thu ${revenue} doanh thu! Financial Health +3", icon="💰")
 
 
 # ============================================================
