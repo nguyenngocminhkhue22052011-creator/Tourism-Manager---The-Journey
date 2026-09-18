@@ -3,1200 +3,1400 @@
     "title": "Phương tiện gặp sự cố, tour bị trễ 5 tiếng",
     "description": "Đoàn khách 20 người đặt tour tham quan trong ngày. Xe khách gặp sự cố kỹ thuật giữa đường khiến toàn bộ lịch trình bị trễ 5 tiếng. Một số khách đã đăng bài phàn nàn lên mạng xã hội và yêu cầu hoàn tiền toàn bộ tour.",
     "topic": "Customer Service",
-    "difficulty": 2
+    "difficulty": 2,
+    "quick_answer": "Tìm phương tiện thay thế ngay, thông báo minh bạch cho khách, ưu tiên hạn chế thời gian chờ và rà soát phương án dự phòng với nhà xe đối tác."
   },
   {
     "title": "Nhân viên đồng loạt xin nghỉ vào mùa cao điểm",
     "description": "Một resort ven biển bước vào mùa cao điểm nhưng 30% nhân viên bộ phận buồng phòng và nhà hàng xin nghỉ việc cùng lúc vì áp lực công việc và mức lương làm thêm giờ chưa thỏa đáng, trong khi lượng đặt phòng đã kín 3 tuần tới.",
     "topic": "Human Resources",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Xác định nguyên nhân thiếu nhân sự, bố trí người thay thế hoặc tuyển bổ sung, hỗ trợ nhân viên hiện tại và xây dựng phương án nhân sự dự phòng."
   },
   {
     "title": "Doanh thu sụt giảm mùa thấp điểm",
     "description": "Một khách sạn 4 sao ghi nhận công suất phòng giảm còn 20% trong 2 tháng mùa thấp điểm, trong khi vẫn phải duy trì toàn bộ đội ngũ nhân viên và chi phí vận hành cố định, gây áp lực lớn lên dòng tiền của doanh nghiệp.",
     "topic": "Finance",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Xác định nguyên nhân, ưu tiên an toàn và quyền lợi khách hàng, so sánh các phương án rồi chọn giải pháp khả thi và chuẩn bị phương án dự phòng."
   },
   {
     "title": "Chiến dịch quảng cáo gây kỳ vọng sai lệch",
     "description": "Một chiến dịch marketing cho tour 'nghỉ dưỡng đảo hoang sơ' thu hút lượng đặt tour tăng gấp 3 lần, nhưng khi đến nơi, nhiều khách phản ánh thực tế không giống hình ảnh quảng cáo (đông đúc, cơ sở vật chất xuống cấp), dẫn đến làn sóng đánh giá 1 sao trên mạng.",
     "topic": "Marketing",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Tạm điều chỉnh chiến dịch, xác định lại khách hàng mục tiêu, sửa nội dung sai và theo dõi dữ liệu chuyển đổi trước khi tiếp tục tăng ngân sách."
   },
   {
     "title": "Điểm đến viral gây quá tải (overtourism)",
     "description": "Một điểm check-in mới nổi trở nên viral trên TikTok, khiến lượng khách tăng đột biến gấp 5 lần bình thường chỉ trong 2 tuần. Hệ quả là ùn tắc giao thông, rác thải tràn lan, người dân địa phương phàn nàn và một số du khách phải chờ hàng giờ để vào tham quan.",
     "topic": "Destination Management",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Xác định nguyên nhân, ưu tiên an toàn và quyền lợi khách hàng, so sánh các phương án rồi chọn giải pháp khả thi và chuẩn bị phương án dự phòng."
   },
   {
     "title": "Video phàn nàn về doanh nghiệp trở nên viral",
     "description": "Một video quay cảnh khách hàng tranh cãi gay gắt với nhân viên lễ tân khách sạn về phí phụ thu bất ngờ được đăng tải và lan truyền nhanh chóng, thu hút hàng trăm nghìn lượt xem và nhiều bình luận tiêu cực chỉ trích thương hiệu.",
     "topic": "Crisis Communication",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Xác định nguyên nhân, ưu tiên an toàn và quyền lợi khách hàng, so sánh các phương án rồi chọn giải pháp khả thi và chuẩn bị phương án dự phòng."
   },
   {
     "title": "Đối thủ cạnh tranh giảm giá sâu để giành thị phần",
     "description": "Một công ty lữ hành đối thủ vừa tung ra gói tour tương tự với mức giá thấp hơn 30%, kèm nhiều khuyến mãi hấp dẫn, khiến lượng đặt tour của bạn giảm rõ rệt trong tuần vừa qua.",
     "topic": "Competitors",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Bảo vệ điểm khác biệt của sản phẩm, kiểm tra quyền sở hữu nội dung nếu có, tập trung vào giá trị dịch vụ và tránh cạnh tranh chỉ bằng giảm giá."
   },
   {
     "title": "Nhà cung cấp vận chuyển liên tục trễ giờ",
     "description": "Đối tác xe du lịch mà công ty bạn hợp tác đã trễ giờ đón khách 4 lần trong tháng qua, ảnh hưởng trực tiếp đến lịch trình và uy tín công ty, dù hợp đồng hiện tại không có điều khoản phạt rõ ràng cho việc trễ giờ.",
     "topic": "Suppliers",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Làm việc ngay với nhà cung cấp, yêu cầu khắc phục theo hợp đồng, bảo vệ quyền lợi khách và chuẩn bị đối tác thay thế nếu chất lượng không được đảm bảo."
   },
   {
     "title": "Rác thải và ô nhiễm tại khu du lịch sinh thái",
     "description": "Một khu du lịch sinh thái do công ty bạn khai thác đang đối mặt với tình trạng rác thải du khách để lại ngày càng nhiều, ảnh hưởng đến hệ sinh thái tự nhiên và hình ảnh 'du lịch xanh' mà công ty đã xây dựng trong nhiều năm.",
     "topic": "Sustainability",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Xác định nguyên nhân, ưu tiên an toàn và quyền lợi khách hàng, so sánh các phương án rồi chọn giải pháp khả thi và chuẩn bị phương án dự phòng."
   },
   {
     "title": "Sự cố an toàn: tai nạn nhẹ trong tour trekking",
     "description": "Trong một tour trekking, một du khách bị trượt ngã và bị thương nhẹ ở chân do đường mòn trơn trượt sau mưa. Đoàn khách hoang mang, một số người đòi dừng tour ngay lập tức, trong khi hướng dẫn viên phải xử lý tình huống tại chỗ, cách trung tâm y tế gần nhất 2 giờ di chuyển.",
     "topic": "Safety",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Dừng hoạt động nguy hiểm, đưa khách và nhân viên đến nơi an toàn, kiểm tra nguyên nhân, liên hệ lực lượng chuyên môn và chỉ hoạt động lại khi đủ điều kiện an toàn."
   },
   {
     "title": "Khách sạn bị đánh giá thấp vì vệ sinh kém",
     "description": "Trong tuần qua, khách sạn liên tục nhận được đánh giá 2-3 sao trên các nền tảng đặt phòng trực tuyến, phần lớn phàn nàn về vệ sinh phòng ốc không đảm bảo, dù đội ngũ buồng phòng khẳng định đã làm đúng quy trình.",
     "topic": "Operations",
-    "difficulty": 2
+    "difficulty": 2,
+    "quick_answer": "Xác định nguyên nhân, ưu tiên an toàn và quyền lợi khách hàng, so sánh các phương án rồi chọn giải pháp khả thi và chuẩn bị phương án dự phòng."
   },
   {
     "title": "Hủy tour hàng loạt do cảnh báo thời tiết",
     "description": "Cơ quan khí tượng phát cảnh báo bão có thể đổ bộ vào khu vực biển trong 3 ngày tới, đúng thời điểm công ty đang có 8 đoàn khách đã đặt tour biển. Nhiều khách yêu cầu hoàn tiền ngay lập tức, một số khác muốn đổi lịch nhưng không đồng ý mất phí.",
     "topic": "Risk Management",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Xác định nguyên nhân, ưu tiên an toàn và quyền lợi khách hàng, so sánh các phương án rồi chọn giải pháp khả thi và chuẩn bị phương án dự phòng."
   },
   {
     "title": "Khủng hoảng nhân sự cấp quản lý đột ngột nghỉ việc",
     "description": "Quản lý vận hành cấp cao của một chuỗi khách sạn bất ngờ xin nghỉ việc gấp giữa mùa cao điểm, để lại khoảng trống lớn trong việc điều phối nhân sự, xử lý sự cố và ra quyết định hàng ngày.",
     "topic": "Human Resources",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Xác định nguyên nhân, ưu tiên an toàn và quyền lợi khách hàng, so sánh các phương án rồi chọn giải pháp khả thi và chuẩn bị phương án dự phòng."
   },
   {
     "title": "Khách hàng doanh nghiệp yêu cầu hợp đồng MICE lớn nhưng gấp rút",
     "description": "Một tập đoàn lớn liên hệ đặt gói hội nghị (MICE) cho 300 người chỉ trong 3 tuần nữa, yêu cầu địa điểm, lưu trú, ăn uống và các hoạt động team-building đồng bộ, trong khi năng lực hiện tại của công ty bạn chỉ vừa đủ phục vụ các đoàn nhỏ hơn.",
     "topic": "Operations",
-    "difficulty": 5
+    "difficulty": 5,
+    "quick_answer": "Kiểm tra yêu cầu pháp lý, tạm điều chỉnh hoạt động liên quan nếu cần, khắc phục sai phạm và rà soát hợp đồng/quy trình để bảo đảm tuân thủ."
   },
   {
     "title": "Tranh chấp bản quyền hình ảnh quảng bá điểm đến",
     "description": "Một nhiếp ảnh gia địa phương cáo buộc công ty bạn sử dụng hình ảnh của họ trong chiến dịch quảng bá mà không xin phép, đe dọa kiện và đã đăng tải sự việc công khai trên mạng xã hội, thu hút sự chú ý từ giới truyền thông du lịch.",
     "topic": "Crisis Communication",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Xác định nguyên nhân, ưu tiên an toàn và quyền lợi khách hàng, so sánh các phương án rồi chọn giải pháp khả thi và chuẩn bị phương án dự phòng."
   },
   {
     "title": "Sụt giảm khách quốc tế do biến động tỷ giá",
     "description": "Đồng nội tệ tăng giá mạnh so với các đồng ngoại tệ chính khiến chi phí du lịch trở nên đắt đỏ hơn với khách quốc tế, dẫn đến lượng đặt tour từ thị trường nước ngoài giảm 25% so với cùng kỳ năm trước.",
     "topic": "Finance",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Xác định nguyên nhân, ưu tiên an toàn và quyền lợi khách hàng, so sánh các phương án rồi chọn giải pháp khả thi và chuẩn bị phương án dự phòng."
   },
   {
     "title": "Sản phẩm du lịch mạo hiểm mới thiếu quy trình an toàn chuẩn",
     "description": "Công ty vừa ra mắt sản phẩm tour dù lượn (paragliding) mới để thu hút giới trẻ, nhưng sau 2 tuần vận hành, một nhân viên nội bộ cảnh báo quy trình kiểm tra an toàn thiết bị chưa được chuẩn hóa đầy đủ như các đối tác quốc tế.",
     "topic": "Risk Management",
-    "difficulty": 5
+    "difficulty": 5,
+    "quick_answer": "Dừng hoạt động nguy hiểm, đưa khách và nhân viên đến nơi an toàn, kiểm tra nguyên nhân, liên hệ lực lượng chuyên môn và chỉ hoạt động lại khi đủ điều kiện an toàn."
   },
   {
     "title": "Sụt giảm mạnh nhu cầu ngoài mùa vụ",
     "description": "Sau kỳ nghỉ lễ, lượng đặt tour đến Phong Nha giảm 25% trong 14 tuần liên tiếp, khiến công ty phải cân nhắc cắt giảm nhân sự thời vụ hoặc tìm sản phẩm tour bổ sung.",
     "topic": "Seasonal Demand",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Phân tích nguyên nhân sụt giảm, điều chỉnh sản phẩm và marketing theo mùa, kiểm soát nhân sự thời vụ và tìm thêm phân khúc khách phù hợp."
   },
   {
     "title": "Bài báo điều tra tiêu cực về điều kiện làm việc",
     "description": "Một bài báo điều tra cáo buộc công ty để hướng dẫn viên làm việc quá giờ mà không có phụ cấp hợp lý tại các tour Mũi Né, thu hút sự chú ý của dư luận và các tổ chức bảo vệ người lao động.",
     "topic": "Public Relations",
-    "difficulty": 5
+    "difficulty": 5,
+    "quick_answer": "Xác minh thông tin, đưa ra phản hồi chính thức và minh bạch, xử lý nguyên nhân nội bộ nếu có và theo dõi dư luận để bảo vệ uy tín doanh nghiệp."
   },
   {
     "title": "Yêu cầu cấp phép bổ sung cho hoạt động mạo hiểm",
     "description": "Cơ quan quản lý yêu cầu tất cả tour mạo hiểm tại Quy Nhơn phải có giấy phép an toàn bổ sung trong vòng 4 ngày, nếu không sẽ bị đình chỉ hoạt động ngay giữa mùa cao điểm.",
     "topic": "Government Regulation",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Xác định nguyên nhân, ưu tiên an toàn và quyền lợi khách hàng, so sánh các phương án rồi chọn giải pháp khả thi và chuẩn bị phương án dự phòng."
   },
   {
     "title": "Cảnh báo dịch bệnh tại điểm đến quốc tế",
     "description": "Cơ quan y tế phát cảnh báo về một đợt dịch bệnh bùng phát tại khu vực gần Cát Bà, khiến 10% khách đã đặt tour lo lắng và cân nhắc hủy chuyến trong vòng 14 ngày tới.",
     "topic": "Risk Management",
-    "difficulty": 5
+    "difficulty": 5,
+    "quick_answer": "Theo dõi thông tin từ cơ quan y tế, đánh giá rủi ro, chủ động thông báo khách và chuẩn bị phương án đổi lịch, đổi tuyến hoặc hoàn/hủy phù hợp."
   },
   {
     "title": "Khách VIP bị xếp nhầm phòng tại Hạ Long",
     "description": "Một đoàn khách 20 người hạng thương gia đặt phòng cao cấp tại Mũi Né nhưng khi nhận phòng lại bị xếp nhầm sang hạng phòng thấp hơn do lỗi hệ thống. Trưởng đoàn rất bức xúc và đe dọa hủy toàn bộ hợp đồng công ty trong tương lai nếu không được giải quyết ngay.",
     "topic": "Customer Service",
-    "difficulty": 1
+    "difficulty": 1,
+    "quick_answer": "Xin lỗi khách, bố trí ngay phòng hoặc khách sạn thay thế tương đương hoặc tốt hơn, hỗ trợ chi phí phát sinh và kiểm tra lỗi hệ thống để tránh tái diễn."
   },
   {
     "title": "Hợp đồng tour thiếu điều khoản bảo vệ quyền lợi công ty",
     "description": "Một nhóm khách kiện công ty ra cơ quan bảo vệ người tiêu dùng vì cho rằng tour tại Ninh Bình không đúng như quảng cáo, trong khi hợp đồng tour hiện tại không có điều khoản miễn trừ rõ ràng cho các trường hợp bất khả kháng.",
     "topic": "Legal & Compliance",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Kiểm tra yêu cầu pháp lý, tạm điều chỉnh hoạt động liên quan nếu cần, khắc phục sai phạm và rà soát hợp đồng/quy trình để bảo đảm tuân thủ."
   },
   {
     "title": "Vi phạm quy định giấy phép kinh doanh lữ hành",
     "description": "Một đợt thanh tra phát hiện chi nhánh tại Pù Luông đang hoạt động vượt phạm vi giấy phép lữ hành hiện có, có nguy cơ bị xử phạt hành chính và tạm đình chỉ hoạt động.",
     "topic": "Legal & Compliance",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Kiểm tra yêu cầu pháp lý, tạm điều chỉnh hoạt động liên quan nếu cần, khắc phục sai phạm và rà soát hợp đồng/quy trình để bảo đảm tuân thủ."
   },
   {
     "title": "Thương hiệu bị nhầm lẫn với đối thủ có tên gần giống",
     "description": "Một công ty lữ hành mới thành lập tại Mộc Châu có tên gọi và logo gần giống thương hiệu của bạn, khiến một số khách hàng phản ánh chất lượng kém trên một hội nhóm review du lịch nhưng thực chất không phải dịch vụ của công ty bạn.",
     "topic": "Marketing",
-    "difficulty": 1
+    "difficulty": 1,
+    "quick_answer": "Bảo vệ điểm khác biệt của sản phẩm, kiểm tra quyền sở hữu nội dung nếu có, tập trung vào giá trị dịch vụ và tránh cạnh tranh chỉ bằng giảm giá."
   },
   {
     "title": "Nhu cầu vượt quá năng lực phục vụ mùa lễ hội",
     "description": "Trong dịp lễ hội lớn tại Mũi Né, lượng đặt tour tăng 25% vượt dự kiến, khiến công ty không đủ hướng dẫn viên và phương tiện để đáp ứng, nhiều khách phải chờ xác nhận nhiều ngày.",
     "topic": "Seasonal Demand",
-    "difficulty": 2
+    "difficulty": 2,
+    "quick_answer": "Phân tích nguyên nhân sụt giảm, điều chỉnh sản phẩm và marketing theo mùa, kiểm soát nhân sự thời vụ và tìm thêm phân khúc khách phù hợp."
   },
   {
     "title": "Hệ thống đặt tour online bị lỗi trong đợt khuyến mãi lớn",
     "description": "Trong đợt flash sale, hệ thống đặt tour online bị quá tải và lỗi thanh toán, khiến hàng trăm khách bị trừ tiền nhưng không nhận được xác nhận booking cho các tour tại Phong Nha.",
     "topic": "Operations",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Ưu tiên khắc phục lỗi và bảo đảm các booking không bị mất, hỗ trợ khách bị ảnh hưởng, thông báo rõ ràng và kiểm tra nguyên nhân kỹ thuật."
   },
   {
     "title": "Ứng dụng đặt tour liên tục gặp lỗi kỹ thuật",
     "description": "Ứng dụng di động đặt tour của công ty gặp lỗi crash liên tục trong 7 ngày, khiến 10% lượt đặt tour qua app bị gián đoạn giữa chừng và nhiều khách chuyển sang đối thủ.",
     "topic": "Technology",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Ưu tiên khắc phục lỗi và bảo đảm các booking không bị mất, hỗ trợ khách bị ảnh hưởng, thông báo rõ ràng và kiểm tra nguyên nhân kỹ thuật."
   },
   {
     "title": "Chi phí nhiên liệu tăng vọt ảnh hưởng biên lợi nhuận",
     "description": "Giá nhiên liệu vận tải tăng 30% trong quý khiến chi phí vận hành các tour đến Nha Trang vượt ngân sách dự kiến, trong khi hợp đồng với khách đã ký giá cố định từ trước.",
     "topic": "Finance",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Đánh giá tác động tài chính, ưu tiên các khoản chi thiết yếu, thương lượng với đối tác và điều chỉnh kế hoạch giá hoặc chi phí để bảo vệ dòng tiền."
   },
   {
     "title": "Sản phẩm tour mới chưa được kiểm định kỹ trước khi bán",
     "description": "Một sản phẩm tour trải nghiệm mới tại Phong Nha được đưa ra thị trường gấp để kịp mùa cao điểm, nhưng sau 5 ngày vận hành phát sinh nhiều vấn đề về an toàn và chất lượng dịch vụ chưa được kiểm soát.",
     "topic": "Quality Assurance",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Tạm dừng hoặc giới hạn sản phẩm nếu có rủi ro, kiểm tra chất lượng và an toàn, khắc phục trước khi mở bán hoặc vận hành bình thường."
   },
   {
     "title": "Quy định mới về thuế du lịch ảnh hưởng giá tour",
     "description": "Chính quyền địa phương tại Phong Nha áp dụng mức phí tham quan mới tăng thêm 35%, có hiệu lực chỉ sau 4 ngày thông báo, khiến công ty phải gấp rút điều chỉnh giá các tour đã bán.",
     "topic": "Government Regulation",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Đánh giá tác động tài chính, ưu tiên các khoản chi thiết yếu, thương lượng với đối tác và điều chỉnh kế hoạch giá hoặc chi phí để bảo vệ dòng tiền."
   },
   {
     "title": "Influencer quảng bá sai thông tin về tour",
     "description": "Một KOL được thuê quảng bá tour Đà Nẵng đã vô tình đăng thông tin sai về lịch trình và giá cả, khiến hàng trăm khách nhắn tin hỏi và một số phản ánh cảm thấy bị 'lừa quảng cáo'.",
     "topic": "Marketing",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Tạm điều chỉnh chiến dịch, xác định lại khách hàng mục tiêu, sửa nội dung sai và theo dõi dữ liệu chuyển đổi trước khi tiếp tục tăng ngân sách."
   },
   {
     "title": "Thông tin sai lệch lan truyền trên mạng xã hội",
     "description": "Một bài đăng trên một diễn đàn du lịch lớn vu khống công ty bỏ rơi khách giữa tour tại Vũng Tàu lan truyền nhanh dù sự việc thực tế không nghiêm trọng như mô tả, khiến nhiều khách hàng tiềm năng hủy đặt tour.",
     "topic": "Crisis Communication",
-    "difficulty": 5
+    "difficulty": 5,
+    "quick_answer": "Xác minh thông tin, đưa ra phản hồi chính thức và minh bạch, xử lý nguyên nhân nội bộ nếu có và theo dõi dư luận để bảo vệ uy tín doanh nghiệp."
   },
   {
     "title": "Rò rỉ dữ liệu khách hàng từ hệ thống đặt tour",
     "description": "Một lỗ hổng bảo mật trong hệ thống đặt tour online khiến thông tin cá nhân của khoảng 350 khách hàng có nguy cơ bị lộ, bao gồm số điện thoại và lịch sử đặt tour.",
     "topic": "Technology",
-    "difficulty": 5
+    "difficulty": 5,
+    "quick_answer": "Ưu tiên khắc phục lỗi và bảo đảm các booking không bị mất, hỗ trợ khách bị ảnh hưởng, thông báo rõ ràng và kiểm tra nguyên nhân kỹ thuật."
   },
   {
     "title": "Áp lực giảm rác thải nhựa từ khách hàng và đối tác",
     "description": "Nhiều khách hàng và đối tác lữ hành quốc tế yêu cầu công ty cam kết giảm 30% rác thải nhựa dùng một lần trong các tour tại Đà Nẵng, nếu không sẽ cân nhắc ngừng hợp tác.",
     "topic": "Sustainability",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Xác định nguyên nhân, ưu tiên an toàn và quyền lợi khách hàng, so sánh các phương án rồi chọn giải pháp khả thi và chuẩn bị phương án dự phòng."
   },
   {
     "title": "Sự kiện ra mắt sản phẩm mới bị gián đoạn",
     "description": "Buổi họp báo ra mắt sản phẩm tour cao cấp mới tại Pù Luông gặp sự cố kỹ thuật âm thanh ngay giữa chương trình trước sự chứng kiến của báo chí và đối tác quan trọng.",
     "topic": "Public Relations",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Khắc phục sự cố kỹ thuật ngay, duy trì chương trình bằng phương án dự phòng, thông báo ngắn gọn cho khách mời và kiểm tra thiết bị trước các sự kiện tiếp theo."
   },
   {
     "title": "Đối tác chiến lược đơn phương chấm dứt hợp đồng",
     "description": "Một đối tác khách sạn chiến lược tại Côn Đảo bất ngờ thông báo chấm dứt hợp tác chỉ 14 ngày trước mùa cao điểm để chuyển sang hợp tác độc quyền với đối thủ.",
     "topic": "Partnerships",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Kiểm tra yêu cầu pháp lý, tạm điều chỉnh hoạt động liên quan nếu cần, khắc phục sai phạm và rà soát hợp đồng/quy trình để bảo đảm tuân thủ."
   },
   {
     "title": "Đối tác thanh toán chậm gây thiếu hụt ngân sách",
     "description": "Một đại lý bán tour lớn chậm thanh toán công nợ 300 triệu đồng quá 3 ngày, khiến công ty gặp khó khăn trong việc chi trả cho nhà cung cấp dịch vụ tại Cần Thơ.",
     "topic": "Finance",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Đánh giá tác động tài chính, ưu tiên các khoản chi thiết yếu, thương lượng với đối tác và điều chỉnh kế hoạch giá hoặc chi phí để bảo vệ dòng tiền."
   },
   {
     "title": "Sản phẩm tour mới chưa được kiểm định kỹ trước khi bán",
     "description": "Một sản phẩm tour trải nghiệm mới tại Côn Đảo được đưa ra thị trường gấp để kịp mùa cao điểm, nhưng sau 7 ngày vận hành phát sinh nhiều vấn đề về an toàn và chất lượng dịch vụ chưa được kiểm soát.",
     "topic": "Quality Assurance",
-    "difficulty": 2
+    "difficulty": 2,
+    "quick_answer": "Tạm dừng hoặc giới hạn sản phẩm nếu có rủi ro, kiểm tra chất lượng và an toàn, khắc phục trước khi mở bán hoặc vận hành bình thường."
   },
   {
     "title": "Ứng dụng đặt tour liên tục gặp lỗi kỹ thuật",
     "description": "Ứng dụng di động đặt tour của công ty gặp lỗi crash liên tục trong 3 ngày, khiến 40% lượt đặt tour qua app bị gián đoạn giữa chừng và nhiều khách chuyển sang đối thủ.",
     "topic": "Technology",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Ưu tiên khắc phục lỗi và bảo đảm các booking không bị mất, hỗ trợ khách bị ảnh hưởng, thông báo rõ ràng và kiểm tra nguyên nhân kỹ thuật."
   },
   {
     "title": "Nhân viên tuyến đầu kiệt sức vì thiếu người mùa cao điểm",
     "description": "Tại điểm đến Ninh Bình, lượng khách tăng 30% so với dự kiến trong khi nhân sự tuyến đầu không được bổ sung kịp, dẫn đến tình trạng nhân viên làm việc quá giờ liên tục và bắt đầu xuất hiện đơn xin nghỉ việc.",
     "topic": "Human Resources",
-    "difficulty": 2
+    "difficulty": 2,
+    "quick_answer": "Xác định nguyên nhân thiếu nhân sự, bố trí người thay thế hoặc tuyển bổ sung, hỗ trợ nhân viên hiện tại và xây dựng phương án nhân sự dự phòng."
   },
   {
     "title": "Thiếu phương tiện vận chuyển vào phút chót",
     "description": "Nhà xe đối tác báo hỏng xe đột xuất chỉ vài giờ trước giờ khởi hành tour đến Tam Đảo, khiến bộ phận điều hành phải gấp rút tìm phương tiện thay thế cho đoàn 12 khách.",
     "topic": "Logistics",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Tìm phương tiện thay thế ngay, thông báo minh bạch cho khách, ưu tiên hạn chế thời gian chờ và rà soát phương án dự phòng với nhà xe đối tác."
   },
   {
     "title": "Cơ sở hạ tầng điểm đến xuống cấp nhanh",
     "description": "Lượng khách đến Pù Luông tăng 35% trong 2 năm qua nhưng hạ tầng đường sá, bãi đỗ xe và nhà vệ sinh công cộng không được nâng cấp tương xứng, ảnh hưởng đến trải nghiệm khách và hình ảnh điểm đến.",
     "topic": "Destination Management",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Đánh giá các điểm nghẽn của điểm đến, phối hợp với đơn vị quản lý và đối tác, đồng thời điều chỉnh lịch trình để giảm ảnh hưởng đến trải nghiệm khách."
   },
   {
     "title": "Mâu thuẫn phân chia lợi nhuận với đối tác liên doanh",
     "description": "Đối tác liên doanh khai thác tour tại Tam Đảo cho rằng tỷ lệ phân chia lợi nhuận hiện tại không còn công bằng sau khi lượng khách tăng 15%, yêu cầu đàm phán lại hợp đồng.",
     "topic": "Partnerships",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Kiểm tra dữ liệu đóng góp và chi phí, trao đổi minh bạch với đối tác và đàm phán lại tỷ lệ lợi ích dựa trên thỏa thuận và hiệu quả thực tế."
   },
   {
     "title": "Cơ sở hạ tầng điểm đến xuống cấp nhanh",
     "description": "Lượng khách đến Tam Đảo tăng 20% trong 2 năm qua nhưng hạ tầng đường sá, bãi đỗ xe và nhà vệ sinh công cộng không được nâng cấp tương xứng, ảnh hưởng đến trải nghiệm khách và hình ảnh điểm đến.",
     "topic": "Destination Management",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Đánh giá các điểm nghẽn của điểm đến, phối hợp với đơn vị quản lý và đối tác, đồng thời điều chỉnh lịch trình để giảm ảnh hưởng đến trải nghiệm khách."
   },
   {
     "title": "Sụt giảm mạnh nhu cầu ngoài mùa vụ",
     "description": "Sau kỳ nghỉ lễ, lượng đặt tour đến Huế giảm 25% trong 14 tuần liên tiếp, khiến công ty phải cân nhắc cắt giảm nhân sự thời vụ hoặc tìm sản phẩm tour bổ sung.",
     "topic": "Seasonal Demand",
-    "difficulty": 1
+    "difficulty": 1,
+    "quick_answer": "Phân tích nguyên nhân sụt giảm, điều chỉnh sản phẩm và marketing theo mùa, kiểm soát nhân sự thời vụ và tìm thêm phân khúc khách phù hợp."
   },
   {
     "title": "Đối thủ sao chép sản phẩm tour độc quyền",
     "description": "Một đối thủ cạnh tranh vừa ra mắt sản phẩm tour trải nghiệm gần như sao chép hoàn toàn lộ trình độc quyền của công ty bạn tại Phú Quốc, với mức giá thấp hơn 40%.",
     "topic": "Competitors",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Bảo vệ điểm khác biệt của sản phẩm, kiểm tra quyền sở hữu nội dung nếu có, tập trung vào giá trị dịch vụ và tránh cạnh tranh chỉ bằng giảm giá."
   },
   {
     "title": "Thông tin sai lệch lan truyền trên mạng xã hội",
     "description": "Một bài đăng trên TikTok vu khống công ty bỏ rơi khách giữa tour tại Hội An lan truyền nhanh dù sự việc thực tế không nghiêm trọng như mô tả, khiến nhiều khách hàng tiềm năng hủy đặt tour.",
     "topic": "Crisis Communication",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Xác minh thông tin, đưa ra phản hồi chính thức và minh bạch, xử lý nguyên nhân nội bộ nếu có và theo dõi dư luận để bảo vệ uy tín doanh nghiệp."
   },
   {
     "title": "Cảnh báo dịch bệnh tại điểm đến quốc tế",
     "description": "Cơ quan y tế phát cảnh báo về một đợt dịch bệnh bùng phát tại khu vực gần Huế, khiến 40% khách đã đặt tour lo lắng và cân nhắc hủy chuyến trong vòng 14 ngày tới.",
     "topic": "Risk Management",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Theo dõi thông tin từ cơ quan y tế, đánh giá rủi ro, chủ động thông báo khách và chuẩn bị phương án đổi lịch, đổi tuyến hoặc hoàn/hủy phù hợp."
   },
   {
     "title": "Người dân địa phương phản đối dự án khu nghỉ dưỡng mới",
     "description": "Kế hoạch xây dựng khu nghỉ dưỡng mới của công ty tại Đà Lạt vấp phải sự phản đối từ cộng đồng dân cư vì lo ngại ảnh hưởng đến nguồn nước sinh hoạt và đất canh tác truyền thống.",
     "topic": "Local Community",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Trao đổi trực tiếp với cộng đồng, xác định nguyên nhân xung đột, tìm phương án chia sẻ lợi ích và điều chỉnh hoạt động để giảm ảnh hưởng đến người dân."
   },
   {
     "title": "Quy định mới về thuế du lịch ảnh hưởng giá tour",
     "description": "Chính quyền địa phương tại Phong Nha áp dụng mức phí tham quan mới tăng thêm 30%, có hiệu lực chỉ sau 14 ngày thông báo, khiến công ty phải gấp rút điều chỉnh giá các tour đã bán.",
     "topic": "Government Regulation",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Đánh giá tác động tài chính, ưu tiên các khoản chi thiết yếu, thương lượng với đối tác và điều chỉnh kế hoạch giá hoặc chi phí để bảo vệ dòng tiền."
   },
   {
     "title": "Rò rỉ dữ liệu khách hàng từ hệ thống đặt tour",
     "description": "Một lỗ hổng bảo mật trong hệ thống đặt tour online khiến thông tin cá nhân của khoảng 500 khách hàng có nguy cơ bị lộ, bao gồm số điện thoại và lịch sử đặt tour.",
     "topic": "Technology",
-    "difficulty": 5
+    "difficulty": 5,
+    "quick_answer": "Ưu tiên khắc phục lỗi và bảo đảm các booking không bị mất, hỗ trợ khách bị ảnh hưởng, thông báo rõ ràng và kiểm tra nguyên nhân kỹ thuật."
   },
   {
     "title": "Tiêu chuẩn dịch vụ không đồng đều giữa các chi nhánh",
     "description": "Khảo sát nội bộ cho thấy chất lượng phục vụ khách hàng giữa các chi nhánh khác nhau chênh lệch tới 20%, khiến trải nghiệm khách hàng không nhất quán khi đặt tour ở các khu vực khác nhau.",
     "topic": "Quality Assurance",
-    "difficulty": 2
+    "difficulty": 2,
+    "quick_answer": "Xác định nguyên nhân, ưu tiên an toàn và quyền lợi khách hàng, so sánh các phương án rồi chọn giải pháp khả thi và chuẩn bị phương án dự phòng."
   },
   {
     "title": "Nhân viên tuyến đầu kiệt sức vì thiếu người mùa cao điểm",
     "description": "Tại điểm đến Phong Nha, lượng khách tăng 15% so với dự kiến trong khi nhân sự tuyến đầu không được bổ sung kịp, dẫn đến tình trạng nhân viên làm việc quá giờ liên tục và bắt đầu xuất hiện đơn xin nghỉ việc.",
     "topic": "Human Resources",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Xác định nguyên nhân thiếu nhân sự, bố trí người thay thế hoặc tuyển bổ sung, hỗ trợ nhân viên hiện tại và xây dựng phương án nhân sự dự phòng."
   },
   {
     "title": "Xung đột giữa doanh nghiệp du lịch và cộng đồng địa phương",
     "description": "Người dân tại Cát Bà phản đối việc các công ty lữ hành đưa quá nhiều đoàn khách vào khu vực sinh sống, cho rằng gây ồn ào và ảnh hưởng đến sinh hoạt hàng ngày, kêu gọi hạn chế số lượng đoàn khách mỗi ngày.",
     "topic": "Destination Management",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Trao đổi trực tiếp với cộng đồng, xác định nguyên nhân xung đột, tìm phương án chia sẻ lợi ích và điều chỉnh hoạt động để giảm ảnh hưởng đến người dân."
   },
   {
     "title": "Khách có bệnh nền gặp sự cố sức khỏe giữa tour",
     "description": "Một khách lớn tuổi có bệnh nền tim mạch cảm thấy khó thở giữa tour leo núi tại Nha Trang, trong khi đoàn không có nhân viên y tế đi kèm và cách trạm y tế gần nhất hơn 10 giờ di chuyển.",
     "topic": "Health",
-    "difficulty": 5
+    "difficulty": 5,
+    "quick_answer": "Ưu tiên cấp cứu và đưa khách đến cơ sở y tế gần nhất, liên hệ người thân nếu cần, ghi nhận sự việc và rà soát phương án y tế cho các tour sau."
   },
   {
     "title": "Sản phẩm tour mới chưa được kiểm định kỹ trước khi bán",
     "description": "Một sản phẩm tour trải nghiệm mới tại Pù Luông được đưa ra thị trường gấp để kịp mùa cao điểm, nhưng sau 7 ngày vận hành phát sinh nhiều vấn đề về an toàn và chất lượng dịch vụ chưa được kiểm soát.",
     "topic": "Quality Assurance",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Tạm dừng hoặc giới hạn sản phẩm nếu có rủi ro, kiểm tra chất lượng và an toàn, khắc phục trước khi mở bán hoặc vận hành bình thường."
   },
   {
     "title": "Khách bị lạc trong tour rừng núi",
     "description": "Trong một tour trekking tại Hạ Long, 2 khách tách đoàn để chụp ảnh và bị lạc gần 10 giờ trước khi được tìm thấy, khiến cả đoàn hoảng loạn và nghi ngờ năng lực giám sát của hướng dẫn viên.",
     "topic": "Safety",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Ưu tiên tìm kiếm và đảm bảo an toàn cho khách, liên lạc với lực lượng hỗ trợ địa phương, giữ liên lạc với đoàn và rà soát quy trình quản lý khách."
   },
   {
     "title": "Thiếu phương tiện vận chuyển vào phút chót",
     "description": "Nhà xe đối tác báo hỏng xe đột xuất chỉ vài giờ trước giờ khởi hành tour đến Đà Nẵng, khiến bộ phận điều hành phải gấp rút tìm phương tiện thay thế cho đoàn 40 khách.",
     "topic": "Logistics",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Tìm phương tiện thay thế ngay, thông báo minh bạch cho khách, ưu tiên hạn chế thời gian chờ và rà soát phương án dự phòng với nhà xe đối tác."
   },
   {
     "title": "Influencer quảng bá sai thông tin về tour",
     "description": "Một KOL được thuê quảng bá tour Cát Bà đã vô tình đăng thông tin sai về lịch trình và giá cả, khiến hàng trăm khách nhắn tin hỏi và một số phản ánh cảm thấy bị 'lừa quảng cáo'.",
     "topic": "Marketing",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Tạm điều chỉnh chiến dịch, xác định lại khách hàng mục tiêu, sửa nội dung sai và theo dõi dữ liệu chuyển đổi trước khi tiếp tục tăng ngân sách."
   },
   {
     "title": "Đối thủ mới gia nhập thị trường với vốn đầu tư lớn",
     "description": "Một tập đoàn lớn vừa công bố đầu tư mạnh vào thị trường tour Phong Nha, đe dọa thị phần hiện tại của công ty bạn nhờ tiềm lực tài chính và mạng lưới đối tác rộng.",
     "topic": "Competitors",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Bảo vệ điểm khác biệt của sản phẩm, kiểm tra quyền sở hữu nội dung nếu có, tập trung vào giá trị dịch vụ và tránh cạnh tranh chỉ bằng giảm giá."
   },
   {
     "title": "Bài báo điều tra tiêu cực về điều kiện làm việc",
     "description": "Một bài báo điều tra cáo buộc công ty để hướng dẫn viên làm việc quá giờ mà không có phụ cấp hợp lý tại các tour Quy Nhơn, thu hút sự chú ý của dư luận và các tổ chức bảo vệ người lao động.",
     "topic": "Public Relations",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Xác minh thông tin, đưa ra phản hồi chính thức và minh bạch, xử lý nguyên nhân nội bộ nếu có và theo dõi dư luận để bảo vệ uy tín doanh nghiệp."
   },
   {
     "title": "Vi phạm quy định giấy phép kinh doanh lữ hành",
     "description": "Một đợt thanh tra phát hiện chi nhánh tại Tam Đảo đang hoạt động vượt phạm vi giấy phép lữ hành hiện có, có nguy cơ bị xử phạt hành chính và tạm đình chỉ hoạt động.",
     "topic": "Legal & Compliance",
-    "difficulty": 5
+    "difficulty": 5,
+    "quick_answer": "Kiểm tra yêu cầu pháp lý, tạm điều chỉnh hoạt động liên quan nếu cần, khắc phục sai phạm và rà soát hợp đồng/quy trình để bảo đảm tuân thủ."
   },
   {
     "title": "Tranh chấp quyền lợi giữa doanh nghiệp và hộ dân làm du lịch nhỏ lẻ",
     "description": "Các hộ dân kinh doanh homestay nhỏ lẻ tại Đà Lạt cho rằng công ty đang cạnh tranh không lành mạnh bằng cách giảm giá sâu, khiến họ mất khách trong mùa cao điểm.",
     "topic": "Local Community",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Trao đổi trực tiếp với cộng đồng, xác định nguyên nhân xung đột, tìm phương án chia sẻ lợi ích và điều chỉnh hoạt động để giảm ảnh hưởng đến người dân."
   },
   {
     "title": "Thiếu phương tiện vận chuyển vào phút chót",
     "description": "Nhà xe đối tác báo hỏng xe đột xuất chỉ vài giờ trước giờ khởi hành tour đến Ninh Bình, khiến bộ phận điều hành phải gấp rút tìm phương tiện thay thế cho đoàn 25 khách.",
     "topic": "Logistics",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Tìm phương tiện thay thế ngay, thông báo minh bạch cho khách, ưu tiên hạn chế thời gian chờ và rà soát phương án dự phòng với nhà xe đối tác."
   },
   {
     "title": "Thông tin sai lệch lan truyền trên mạng xã hội",
     "description": "Một bài đăng trên một hội nhóm review du lịch vu khống công ty bỏ rơi khách giữa tour tại Ninh Bình lan truyền nhanh dù sự việc thực tế không nghiêm trọng như mô tả, khiến nhiều khách hàng tiềm năng hủy đặt tour.",
     "topic": "Crisis Communication",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Xác minh thông tin, đưa ra phản hồi chính thức và minh bạch, xử lý nguyên nhân nội bộ nếu có và theo dõi dư luận để bảo vệ uy tín doanh nghiệp."
   },
   {
     "title": "Đối tác chiến lược đơn phương chấm dứt hợp đồng",
     "description": "Một đối tác khách sạn chiến lược tại Côn Đảo bất ngờ thông báo chấm dứt hợp tác chỉ 2 ngày trước mùa cao điểm để chuyển sang hợp tác độc quyền với đối thủ.",
     "topic": "Partnerships",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Kiểm tra yêu cầu pháp lý, tạm điều chỉnh hoạt động liên quan nếu cần, khắc phục sai phạm và rà soát hợp đồng/quy trình để bảo đảm tuân thủ."
   },
   {
     "title": "Đối tác chiến lược đơn phương chấm dứt hợp đồng",
     "description": "Một đối tác khách sạn chiến lược tại Vũng Tàu bất ngờ thông báo chấm dứt hợp tác chỉ 7 ngày trước mùa cao điểm để chuyển sang hợp tác độc quyền với đối thủ.",
     "topic": "Partnerships",
-    "difficulty": 5
+    "difficulty": 5,
+    "quick_answer": "Kiểm tra yêu cầu pháp lý, tạm điều chỉnh hoạt động liên quan nếu cần, khắc phục sai phạm và rà soát hợp đồng/quy trình để bảo đảm tuân thủ."
   },
   {
     "title": "Thiết bị lặn biển không đạt chuẩn an toàn",
     "description": "Một đợt kiểm tra nội bộ phát hiện 35% thiết bị lặn biển sử dụng cho tour tại Nha Trang đã quá hạn bảo trì, trong khi lịch tour cao điểm vẫn đang được bán ra bình thường.",
     "topic": "Safety",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Dừng hoạt động nguy hiểm, đưa khách và nhân viên đến nơi an toàn, kiểm tra nguyên nhân, liên hệ lực lượng chuyên môn và chỉ hoạt động lại khi đủ điều kiện an toàn."
   },
   {
     "title": "Khách VIP bị xếp nhầm phòng tại Ninh Bình",
     "description": "Một đoàn khách 18 người hạng thương gia đặt phòng cao cấp tại Sa Pa nhưng khi nhận phòng lại bị xếp nhầm sang hạng phòng thấp hơn do lỗi hệ thống. Trưởng đoàn rất bức xúc và đe dọa hủy toàn bộ hợp đồng công ty trong tương lai nếu không được giải quyết ngay.",
     "topic": "Customer Service",
-    "difficulty": 1
+    "difficulty": 1,
+    "quick_answer": "Xin lỗi khách, bố trí ngay phòng hoặc khách sạn thay thế tương đương hoặc tốt hơn, hỗ trợ chi phí phát sinh và kiểm tra lỗi hệ thống để tránh tái diễn."
   },
   {
     "title": "Khách VIP bị xếp nhầm phòng tại Huế",
     "description": "Một đoàn khách 15 người hạng thương gia đặt phòng cao cấp tại Hội An nhưng khi nhận phòng lại bị xếp nhầm sang hạng phòng thấp hơn do lỗi hệ thống. Trưởng đoàn rất bức xúc và đe dọa hủy toàn bộ hợp đồng công ty trong tương lai nếu không được giải quyết ngay.",
     "topic": "Customer Service",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Xin lỗi khách, bố trí ngay phòng hoặc khách sạn thay thế tương đương hoặc tốt hơn, hỗ trợ chi phí phát sinh và kiểm tra lỗi hệ thống để tránh tái diễn."
   },
   {
     "title": "Yêu cầu cấp phép bổ sung cho hoạt động mạo hiểm",
     "description": "Cơ quan quản lý yêu cầu tất cả tour mạo hiểm tại Ninh Bình phải có giấy phép an toàn bổ sung trong vòng 10 ngày, nếu không sẽ bị đình chỉ hoạt động ngay giữa mùa cao điểm.",
     "topic": "Government Regulation",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Xác định nguyên nhân, ưu tiên an toàn và quyền lợi khách hàng, so sánh các phương án rồi chọn giải pháp khả thi và chuẩn bị phương án dự phòng."
   },
   {
     "title": "Khách có bệnh nền gặp sự cố sức khỏe giữa tour",
     "description": "Một khách lớn tuổi có bệnh nền tim mạch cảm thấy khó thở giữa tour leo núi tại Mũi Né, trong khi đoàn không có nhân viên y tế đi kèm và cách trạm y tế gần nhất hơn 5 giờ di chuyển.",
     "topic": "Health",
-    "difficulty": 5
+    "difficulty": 5,
+    "quick_answer": "Ưu tiên cấp cứu và đưa khách đến cơ sở y tế gần nhất, liên hệ người thân nếu cần, ghi nhận sự việc và rà soát phương án y tế cho các tour sau."
   },
   {
     "title": "Hành lý khách bị thất lạc trong quá trình vận chuyển",
     "description": "Trong một tour 10 ngày đến Quy Nhơn, hành lý của 6 khách bị thất lạc do lỗi trung chuyển giữa các phương tiện, gây bức xúc vì khách thiếu vật dụng cá nhân giữa chuyến đi.",
     "topic": "Logistics",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Ưu tiên tìm kiếm và đảm bảo an toàn cho khách, liên lạc với lực lượng hỗ trợ địa phương, giữ liên lạc với đoàn và rà soát quy trình quản lý khách."
   },
   {
     "title": "Thương hiệu bị nhầm lẫn với đối thủ có tên gần giống",
     "description": "Một công ty lữ hành mới thành lập tại Sa Pa có tên gọi và logo gần giống thương hiệu của bạn, khiến một số khách hàng phản ánh chất lượng kém trên một hội nhóm review du lịch nhưng thực chất không phải dịch vụ của công ty bạn.",
     "topic": "Marketing",
-    "difficulty": 2
+    "difficulty": 2,
+    "quick_answer": "Bảo vệ điểm khác biệt của sản phẩm, kiểm tra quyền sở hữu nội dung nếu có, tập trung vào giá trị dịch vụ và tránh cạnh tranh chỉ bằng giảm giá."
   },
   {
     "title": "Mâu thuẫn phân chia lợi nhuận với đối tác liên doanh",
     "description": "Đối tác liên doanh khai thác tour tại Hà Giang cho rằng tỷ lệ phân chia lợi nhuận hiện tại không còn công bằng sau khi lượng khách tăng 40%, yêu cầu đàm phán lại hợp đồng.",
     "topic": "Partnerships",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Kiểm tra dữ liệu đóng góp và chi phí, trao đổi minh bạch với đối tác và đàm phán lại tỷ lệ lợi ích dựa trên thỏa thuận và hiệu quả thực tế."
   },
   {
     "title": "Lạm phát khiến chi phí tour trong nước tăng nhanh",
     "description": "Lạm phát khiến giá dịch vụ lưu trú và ăn uống tại Côn Đảo tăng 35% chỉ trong vài tháng, trong khi nhiều tour trọn gói đã bán ra với giá cố định từ đầu năm.",
     "topic": "Currency & Economics",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Đánh giá tác động tài chính, ưu tiên các khoản chi thiết yếu, thương lượng với đối tác và điều chỉnh kế hoạch giá hoặc chi phí để bảo vệ dòng tiền."
   },
   {
     "title": "Người dân địa phương phản đối dự án khu nghỉ dưỡng mới",
     "description": "Kế hoạch xây dựng khu nghỉ dưỡng mới của công ty tại Hạ Long vấp phải sự phản đối từ cộng đồng dân cư vì lo ngại ảnh hưởng đến nguồn nước sinh hoạt và đất canh tác truyền thống.",
     "topic": "Local Community",
-    "difficulty": 5
+    "difficulty": 5,
+    "quick_answer": "Trao đổi trực tiếp với cộng đồng, xác định nguyên nhân xung đột, tìm phương án chia sẻ lợi ích và điều chỉnh hoạt động để giảm ảnh hưởng đến người dân."
   },
   {
     "title": "Chi phí nhiên liệu tăng vọt ảnh hưởng biên lợi nhuận",
     "description": "Giá nhiên liệu vận tải tăng 45% trong quý khiến chi phí vận hành các tour đến Cát Bà vượt ngân sách dự kiến, trong khi hợp đồng với khách đã ký giá cố định từ trước.",
     "topic": "Finance",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Đánh giá tác động tài chính, ưu tiên các khoản chi thiết yếu, thương lượng với đối tác và điều chỉnh kế hoạch giá hoặc chi phí để bảo vệ dòng tiền."
   },
   {
     "title": "Cảnh báo dịch bệnh tại điểm đến quốc tế",
     "description": "Cơ quan y tế phát cảnh báo về một đợt dịch bệnh bùng phát tại khu vực gần Hạ Long, khiến 45% khách đã đặt tour lo lắng và cân nhắc hủy chuyến trong vòng 4 ngày tới.",
     "topic": "Risk Management",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Theo dõi thông tin từ cơ quan y tế, đánh giá rủi ro, chủ động thông báo khách và chuẩn bị phương án đổi lịch, đổi tuyến hoặc hoàn/hủy phù hợp."
   },
   {
     "title": "Tiêu chuẩn dịch vụ không đồng đều giữa các chi nhánh",
     "description": "Khảo sát nội bộ cho thấy chất lượng phục vụ khách hàng giữa các chi nhánh khác nhau chênh lệch tới 25%, khiến trải nghiệm khách hàng không nhất quán khi đặt tour ở các khu vực khác nhau.",
     "topic": "Quality Assurance",
-    "difficulty": 1
+    "difficulty": 1,
+    "quick_answer": "Xác định nguyên nhân, ưu tiên an toàn và quyền lợi khách hàng, so sánh các phương án rồi chọn giải pháp khả thi và chuẩn bị phương án dự phòng."
   },
   {
     "title": "Suy thoái kinh tế làm giảm chi tiêu du lịch",
     "description": "Trong bối cảnh kinh tế khó khăn, khảo sát cho thấy 15% khách hàng tiềm năng có ý định cắt giảm ngân sách cho các chuyến du lịch đến Cần Thơ trong năm tới.",
     "topic": "Currency & Economics",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Đánh giá tác động tài chính, ưu tiên các khoản chi thiết yếu, thương lượng với đối tác và điều chỉnh kế hoạch giá hoặc chi phí để bảo vệ dòng tiền."
   },
   {
     "title": "Hệ thống đặt tour online bị lỗi trong đợt khuyến mãi lớn",
     "description": "Trong đợt flash sale, hệ thống đặt tour online bị quá tải và lỗi thanh toán, khiến hàng trăm khách bị trừ tiền nhưng không nhận được xác nhận booking cho các tour tại Đà Nẵng.",
     "topic": "Operations",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Ưu tiên khắc phục lỗi và bảo đảm các booking không bị mất, hỗ trợ khách bị ảnh hưởng, thông báo rõ ràng và kiểm tra nguyên nhân kỹ thuật."
   },
   {
     "title": "Phát ngôn của nhân viên gây tranh cãi trên mạng",
     "description": "Một nhân viên chăm sóc khách hàng trả lời thiếu khéo léo trong bình luận công khai trên Google Reviews, bị cộng đồng mạng chụp màn hình và chia sẻ rộng rãi kèm chỉ trích thái độ phục vụ của công ty.",
     "topic": "Crisis Communication",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Xác minh thông tin, đưa ra phản hồi chính thức và minh bạch, xử lý nguyên nhân nội bộ nếu có và theo dõi dư luận để bảo vệ uy tín doanh nghiệp."
   },
   {
     "title": "Khách có bệnh nền gặp sự cố sức khỏe giữa tour",
     "description": "Một khách lớn tuổi có bệnh nền tim mạch cảm thấy khó thở giữa tour leo núi tại Phong Nha, trong khi đoàn không có nhân viên y tế đi kèm và cách trạm y tế gần nhất hơn 2 giờ di chuyển.",
     "topic": "Health",
-    "difficulty": 5
+    "difficulty": 5,
+    "quick_answer": "Ưu tiên cấp cứu và đưa khách đến cơ sở y tế gần nhất, liên hệ người thân nếu cần, ghi nhận sự việc và rà soát phương án y tế cho các tour sau."
   },
   {
     "title": "Thương hiệu bị nhầm lẫn với đối thủ có tên gần giống",
     "description": "Một công ty lữ hành mới thành lập tại Tam Đảo có tên gọi và logo gần giống thương hiệu của bạn, khiến một số khách hàng phản ánh chất lượng kém trên Facebook nhưng thực chất không phải dịch vụ của công ty bạn.",
     "topic": "Marketing",
-    "difficulty": 1
+    "difficulty": 1,
+    "quick_answer": "Bảo vệ điểm khác biệt của sản phẩm, kiểm tra quyền sở hữu nội dung nếu có, tập trung vào giá trị dịch vụ và tránh cạnh tranh chỉ bằng giảm giá."
   },
   {
     "title": "Khách có bệnh nền gặp sự cố sức khỏe giữa tour",
     "description": "Một khách lớn tuổi có bệnh nền tim mạch cảm thấy khó thở giữa tour leo núi tại Quy Nhơn, trong khi đoàn không có nhân viên y tế đi kèm và cách trạm y tế gần nhất hơn 2 giờ di chuyển.",
     "topic": "Health",
-    "difficulty": 5
+    "difficulty": 5,
+    "quick_answer": "Ưu tiên cấp cứu và đưa khách đến cơ sở y tế gần nhất, liên hệ người thân nếu cần, ghi nhận sự việc và rà soát phương án y tế cho các tour sau."
   },
   {
     "title": "Biến động chính trị ảnh hưởng tuyến tour quốc tế",
     "description": "Tình hình chính trị bất ổn tại một điểm đến liên kết với tour quốc tế khiến hãng bảo hiểm du lịch tạm ngừng chi trả cho tuyến này, buộc công ty phải tìm phương án thay thế gấp.",
     "topic": "Risk Management",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Xác định nguyên nhân, ưu tiên an toàn và quyền lợi khách hàng, so sánh các phương án rồi chọn giải pháp khả thi và chuẩn bị phương án dự phòng."
   },
   {
     "title": "Nhu cầu vượt quá năng lực phục vụ mùa lễ hội",
     "description": "Trong dịp lễ hội lớn tại Tam Đảo, lượng đặt tour tăng 25% vượt dự kiến, khiến công ty không đủ hướng dẫn viên và phương tiện để đáp ứng, nhiều khách phải chờ xác nhận nhiều ngày.",
     "topic": "Seasonal Demand",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Phân tích nguyên nhân sụt giảm, điều chỉnh sản phẩm và marketing theo mùa, kiểm soát nhân sự thời vụ và tìm thêm phân khúc khách phù hợp."
   },
   {
     "title": "Quy định mới về thuế du lịch ảnh hưởng giá tour",
     "description": "Chính quyền địa phương tại Phú Quốc áp dụng mức phí tham quan mới tăng thêm 30%, có hiệu lực chỉ sau 5 ngày thông báo, khiến công ty phải gấp rút điều chỉnh giá các tour đã bán.",
     "topic": "Government Regulation",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Đánh giá tác động tài chính, ưu tiên các khoản chi thiết yếu, thương lượng với đối tác và điều chỉnh kế hoạch giá hoặc chi phí để bảo vệ dòng tiền."
   },
   {
     "title": "Sản phẩm tour mới chưa được kiểm định kỹ trước khi bán",
     "description": "Một sản phẩm tour trải nghiệm mới tại Sa Pa được đưa ra thị trường gấp để kịp mùa cao điểm, nhưng sau 14 ngày vận hành phát sinh nhiều vấn đề về an toàn và chất lượng dịch vụ chưa được kiểm soát.",
     "topic": "Quality Assurance",
-    "difficulty": 2
+    "difficulty": 2,
+    "quick_answer": "Tạm dừng hoặc giới hạn sản phẩm nếu có rủi ro, kiểm tra chất lượng và an toàn, khắc phục trước khi mở bán hoặc vận hành bình thường."
   },
   {
     "title": "Áp lực giảm rác thải nhựa từ khách hàng và đối tác",
     "description": "Nhiều khách hàng và đối tác lữ hành quốc tế yêu cầu công ty cam kết giảm 35% rác thải nhựa dùng một lần trong các tour tại Mộc Châu, nếu không sẽ cân nhắc ngừng hợp tác.",
     "topic": "Sustainability",
-    "difficulty": 2
+    "difficulty": 2,
+    "quick_answer": "Xác định nguyên nhân, ưu tiên an toàn và quyền lợi khách hàng, so sánh các phương án rồi chọn giải pháp khả thi và chuẩn bị phương án dự phòng."
   },
   {
     "title": "Cảnh báo dịch bệnh tại điểm đến quốc tế",
     "description": "Cơ quan y tế phát cảnh báo về một đợt dịch bệnh bùng phát tại khu vực gần Ninh Bình, khiến 10% khách đã đặt tour lo lắng và cân nhắc hủy chuyến trong vòng 10 ngày tới.",
     "topic": "Risk Management",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Theo dõi thông tin từ cơ quan y tế, đánh giá rủi ro, chủ động thông báo khách và chuẩn bị phương án đổi lịch, đổi tuyến hoặc hoàn/hủy phù hợp."
   },
   {
     "title": "Xung đột nội bộ giữa các bộ phận vận hành",
     "description": "Bộ phận sales và bộ phận điều hành tour tại chi nhánh Vũng Tàu liên tục đổ lỗi cho nhau khi xảy ra sự cố lịch trình, gây ảnh hưởng đến tinh thần làm việc chung và tốc độ xử lý khiếu nại khách hàng.",
     "topic": "Human Resources",
-    "difficulty": 2
+    "difficulty": 2,
+    "quick_answer": "Xác định nguyên nhân, ưu tiên an toàn và quyền lợi khách hàng, so sánh các phương án rồi chọn giải pháp khả thi và chuẩn bị phương án dự phòng."
   },
   {
     "title": "Cảnh báo dịch bệnh tại điểm đến quốc tế",
     "description": "Cơ quan y tế phát cảnh báo về một đợt dịch bệnh bùng phát tại khu vực gần Sa Pa, khiến 30% khách đã đặt tour lo lắng và cân nhắc hủy chuyến trong vòng 3 ngày tới.",
     "topic": "Risk Management",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Theo dõi thông tin từ cơ quan y tế, đánh giá rủi ro, chủ động thông báo khách và chuẩn bị phương án đổi lịch, đổi tuyến hoặc hoàn/hủy phù hợp."
   },
   {
     "title": "Cơ sở hạ tầng điểm đến xuống cấp nhanh",
     "description": "Lượng khách đến Nha Trang tăng 35% trong 2 năm qua nhưng hạ tầng đường sá, bãi đỗ xe và nhà vệ sinh công cộng không được nâng cấp tương xứng, ảnh hưởng đến trải nghiệm khách và hình ảnh điểm đến.",
     "topic": "Destination Management",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Đánh giá các điểm nghẽn của điểm đến, phối hợp với đơn vị quản lý và đối tác, đồng thời điều chỉnh lịch trình để giảm ảnh hưởng đến trải nghiệm khách."
   },
   {
     "title": "Người dân địa phương phản đối dự án khu nghỉ dưỡng mới",
     "description": "Kế hoạch xây dựng khu nghỉ dưỡng mới của công ty tại Vũng Tàu vấp phải sự phản đối từ cộng đồng dân cư vì lo ngại ảnh hưởng đến nguồn nước sinh hoạt và đất canh tác truyền thống.",
     "topic": "Local Community",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Trao đổi trực tiếp với cộng đồng, xác định nguyên nhân xung đột, tìm phương án chia sẻ lợi ích và điều chỉnh hoạt động để giảm ảnh hưởng đến người dân."
   },
   {
     "title": "Ứng dụng đặt tour liên tục gặp lỗi kỹ thuật",
     "description": "Ứng dụng di động đặt tour của công ty gặp lỗi crash liên tục trong 10 ngày, khiến 30% lượt đặt tour qua app bị gián đoạn giữa chừng và nhiều khách chuyển sang đối thủ.",
     "topic": "Technology",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Ưu tiên khắc phục lỗi và bảo đảm các booking không bị mất, hỗ trợ khách bị ảnh hưởng, thông báo rõ ràng và kiểm tra nguyên nhân kỹ thuật."
   },
   {
     "title": "Nhà hàng đối tác không đảm bảo chất lượng món ăn",
     "description": "Nhiều đoàn khách phản ánh chất lượng bữa ăn tại nhà hàng đối tác ở Côn Đảo giảm sút rõ rệt trong 5 ngày liên tiếp, dù hợp đồng vẫn ghi rõ tiêu chuẩn thực đơn cố định.",
     "topic": "Suppliers",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Làm việc ngay với nhà cung cấp, yêu cầu khắc phục theo hợp đồng, bảo vệ quyền lợi khách và chuẩn bị đối tác thay thế nếu chất lượng không được đảm bảo."
   },
   {
     "title": "Sai sót trong xác nhận đặt phòng gây mất chỗ",
     "description": "Do lỗi đồng bộ dữ liệu giữa hệ thống đặt phòng online và khách sạn đối tác tại Hạ Long, 45 khách đã thanh toán trước nhưng đến nơi không còn phòng, buộc phải xếp tạm vào khách sạn khác với chất lượng thấp hơn.",
     "topic": "Customer Service",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Xin lỗi khách, bố trí ngay phòng hoặc khách sạn thay thế tương đương hoặc tốt hơn, hỗ trợ chi phí phát sinh và kiểm tra lỗi hệ thống để tránh tái diễn."
   },
   {
     "title": "Tour du lịch gây tác động tiêu cực đến hệ sinh thái",
     "description": "Một tour trekking mới tại Vũng Tàu bị các nhà bảo tồn cảnh báo đang làm xói mòn đường mòn tự nhiên do lượng khách tăng 15% mà chưa có biện pháp kiểm soát sức chứa phù hợp.",
     "topic": "Sustainability",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Giảm áp lực lên điểm đến, kiểm soát sức chứa, điều chỉnh lịch hoặc tuyến nếu cần và phối hợp với đơn vị quản lý địa phương để bảo vệ môi trường."
   },
   {
     "title": "Đối thủ mới gia nhập thị trường với vốn đầu tư lớn",
     "description": "Một tập đoàn lớn vừa công bố đầu tư mạnh vào thị trường tour Nha Trang, đe dọa thị phần hiện tại của công ty bạn nhờ tiềm lực tài chính và mạng lưới đối tác rộng.",
     "topic": "Competitors",
-    "difficulty": 5
+    "difficulty": 5,
+    "quick_answer": "Bảo vệ điểm khác biệt của sản phẩm, kiểm tra quyền sở hữu nội dung nếu có, tập trung vào giá trị dịch vụ và tránh cạnh tranh chỉ bằng giảm giá."
   },
   {
     "title": "Lịch trình tour chồng chéo do lỗi sắp xếp nội bộ",
     "description": "Bộ phận điều hành sắp xếp nhầm 2 đoàn khách khác nhau cùng sử dụng chung một xe và hướng dẫn viên cho tour đến Nha Trang, gây trễ giờ khởi hành hơn 2 giờ.",
     "topic": "Operations",
-    "difficulty": 2
+    "difficulty": 2,
+    "quick_answer": "Kiểm tra lại lịch điều hành, bố trí xe và hướng dẫn viên thay thế, thông báo khách sớm và thiết lập bước kiểm tra trước giờ khởi hành."
   },
   {
     "title": "Đối tác chiến lược đơn phương chấm dứt hợp đồng",
     "description": "Một đối tác khách sạn chiến lược tại Hội An bất ngờ thông báo chấm dứt hợp tác chỉ 7 ngày trước mùa cao điểm để chuyển sang hợp tác độc quyền với đối thủ.",
     "topic": "Partnerships",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Kiểm tra yêu cầu pháp lý, tạm điều chỉnh hoạt động liên quan nếu cần, khắc phục sai phạm và rà soát hợp đồng/quy trình để bảo đảm tuân thủ."
   },
   {
     "title": "Nhà cung cấp lưu trú đột ngột tăng giá",
     "description": "Chỉ 10 ngày trước mùa cao điểm, đối tác khách sạn tại Ninh Bình thông báo tăng giá phòng thêm 40% mà không báo trước, ảnh hưởng đến biên lợi nhuận của các tour đã bán trọn gói.",
     "topic": "Suppliers",
-    "difficulty": 2
+    "difficulty": 2,
+    "quick_answer": "Làm việc ngay với nhà cung cấp, yêu cầu khắc phục theo hợp đồng, bảo vệ quyền lợi khách và chuẩn bị đối tác thay thế nếu chất lượng không được đảm bảo."
   },
   {
     "title": "Cảnh báo dịch bệnh tại điểm đến quốc tế",
     "description": "Cơ quan y tế phát cảnh báo về một đợt dịch bệnh bùng phát tại khu vực gần Vũng Tàu, khiến 40% khách đã đặt tour lo lắng và cân nhắc hủy chuyến trong vòng 2 ngày tới.",
     "topic": "Risk Management",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Theo dõi thông tin từ cơ quan y tế, đánh giá rủi ro, chủ động thông báo khách và chuẩn bị phương án đổi lịch, đổi tuyến hoặc hoàn/hủy phù hợp."
   },
   {
     "title": "Cảnh báo dịch bệnh tại điểm đến quốc tế",
     "description": "Cơ quan y tế phát cảnh báo về một đợt dịch bệnh bùng phát tại khu vực gần Sa Pa, khiến 40% khách đã đặt tour lo lắng và cân nhắc hủy chuyến trong vòng 4 ngày tới.",
     "topic": "Risk Management",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Theo dõi thông tin từ cơ quan y tế, đánh giá rủi ro, chủ động thông báo khách và chuẩn bị phương án đổi lịch, đổi tuyến hoặc hoàn/hủy phù hợp."
   },
   {
     "title": "Thiếu phương tiện vận chuyển vào phút chót",
     "description": "Nhà xe đối tác báo hỏng xe đột xuất chỉ vài giờ trước giờ khởi hành tour đến Đà Lạt, khiến bộ phận điều hành phải gấp rút tìm phương tiện thay thế cho đoàn 35 khách.",
     "topic": "Logistics",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Tìm phương tiện thay thế ngay, thông báo minh bạch cho khách, ưu tiên hạn chế thời gian chờ và rà soát phương án dự phòng với nhà xe đối tác."
   },
   {
     "title": "Nhân viên tuyến đầu kiệt sức vì thiếu người mùa cao điểm",
     "description": "Tại điểm đến Sa Pa, lượng khách tăng 40% so với dự kiến trong khi nhân sự tuyến đầu không được bổ sung kịp, dẫn đến tình trạng nhân viên làm việc quá giờ liên tục và bắt đầu xuất hiện đơn xin nghỉ việc.",
     "topic": "Human Resources",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Xác định nguyên nhân thiếu nhân sự, bố trí người thay thế hoặc tuyển bổ sung, hỗ trợ nhân viên hiện tại và xây dựng phương án nhân sự dự phòng."
   },
   {
     "title": "Lịch trình tour chồng chéo do lỗi sắp xếp nội bộ",
     "description": "Bộ phận điều hành sắp xếp nhầm 2 đoàn khách khác nhau cùng sử dụng chung một xe và hướng dẫn viên cho tour đến Phú Quốc, gây trễ giờ khởi hành hơn 4 giờ.",
     "topic": "Operations",
-    "difficulty": 2
+    "difficulty": 2,
+    "quick_answer": "Kiểm tra lại lịch điều hành, bố trí xe và hướng dẫn viên thay thế, thông báo khách sớm và thiết lập bước kiểm tra trước giờ khởi hành."
   },
   {
     "title": "Thông tin sai lệch lan truyền trên mạng xã hội",
     "description": "Một bài đăng trên Google Reviews vu khống công ty bỏ rơi khách giữa tour tại Ninh Bình lan truyền nhanh dù sự việc thực tế không nghiêm trọng như mô tả, khiến nhiều khách hàng tiềm năng hủy đặt tour.",
     "topic": "Crisis Communication",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Xác minh thông tin, đưa ra phản hồi chính thức và minh bạch, xử lý nguyên nhân nội bộ nếu có và theo dõi dư luận để bảo vệ uy tín doanh nghiệp."
   },
   {
     "title": "Đối tác chiến lược đơn phương chấm dứt hợp đồng",
     "description": "Một đối tác khách sạn chiến lược tại Pù Luông bất ngờ thông báo chấm dứt hợp tác chỉ 7 ngày trước mùa cao điểm để chuyển sang hợp tác độc quyền với đối thủ.",
     "topic": "Partnerships",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Kiểm tra yêu cầu pháp lý, tạm điều chỉnh hoạt động liên quan nếu cần, khắc phục sai phạm và rà soát hợp đồng/quy trình để bảo đảm tuân thủ."
   },
   {
     "title": "Đối thủ sao chép sản phẩm tour độc quyền",
     "description": "Một đối thủ cạnh tranh vừa ra mắt sản phẩm tour trải nghiệm gần như sao chép hoàn toàn lộ trình độc quyền của công ty bạn tại Mộc Châu, với mức giá thấp hơn 45%.",
     "topic": "Competitors",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Bảo vệ điểm khác biệt của sản phẩm, kiểm tra quyền sở hữu nội dung nếu có, tập trung vào giá trị dịch vụ và tránh cạnh tranh chỉ bằng giảm giá."
   },
   {
     "title": "Tranh chấp quyền lợi giữa doanh nghiệp và hộ dân làm du lịch nhỏ lẻ",
     "description": "Các hộ dân kinh doanh homestay nhỏ lẻ tại Nha Trang cho rằng công ty đang cạnh tranh không lành mạnh bằng cách giảm giá sâu, khiến họ mất khách trong mùa cao điểm.",
     "topic": "Local Community",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Trao đổi trực tiếp với cộng đồng, xác định nguyên nhân xung đột, tìm phương án chia sẻ lợi ích và điều chỉnh hoạt động để giảm ảnh hưởng đến người dân."
   },
   {
     "title": "Sụt giảm mạnh nhu cầu ngoài mùa vụ",
     "description": "Sau kỳ nghỉ lễ, lượng đặt tour đến Pù Luông giảm 45% trong 5 tuần liên tiếp, khiến công ty phải cân nhắc cắt giảm nhân sự thời vụ hoặc tìm sản phẩm tour bổ sung.",
     "topic": "Seasonal Demand",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Phân tích nguyên nhân sụt giảm, điều chỉnh sản phẩm và marketing theo mùa, kiểm soát nhân sự thời vụ và tìm thêm phân khúc khách phù hợp."
   },
   {
     "title": "Hành lý khách bị thất lạc trong quá trình vận chuyển",
     "description": "Trong một tour 5 ngày đến Hà Giang, hành lý của 16 khách bị thất lạc do lỗi trung chuyển giữa các phương tiện, gây bức xúc vì khách thiếu vật dụng cá nhân giữa chuyến đi.",
     "topic": "Logistics",
-    "difficulty": 1
+    "difficulty": 1,
+    "quick_answer": "Ưu tiên tìm kiếm và đảm bảo an toàn cho khách, liên lạc với lực lượng hỗ trợ địa phương, giữ liên lạc với đoàn và rà soát quy trình quản lý khách."
   },
   {
     "title": "Nhà cung cấp lưu trú đột ngột tăng giá",
     "description": "Chỉ 7 ngày trước mùa cao điểm, đối tác khách sạn tại Hội An thông báo tăng giá phòng thêm 20% mà không báo trước, ảnh hưởng đến biên lợi nhuận của các tour đã bán trọn gói.",
     "topic": "Suppliers",
-    "difficulty": 2
+    "difficulty": 2,
+    "quick_answer": "Làm việc ngay với nhà cung cấp, yêu cầu khắc phục theo hợp đồng, bảo vệ quyền lợi khách và chuẩn bị đối tác thay thế nếu chất lượng không được đảm bảo."
   },
   {
     "title": "Hệ thống đặt tour online bị lỗi trong đợt khuyến mãi lớn",
     "description": "Trong đợt flash sale, hệ thống đặt tour online bị quá tải và lỗi thanh toán, khiến hàng trăm khách bị trừ tiền nhưng không nhận được xác nhận booking cho các tour tại Sa Pa.",
     "topic": "Operations",
-    "difficulty": 2
+    "difficulty": 2,
+    "quick_answer": "Ưu tiên khắc phục lỗi và bảo đảm các booking không bị mất, hỗ trợ khách bị ảnh hưởng, thông báo rõ ràng và kiểm tra nguyên nhân kỹ thuật."
   },
   {
     "title": "Đối thủ mới gia nhập thị trường với vốn đầu tư lớn",
     "description": "Một tập đoàn lớn vừa công bố đầu tư mạnh vào thị trường tour Tam Đảo, đe dọa thị phần hiện tại của công ty bạn nhờ tiềm lực tài chính và mạng lưới đối tác rộng.",
     "topic": "Competitors",
-    "difficulty": 5
+    "difficulty": 5,
+    "quick_answer": "Bảo vệ điểm khác biệt của sản phẩm, kiểm tra quyền sở hữu nội dung nếu có, tập trung vào giá trị dịch vụ và tránh cạnh tranh chỉ bằng giảm giá."
   },
   {
     "title": "Suy thoái kinh tế làm giảm chi tiêu du lịch",
     "description": "Trong bối cảnh kinh tế khó khăn, khảo sát cho thấy 40% khách hàng tiềm năng có ý định cắt giảm ngân sách cho các chuyến du lịch đến Cần Thơ trong năm tới.",
     "topic": "Currency & Economics",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Đánh giá tác động tài chính, ưu tiên các khoản chi thiết yếu, thương lượng với đối tác và điều chỉnh kế hoạch giá hoặc chi phí để bảo vệ dòng tiền."
   },
   {
     "title": "Đối tác thanh toán chậm gây thiếu hụt ngân sách",
     "description": "Một đại lý bán tour lớn chậm thanh toán công nợ 150 triệu đồng quá 4 ngày, khiến công ty gặp khó khăn trong việc chi trả cho nhà cung cấp dịch vụ tại Ninh Bình.",
     "topic": "Finance",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Đánh giá tác động tài chính, ưu tiên các khoản chi thiết yếu, thương lượng với đối tác và điều chỉnh kế hoạch giá hoặc chi phí để bảo vệ dòng tiền."
   },
   {
     "title": "Cơ sở hạ tầng điểm đến xuống cấp nhanh",
     "description": "Lượng khách đến Phú Quốc tăng 25% trong 2 năm qua nhưng hạ tầng đường sá, bãi đỗ xe và nhà vệ sinh công cộng không được nâng cấp tương xứng, ảnh hưởng đến trải nghiệm khách và hình ảnh điểm đến.",
     "topic": "Destination Management",
-    "difficulty": 2
+    "difficulty": 2,
+    "quick_answer": "Đánh giá các điểm nghẽn của điểm đến, phối hợp với đơn vị quản lý và đối tác, đồng thời điều chỉnh lịch trình để giảm ảnh hưởng đến trải nghiệm khách."
   },
   {
     "title": "Nhà cung cấp lưu trú đột ngột tăng giá",
     "description": "Chỉ 14 ngày trước mùa cao điểm, đối tác khách sạn tại Cát Bà thông báo tăng giá phòng thêm 10% mà không báo trước, ảnh hưởng đến biên lợi nhuận của các tour đã bán trọn gói.",
     "topic": "Suppliers",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Làm việc ngay với nhà cung cấp, yêu cầu khắc phục theo hợp đồng, bảo vệ quyền lợi khách và chuẩn bị đối tác thay thế nếu chất lượng không được đảm bảo."
   },
   {
     "title": "Lịch trình tour chồng chéo do lỗi sắp xếp nội bộ",
     "description": "Bộ phận điều hành sắp xếp nhầm 2 đoàn khách khác nhau cùng sử dụng chung một xe và hướng dẫn viên cho tour đến Hà Giang, gây trễ giờ khởi hành hơn 7 giờ.",
     "topic": "Operations",
-    "difficulty": 2
+    "difficulty": 2,
+    "quick_answer": "Kiểm tra lại lịch điều hành, bố trí xe và hướng dẫn viên thay thế, thông báo khách sớm và thiết lập bước kiểm tra trước giờ khởi hành."
   },
   {
     "title": "Áp lực giảm rác thải nhựa từ khách hàng và đối tác",
     "description": "Nhiều khách hàng và đối tác lữ hành quốc tế yêu cầu công ty cam kết giảm 25% rác thải nhựa dùng một lần trong các tour tại Mộc Châu, nếu không sẽ cân nhắc ngừng hợp tác.",
     "topic": "Sustainability",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Xác định nguyên nhân, ưu tiên an toàn và quyền lợi khách hàng, so sánh các phương án rồi chọn giải pháp khả thi và chuẩn bị phương án dự phòng."
   },
   {
     "title": "Nhà cung cấp lưu trú đột ngột tăng giá",
     "description": "Chỉ 10 ngày trước mùa cao điểm, đối tác khách sạn tại Huế thông báo tăng giá phòng thêm 10% mà không báo trước, ảnh hưởng đến biên lợi nhuận của các tour đã bán trọn gói.",
     "topic": "Suppliers",
-    "difficulty": 2
+    "difficulty": 2,
+    "quick_answer": "Làm việc ngay với nhà cung cấp, yêu cầu khắc phục theo hợp đồng, bảo vệ quyền lợi khách và chuẩn bị đối tác thay thế nếu chất lượng không được đảm bảo."
   },
   {
     "title": "Đối tác thanh toán chậm gây thiếu hụt ngân sách",
     "description": "Một đại lý bán tour lớn chậm thanh toán công nợ 200 triệu đồng quá 7 ngày, khiến công ty gặp khó khăn trong việc chi trả cho nhà cung cấp dịch vụ tại Mộc Châu.",
     "topic": "Finance",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Đánh giá tác động tài chính, ưu tiên các khoản chi thiết yếu, thương lượng với đối tác và điều chỉnh kế hoạch giá hoặc chi phí để bảo vệ dòng tiền."
   },
   {
     "title": "Ứng dụng đặt tour liên tục gặp lỗi kỹ thuật",
     "description": "Ứng dụng di động đặt tour của công ty gặp lỗi crash liên tục trong 10 ngày, khiến 15% lượt đặt tour qua app bị gián đoạn giữa chừng và nhiều khách chuyển sang đối thủ.",
     "topic": "Technology",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Ưu tiên khắc phục lỗi và bảo đảm các booking không bị mất, hỗ trợ khách bị ảnh hưởng, thông báo rõ ràng và kiểm tra nguyên nhân kỹ thuật."
   },
   {
     "title": "Sự kiện ra mắt sản phẩm mới bị gián đoạn",
     "description": "Buổi họp báo ra mắt sản phẩm tour cao cấp mới tại Mũi Né gặp sự cố kỹ thuật âm thanh ngay giữa chương trình trước sự chứng kiến của báo chí và đối tác quan trọng.",
     "topic": "Public Relations",
-    "difficulty": 2
+    "difficulty": 2,
+    "quick_answer": "Khắc phục sự cố kỹ thuật ngay, duy trì chương trình bằng phương án dự phòng, thông báo ngắn gọn cho khách mời và kiểm tra thiết bị trước các sự kiện tiếp theo."
   },
   {
     "title": "Khách VIP bị xếp nhầm phòng tại Phong Nha",
     "description": "Một đoàn khách 50 người hạng thương gia đặt phòng cao cấp tại Mộc Châu nhưng khi nhận phòng lại bị xếp nhầm sang hạng phòng thấp hơn do lỗi hệ thống. Trưởng đoàn rất bức xúc và đe dọa hủy toàn bộ hợp đồng công ty trong tương lai nếu không được giải quyết ngay.",
     "topic": "Customer Service",
-    "difficulty": 1
+    "difficulty": 1,
+    "quick_answer": "Xin lỗi khách, bố trí ngay phòng hoặc khách sạn thay thế tương đương hoặc tốt hơn, hỗ trợ chi phí phát sinh và kiểm tra lỗi hệ thống để tránh tái diễn."
   },
   {
     "title": "Suy thoái kinh tế làm giảm chi tiêu du lịch",
     "description": "Trong bối cảnh kinh tế khó khăn, khảo sát cho thấy 45% khách hàng tiềm năng có ý định cắt giảm ngân sách cho các chuyến du lịch đến Mộc Châu trong năm tới.",
     "topic": "Currency & Economics",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Đánh giá tác động tài chính, ưu tiên các khoản chi thiết yếu, thương lượng với đối tác và điều chỉnh kế hoạch giá hoặc chi phí để bảo vệ dòng tiền."
   },
   {
     "title": "Cơ sở hạ tầng điểm đến xuống cấp nhanh",
     "description": "Lượng khách đến Sa Pa tăng 35% trong 2 năm qua nhưng hạ tầng đường sá, bãi đỗ xe và nhà vệ sinh công cộng không được nâng cấp tương xứng, ảnh hưởng đến trải nghiệm khách và hình ảnh điểm đến.",
     "topic": "Destination Management",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Đánh giá các điểm nghẽn của điểm đến, phối hợp với đơn vị quản lý và đối tác, đồng thời điều chỉnh lịch trình để giảm ảnh hưởng đến trải nghiệm khách."
   },
   {
     "title": "Vi phạm quy định giấy phép kinh doanh lữ hành",
     "description": "Một đợt thanh tra phát hiện chi nhánh tại Mũi Né đang hoạt động vượt phạm vi giấy phép lữ hành hiện có, có nguy cơ bị xử phạt hành chính và tạm đình chỉ hoạt động.",
     "topic": "Legal & Compliance",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Kiểm tra yêu cầu pháp lý, tạm điều chỉnh hoạt động liên quan nếu cần, khắc phục sai phạm và rà soát hợp đồng/quy trình để bảo đảm tuân thủ."
   },
   {
     "title": "Ngộ độc thực phẩm tập thể trong tour ẩm thực",
     "description": "Sau bữa ăn tại một quán ăn địa phương trong tour ẩm thực Nha Trang, 18 khách có triệu chứng ngộ độc thực phẩm nhẹ và phải đưa đến cơ sở y tế gần nhất.",
     "topic": "Health",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Đưa khách đến cơ sở y tế, hỗ trợ chi phí cần thiết, giữ thông tin bữa ăn để xác minh nguyên nhân và làm việc với nhà cung cấp để ngăn sự cố lặp lại."
   },
   {
     "title": "Ứng dụng đặt tour liên tục gặp lỗi kỹ thuật",
     "description": "Ứng dụng di động đặt tour của công ty gặp lỗi crash liên tục trong 10 ngày, khiến 40% lượt đặt tour qua app bị gián đoạn giữa chừng và nhiều khách chuyển sang đối thủ.",
     "topic": "Technology",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Ưu tiên khắc phục lỗi và bảo đảm các booking không bị mất, hỗ trợ khách bị ảnh hưởng, thông báo rõ ràng và kiểm tra nguyên nhân kỹ thuật."
   },
   {
     "title": "Sai sót trong xác nhận đặt phòng gây mất chỗ",
     "description": "Do lỗi đồng bộ dữ liệu giữa hệ thống đặt phòng online và khách sạn đối tác tại Quy Nhơn, 12 khách đã thanh toán trước nhưng đến nơi không còn phòng, buộc phải xếp tạm vào khách sạn khác với chất lượng thấp hơn.",
     "topic": "Customer Service",
-    "difficulty": 2
+    "difficulty": 2,
+    "quick_answer": "Xin lỗi khách, bố trí ngay phòng hoặc khách sạn thay thế tương đương hoặc tốt hơn, hỗ trợ chi phí phát sinh và kiểm tra lỗi hệ thống để tránh tái diễn."
   },
   {
     "title": "Khách bị lạc trong tour rừng núi",
     "description": "Trong một tour trekking tại Côn Đảo, 2 khách tách đoàn để chụp ảnh và bị lạc gần 7 giờ trước khi được tìm thấy, khiến cả đoàn hoảng loạn và nghi ngờ năng lực giám sát của hướng dẫn viên.",
     "topic": "Safety",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Ưu tiên tìm kiếm và đảm bảo an toàn cho khách, liên lạc với lực lượng hỗ trợ địa phương, giữ liên lạc với đoàn và rà soát quy trình quản lý khách."
   },
   {
     "title": "Quy định mới về thuế du lịch ảnh hưởng giá tour",
     "description": "Chính quyền địa phương tại Ninh Bình áp dụng mức phí tham quan mới tăng thêm 20%, có hiệu lực chỉ sau 5 ngày thông báo, khiến công ty phải gấp rút điều chỉnh giá các tour đã bán.",
     "topic": "Government Regulation",
-    "difficulty": 2
+    "difficulty": 2,
+    "quick_answer": "Đánh giá tác động tài chính, ưu tiên các khoản chi thiết yếu, thương lượng với đối tác và điều chỉnh kế hoạch giá hoặc chi phí để bảo vệ dòng tiền."
   },
   {
     "title": "Thiếu phương tiện vận chuyển vào phút chót",
     "description": "Nhà xe đối tác báo hỏng xe đột xuất chỉ vài giờ trước giờ khởi hành tour đến Cát Bà, khiến bộ phận điều hành phải gấp rút tìm phương tiện thay thế cho đoàn 35 khách.",
     "topic": "Logistics",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Tìm phương tiện thay thế ngay, thông báo minh bạch cho khách, ưu tiên hạn chế thời gian chờ và rà soát phương án dự phòng với nhà xe đối tác."
   },
   {
     "title": "Hợp đồng tour thiếu điều khoản bảo vệ quyền lợi công ty",
     "description": "Một nhóm khách kiện công ty ra cơ quan bảo vệ người tiêu dùng vì cho rằng tour tại Hạ Long không đúng như quảng cáo, trong khi hợp đồng tour hiện tại không có điều khoản miễn trừ rõ ràng cho các trường hợp bất khả kháng.",
     "topic": "Legal & Compliance",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Kiểm tra yêu cầu pháp lý, tạm điều chỉnh hoạt động liên quan nếu cần, khắc phục sai phạm và rà soát hợp đồng/quy trình để bảo đảm tuân thủ."
   },
   {
     "title": "Lịch trình tour chồng chéo do lỗi sắp xếp nội bộ",
     "description": "Bộ phận điều hành sắp xếp nhầm 2 đoàn khách khác nhau cùng sử dụng chung một xe và hướng dẫn viên cho tour đến Pù Luông, gây trễ giờ khởi hành hơn 10 giờ.",
     "topic": "Operations",
-    "difficulty": 2
+    "difficulty": 2,
+    "quick_answer": "Kiểm tra lại lịch điều hành, bố trí xe và hướng dẫn viên thay thế, thông báo khách sớm và thiết lập bước kiểm tra trước giờ khởi hành."
   },
   {
     "title": "Ngộ độc thực phẩm tập thể trong tour ẩm thực",
     "description": "Sau bữa ăn tại một quán ăn địa phương trong tour ẩm thực Mộc Châu, 30 khách có triệu chứng ngộ độc thực phẩm nhẹ và phải đưa đến cơ sở y tế gần nhất.",
     "topic": "Health",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Đưa khách đến cơ sở y tế, hỗ trợ chi phí cần thiết, giữ thông tin bữa ăn để xác minh nguyên nhân và làm việc với nhà cung cấp để ngăn sự cố lặp lại."
   },
   {
     "title": "Suy thoái kinh tế làm giảm chi tiêu du lịch",
     "description": "Trong bối cảnh kinh tế khó khăn, khảo sát cho thấy 25% khách hàng tiềm năng có ý định cắt giảm ngân sách cho các chuyến du lịch đến Sa Pa trong năm tới.",
     "topic": "Currency & Economics",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Đánh giá tác động tài chính, ưu tiên các khoản chi thiết yếu, thương lượng với đối tác và điều chỉnh kế hoạch giá hoặc chi phí để bảo vệ dòng tiền."
   },
   {
     "title": "Hướng dẫn viên chủ chốt nghỉ việc đột ngột trước mùa cao điểm",
     "description": "Hướng dẫn viên giàu kinh nghiệm nhất phụ trách các tour cao cấp tại Hạ Long bất ngờ nghỉ việc chỉ 10 ngày trước khi mùa cao điểm bắt đầu, khiến công ty phải gấp rút tìm người thay thế.",
     "topic": "Human Resources",
-    "difficulty": 2
+    "difficulty": 2,
+    "quick_answer": "Xác định nguyên nhân thiếu nhân sự, bố trí người thay thế hoặc tuyển bổ sung, hỗ trợ nhân viên hiện tại và xây dựng phương án nhân sự dự phòng."
   },
   {
     "title": "Khách VIP bị xếp nhầm phòng tại Quy Nhơn",
     "description": "Một đoàn khách 30 người hạng thương gia đặt phòng cao cấp tại Mộc Châu nhưng khi nhận phòng lại bị xếp nhầm sang hạng phòng thấp hơn do lỗi hệ thống. Trưởng đoàn rất bức xúc và đe dọa hủy toàn bộ hợp đồng công ty trong tương lai nếu không được giải quyết ngay.",
     "topic": "Customer Service",
-    "difficulty": 2
+    "difficulty": 2,
+    "quick_answer": "Xin lỗi khách, bố trí ngay phòng hoặc khách sạn thay thế tương đương hoặc tốt hơn, hỗ trợ chi phí phát sinh và kiểm tra lỗi hệ thống để tránh tái diễn."
   },
   {
     "title": "Tour du lịch gây tác động tiêu cực đến hệ sinh thái",
     "description": "Một tour trekking mới tại Hà Giang bị các nhà bảo tồn cảnh báo đang làm xói mòn đường mòn tự nhiên do lượng khách tăng 10% mà chưa có biện pháp kiểm soát sức chứa phù hợp.",
     "topic": "Sustainability",
-    "difficulty": 2
+    "difficulty": 2,
+    "quick_answer": "Giảm áp lực lên điểm đến, kiểm soát sức chứa, điều chỉnh lịch hoặc tuyến nếu cần và phối hợp với đơn vị quản lý địa phương để bảo vệ môi trường."
   },
   {
     "title": "Hệ thống đặt tour online bị lỗi trong đợt khuyến mãi lớn",
     "description": "Trong đợt flash sale, hệ thống đặt tour online bị quá tải và lỗi thanh toán, khiến hàng trăm khách bị trừ tiền nhưng không nhận được xác nhận booking cho các tour tại Cần Thơ.",
     "topic": "Operations",
-    "difficulty": 2
+    "difficulty": 2,
+    "quick_answer": "Ưu tiên khắc phục lỗi và bảo đảm các booking không bị mất, hỗ trợ khách bị ảnh hưởng, thông báo rõ ràng và kiểm tra nguyên nhân kỹ thuật."
   },
   {
     "title": "Vi phạm quy định giấy phép kinh doanh lữ hành",
     "description": "Một đợt thanh tra phát hiện chi nhánh tại Quy Nhơn đang hoạt động vượt phạm vi giấy phép lữ hành hiện có, có nguy cơ bị xử phạt hành chính và tạm đình chỉ hoạt động.",
     "topic": "Legal & Compliance",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Kiểm tra yêu cầu pháp lý, tạm điều chỉnh hoạt động liên quan nếu cần, khắc phục sai phạm và rà soát hợp đồng/quy trình để bảo đảm tuân thủ."
   },
   {
     "title": "Nhân viên tuyến đầu kiệt sức vì thiếu người mùa cao điểm",
     "description": "Tại điểm đến Cần Thơ, lượng khách tăng 30% so với dự kiến trong khi nhân sự tuyến đầu không được bổ sung kịp, dẫn đến tình trạng nhân viên làm việc quá giờ liên tục và bắt đầu xuất hiện đơn xin nghỉ việc.",
     "topic": "Human Resources",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Xác định nguyên nhân thiếu nhân sự, bố trí người thay thế hoặc tuyển bổ sung, hỗ trợ nhân viên hiện tại và xây dựng phương án nhân sự dự phòng."
   },
   {
     "title": "Sản phẩm tour mới chưa được kiểm định kỹ trước khi bán",
     "description": "Một sản phẩm tour trải nghiệm mới tại Đà Nẵng được đưa ra thị trường gấp để kịp mùa cao điểm, nhưng sau 2 ngày vận hành phát sinh nhiều vấn đề về an toàn và chất lượng dịch vụ chưa được kiểm soát.",
     "topic": "Quality Assurance",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Tạm dừng hoặc giới hạn sản phẩm nếu có rủi ro, kiểm tra chất lượng và an toàn, khắc phục trước khi mở bán hoặc vận hành bình thường."
   },
   {
     "title": "Tranh chấp quyền lợi giữa doanh nghiệp và hộ dân làm du lịch nhỏ lẻ",
     "description": "Các hộ dân kinh doanh homestay nhỏ lẻ tại Phú Quốc cho rằng công ty đang cạnh tranh không lành mạnh bằng cách giảm giá sâu, khiến họ mất khách trong mùa cao điểm.",
     "topic": "Local Community",
-    "difficulty": 2
+    "difficulty": 2,
+    "quick_answer": "Trao đổi trực tiếp với cộng đồng, xác định nguyên nhân xung đột, tìm phương án chia sẻ lợi ích và điều chỉnh hoạt động để giảm ảnh hưởng đến người dân."
   },
   {
     "title": "Ngộ độc thực phẩm tập thể trong tour ẩm thực",
     "description": "Sau bữa ăn tại một quán ăn địa phương trong tour ẩm thực Quy Nhơn, 35 khách có triệu chứng ngộ độc thực phẩm nhẹ và phải đưa đến cơ sở y tế gần nhất.",
     "topic": "Health",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Đưa khách đến cơ sở y tế, hỗ trợ chi phí cần thiết, giữ thông tin bữa ăn để xác minh nguyên nhân và làm việc với nhà cung cấp để ngăn sự cố lặp lại."
   },
   {
     "title": "Thiếu phương tiện vận chuyển vào phút chót",
     "description": "Nhà xe đối tác báo hỏng xe đột xuất chỉ vài giờ trước giờ khởi hành tour đến Cát Bà, khiến bộ phận điều hành phải gấp rút tìm phương tiện thay thế cho đoàn 50 khách.",
     "topic": "Logistics",
-    "difficulty": 2
+    "difficulty": 2,
+    "quick_answer": "Tìm phương tiện thay thế ngay, thông báo minh bạch cho khách, ưu tiên hạn chế thời gian chờ và rà soát phương án dự phòng với nhà xe đối tác."
   },
   {
     "title": "Tour du lịch gây tác động tiêu cực đến hệ sinh thái",
     "description": "Một tour trekking mới tại Cần Thơ bị các nhà bảo tồn cảnh báo đang làm xói mòn đường mòn tự nhiên do lượng khách tăng 25% mà chưa có biện pháp kiểm soát sức chứa phù hợp.",
     "topic": "Sustainability",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Giảm áp lực lên điểm đến, kiểm soát sức chứa, điều chỉnh lịch hoặc tuyến nếu cần và phối hợp với đơn vị quản lý địa phương để bảo vệ môi trường."
   },
   {
     "title": "Ứng dụng đặt tour liên tục gặp lỗi kỹ thuật",
     "description": "Ứng dụng di động đặt tour của công ty gặp lỗi crash liên tục trong 5 ngày, khiến 45% lượt đặt tour qua app bị gián đoạn giữa chừng và nhiều khách chuyển sang đối thủ.",
     "topic": "Technology",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Ưu tiên khắc phục lỗi và bảo đảm các booking không bị mất, hỗ trợ khách bị ảnh hưởng, thông báo rõ ràng và kiểm tra nguyên nhân kỹ thuật."
   },
   {
     "title": "Khách bị lạc trong tour rừng núi",
     "description": "Trong một tour trekking tại Mộc Châu, 2 khách tách đoàn để chụp ảnh và bị lạc gần 14 giờ trước khi được tìm thấy, khiến cả đoàn hoảng loạn và nghi ngờ năng lực giám sát của hướng dẫn viên.",
     "topic": "Safety",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Ưu tiên tìm kiếm và đảm bảo an toàn cho khách, liên lạc với lực lượng hỗ trợ địa phương, giữ liên lạc với đoàn và rà soát quy trình quản lý khách."
   },
   {
     "title": "Sự kiện ra mắt sản phẩm mới bị gián đoạn",
     "description": "Buổi họp báo ra mắt sản phẩm tour cao cấp mới tại Đà Nẵng gặp sự cố kỹ thuật âm thanh ngay giữa chương trình trước sự chứng kiến của báo chí và đối tác quan trọng.",
     "topic": "Public Relations",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Khắc phục sự cố kỹ thuật ngay, duy trì chương trình bằng phương án dự phòng, thông báo ngắn gọn cho khách mời và kiểm tra thiết bị trước các sự kiện tiếp theo."
   },
   {
     "title": "Chiến dịch quảng cáo nhắm sai đối tượng khách hàng",
     "description": "Một chiến dịch quảng cáo trên TripAdvisor nhắm đến khách châu Âu nhưng nội dung và giá tour không phù hợp thị hiếu, khiến tỷ lệ chuyển đổi thấp hơn 15% so với kỳ vọng dù đã chi ngân sách lớn.",
     "topic": "Marketing",
-    "difficulty": 2
+    "difficulty": 2,
+    "quick_answer": "Tạm điều chỉnh chiến dịch, xác định lại khách hàng mục tiêu, sửa nội dung sai và theo dõi dữ liệu chuyển đổi trước khi tiếp tục tăng ngân sách."
   },
   {
     "title": "Bài báo điều tra tiêu cực về điều kiện làm việc",
     "description": "Một bài báo điều tra cáo buộc công ty để hướng dẫn viên làm việc quá giờ mà không có phụ cấp hợp lý tại các tour Nha Trang, thu hút sự chú ý của dư luận và các tổ chức bảo vệ người lao động.",
     "topic": "Public Relations",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Xác minh thông tin, đưa ra phản hồi chính thức và minh bạch, xử lý nguyên nhân nội bộ nếu có và theo dõi dư luận để bảo vệ uy tín doanh nghiệp."
   },
   {
     "title": "Suy thoái kinh tế làm giảm chi tiêu du lịch",
     "description": "Trong bối cảnh kinh tế khó khăn, khảo sát cho thấy 45% khách hàng tiềm năng có ý định cắt giảm ngân sách cho các chuyến du lịch đến Phong Nha trong năm tới.",
     "topic": "Currency & Economics",
-    "difficulty": 2
+    "difficulty": 2,
+    "quick_answer": "Đánh giá tác động tài chính, ưu tiên các khoản chi thiết yếu, thương lượng với đối tác và điều chỉnh kế hoạch giá hoặc chi phí để bảo vệ dòng tiền."
   },
   {
     "title": "Thiết bị lặn biển không đạt chuẩn an toàn",
     "description": "Một đợt kiểm tra nội bộ phát hiện 40% thiết bị lặn biển sử dụng cho tour tại Mộc Châu đã quá hạn bảo trì, trong khi lịch tour cao điểm vẫn đang được bán ra bình thường.",
     "topic": "Safety",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Dừng hoạt động nguy hiểm, đưa khách và nhân viên đến nơi an toàn, kiểm tra nguyên nhân, liên hệ lực lượng chuyên môn và chỉ hoạt động lại khi đủ điều kiện an toàn."
   },
   {
     "title": "Phát ngôn của nhân viên gây tranh cãi trên mạng",
     "description": "Một nhân viên chăm sóc khách hàng trả lời thiếu khéo léo trong bình luận công khai trên TikTok, bị cộng đồng mạng chụp màn hình và chia sẻ rộng rãi kèm chỉ trích thái độ phục vụ của công ty.",
     "topic": "Crisis Communication",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Xác minh thông tin, đưa ra phản hồi chính thức và minh bạch, xử lý nguyên nhân nội bộ nếu có và theo dõi dư luận để bảo vệ uy tín doanh nghiệp."
   },
   {
     "title": "Hướng dẫn viên chủ chốt nghỉ việc đột ngột trước mùa cao điểm",
     "description": "Hướng dẫn viên giàu kinh nghiệm nhất phụ trách các tour cao cấp tại Mộc Châu bất ngờ nghỉ việc chỉ 10 ngày trước khi mùa cao điểm bắt đầu, khiến công ty phải gấp rút tìm người thay thế.",
     "topic": "Human Resources",
-    "difficulty": 2
+    "difficulty": 2,
+    "quick_answer": "Xác định nguyên nhân thiếu nhân sự, bố trí người thay thế hoặc tuyển bổ sung, hỗ trợ nhân viên hiện tại và xây dựng phương án nhân sự dự phòng."
   },
   {
     "title": "Sụt giảm mạnh nhu cầu ngoài mùa vụ",
     "description": "Sau kỳ nghỉ lễ, lượng đặt tour đến Huế giảm 30% trong 7 tuần liên tiếp, khiến công ty phải cân nhắc cắt giảm nhân sự thời vụ hoặc tìm sản phẩm tour bổ sung.",
     "topic": "Seasonal Demand",
-    "difficulty": 2
+    "difficulty": 2,
+    "quick_answer": "Phân tích nguyên nhân sụt giảm, điều chỉnh sản phẩm và marketing theo mùa, kiểm soát nhân sự thời vụ và tìm thêm phân khúc khách phù hợp."
   },
   {
     "title": "Cơ sở hạ tầng điểm đến xuống cấp nhanh",
     "description": "Lượng khách đến Tam Đảo tăng 15% trong 2 năm qua nhưng hạ tầng đường sá, bãi đỗ xe và nhà vệ sinh công cộng không được nâng cấp tương xứng, ảnh hưởng đến trải nghiệm khách và hình ảnh điểm đến.",
     "topic": "Destination Management",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Đánh giá các điểm nghẽn của điểm đến, phối hợp với đơn vị quản lý và đối tác, đồng thời điều chỉnh lịch trình để giảm ảnh hưởng đến trải nghiệm khách."
   },
   {
     "title": "Tour du lịch gây tác động tiêu cực đến hệ sinh thái",
     "description": "Một tour trekking mới tại Đà Lạt bị các nhà bảo tồn cảnh báo đang làm xói mòn đường mòn tự nhiên do lượng khách tăng 45% mà chưa có biện pháp kiểm soát sức chứa phù hợp.",
     "topic": "Sustainability",
-    "difficulty": 2
+    "difficulty": 2,
+    "quick_answer": "Giảm áp lực lên điểm đến, kiểm soát sức chứa, điều chỉnh lịch hoặc tuyến nếu cần và phối hợp với đơn vị quản lý địa phương để bảo vệ môi trường."
   },
   {
     "title": "Xung đột giữa doanh nghiệp du lịch và cộng đồng địa phương",
     "description": "Người dân tại Hạ Long phản đối việc các công ty lữ hành đưa quá nhiều đoàn khách vào khu vực sinh sống, cho rằng gây ồn ào và ảnh hưởng đến sinh hoạt hàng ngày, kêu gọi hạn chế số lượng đoàn khách mỗi ngày.",
     "topic": "Destination Management",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Trao đổi trực tiếp với cộng đồng, xác định nguyên nhân xung đột, tìm phương án chia sẻ lợi ích và điều chỉnh hoạt động để giảm ảnh hưởng đến người dân."
   },
   {
     "title": "Nhà hàng đối tác không đảm bảo chất lượng món ăn",
     "description": "Nhiều đoàn khách phản ánh chất lượng bữa ăn tại nhà hàng đối tác ở Đà Lạt giảm sút rõ rệt trong 5 ngày liên tiếp, dù hợp đồng vẫn ghi rõ tiêu chuẩn thực đơn cố định.",
     "topic": "Suppliers",
-    "difficulty": 2
+    "difficulty": 2,
+    "quick_answer": "Làm việc ngay với nhà cung cấp, yêu cầu khắc phục theo hợp đồng, bảo vệ quyền lợi khách và chuẩn bị đối tác thay thế nếu chất lượng không được đảm bảo."
   },
   {
     "title": "Yêu cầu cấp phép bổ sung cho hoạt động mạo hiểm",
     "description": "Cơ quan quản lý yêu cầu tất cả tour mạo hiểm tại Đà Lạt phải có giấy phép an toàn bổ sung trong vòng 10 ngày, nếu không sẽ bị đình chỉ hoạt động ngay giữa mùa cao điểm.",
     "topic": "Government Regulation",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Xác định nguyên nhân, ưu tiên an toàn và quyền lợi khách hàng, so sánh các phương án rồi chọn giải pháp khả thi và chuẩn bị phương án dự phòng."
   },
   {
     "title": "Thương hiệu bị nhầm lẫn với đối thủ có tên gần giống",
     "description": "Một công ty lữ hành mới thành lập tại Huế có tên gọi và logo gần giống thương hiệu của bạn, khiến một số khách hàng phản ánh chất lượng kém trên Facebook nhưng thực chất không phải dịch vụ của công ty bạn.",
     "topic": "Marketing",
-    "difficulty": 2
+    "difficulty": 2,
+    "quick_answer": "Bảo vệ điểm khác biệt của sản phẩm, kiểm tra quyền sở hữu nội dung nếu có, tập trung vào giá trị dịch vụ và tránh cạnh tranh chỉ bằng giảm giá."
   },
   {
     "title": "Hợp đồng tour thiếu điều khoản bảo vệ quyền lợi công ty",
     "description": "Một nhóm khách kiện công ty ra cơ quan bảo vệ người tiêu dùng vì cho rằng tour tại Phú Quốc không đúng như quảng cáo, trong khi hợp đồng tour hiện tại không có điều khoản miễn trừ rõ ràng cho các trường hợp bất khả kháng.",
     "topic": "Legal & Compliance",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Kiểm tra yêu cầu pháp lý, tạm điều chỉnh hoạt động liên quan nếu cần, khắc phục sai phạm và rà soát hợp đồng/quy trình để bảo đảm tuân thủ."
   },
   {
     "title": "Đối thủ sao chép sản phẩm tour độc quyền",
     "description": "Một đối thủ cạnh tranh vừa ra mắt sản phẩm tour trải nghiệm gần như sao chép hoàn toàn lộ trình độc quyền của công ty bạn tại Ninh Bình, với mức giá thấp hơn 25%.",
     "topic": "Competitors",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Bảo vệ điểm khác biệt của sản phẩm, kiểm tra quyền sở hữu nội dung nếu có, tập trung vào giá trị dịch vụ và tránh cạnh tranh chỉ bằng giảm giá."
   },
   {
     "title": "Mâu thuẫn phân chia lợi nhuận với đối tác liên doanh",
     "description": "Đối tác liên doanh khai thác tour tại Hội An cho rằng tỷ lệ phân chia lợi nhuận hiện tại không còn công bằng sau khi lượng khách tăng 35%, yêu cầu đàm phán lại hợp đồng.",
     "topic": "Partnerships",
-    "difficulty": 2
+    "difficulty": 2,
+    "quick_answer": "Kiểm tra dữ liệu đóng góp và chi phí, trao đổi minh bạch với đối tác và đàm phán lại tỷ lệ lợi ích dựa trên thỏa thuận và hiệu quả thực tế."
   },
   {
     "title": "Sản phẩm tour mới chưa được kiểm định kỹ trước khi bán",
     "description": "Một sản phẩm tour trải nghiệm mới tại Tam Đảo được đưa ra thị trường gấp để kịp mùa cao điểm, nhưng sau 2 ngày vận hành phát sinh nhiều vấn đề về an toàn và chất lượng dịch vụ chưa được kiểm soát.",
     "topic": "Quality Assurance",
-    "difficulty": 2
+    "difficulty": 2,
+    "quick_answer": "Tạm dừng hoặc giới hạn sản phẩm nếu có rủi ro, kiểm tra chất lượng và an toàn, khắc phục trước khi mở bán hoặc vận hành bình thường."
   },
   {
     "title": "Lạm phát khiến chi phí tour trong nước tăng nhanh",
     "description": "Lạm phát khiến giá dịch vụ lưu trú và ăn uống tại Côn Đảo tăng 25% chỉ trong vài tháng, trong khi nhiều tour trọn gói đã bán ra với giá cố định từ đầu năm.",
     "topic": "Currency & Economics",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Đánh giá tác động tài chính, ưu tiên các khoản chi thiết yếu, thương lượng với đối tác và điều chỉnh kế hoạch giá hoặc chi phí để bảo vệ dòng tiền."
   },
   {
     "title": "Đối tác thanh toán chậm gây thiếu hụt ngân sách",
     "description": "Một đại lý bán tour lớn chậm thanh toán công nợ 300 triệu đồng quá 7 ngày, khiến công ty gặp khó khăn trong việc chi trả cho nhà cung cấp dịch vụ tại Ninh Bình.",
     "topic": "Finance",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Đánh giá tác động tài chính, ưu tiên các khoản chi thiết yếu, thương lượng với đối tác và điều chỉnh kế hoạch giá hoặc chi phí để bảo vệ dòng tiền."
   },
   {
     "title": "Bài báo điều tra tiêu cực về điều kiện làm việc",
     "description": "Một bài báo điều tra cáo buộc công ty để hướng dẫn viên làm việc quá giờ mà không có phụ cấp hợp lý tại các tour Phong Nha, thu hút sự chú ý của dư luận và các tổ chức bảo vệ người lao động.",
     "topic": "Public Relations",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Xác minh thông tin, đưa ra phản hồi chính thức và minh bạch, xử lý nguyên nhân nội bộ nếu có và theo dõi dư luận để bảo vệ uy tín doanh nghiệp."
   },
   {
     "title": "Khách bị lạc trong tour rừng núi",
     "description": "Trong một tour trekking tại Pù Luông, 2 khách tách đoàn để chụp ảnh và bị lạc gần 14 giờ trước khi được tìm thấy, khiến cả đoàn hoảng loạn và nghi ngờ năng lực giám sát của hướng dẫn viên.",
     "topic": "Safety",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Ưu tiên tìm kiếm và đảm bảo an toàn cho khách, liên lạc với lực lượng hỗ trợ địa phương, giữ liên lạc với đoàn và rà soát quy trình quản lý khách."
   },
   {
     "title": "Khách bị lạc trong tour rừng núi",
     "description": "Trong một tour trekking tại Sa Pa, 2 khách tách đoàn để chụp ảnh và bị lạc gần 3 giờ trước khi được tìm thấy, khiến cả đoàn hoảng loạn và nghi ngờ năng lực giám sát của hướng dẫn viên.",
     "topic": "Safety",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Ưu tiên tìm kiếm và đảm bảo an toàn cho khách, liên lạc với lực lượng hỗ trợ địa phương, giữ liên lạc với đoàn và rà soát quy trình quản lý khách."
   },
   {
     "title": "Nhà cung cấp lưu trú đột ngột tăng giá",
     "description": "Chỉ 3 ngày trước mùa cao điểm, đối tác khách sạn tại Côn Đảo thông báo tăng giá phòng thêm 25% mà không báo trước, ảnh hưởng đến biên lợi nhuận của các tour đã bán trọn gói.",
     "topic": "Suppliers",
-    "difficulty": 2
+    "difficulty": 2,
+    "quick_answer": "Làm việc ngay với nhà cung cấp, yêu cầu khắc phục theo hợp đồng, bảo vệ quyền lợi khách và chuẩn bị đối tác thay thế nếu chất lượng không được đảm bảo."
   },
   {
     "title": "Nhân viên tuyến đầu kiệt sức vì thiếu người mùa cao điểm",
     "description": "Tại điểm đến Vũng Tàu, lượng khách tăng 35% so với dự kiến trong khi nhân sự tuyến đầu không được bổ sung kịp, dẫn đến tình trạng nhân viên làm việc quá giờ liên tục và bắt đầu xuất hiện đơn xin nghỉ việc.",
     "topic": "Human Resources",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Xác định nguyên nhân thiếu nhân sự, bố trí người thay thế hoặc tuyển bổ sung, hỗ trợ nhân viên hiện tại và xây dựng phương án nhân sự dự phòng."
   },
   {
     "title": "Thiết bị lặn biển không đạt chuẩn an toàn",
     "description": "Một đợt kiểm tra nội bộ phát hiện 15% thiết bị lặn biển sử dụng cho tour tại Cần Thơ đã quá hạn bảo trì, trong khi lịch tour cao điểm vẫn đang được bán ra bình thường.",
     "topic": "Safety",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Dừng hoạt động nguy hiểm, đưa khách và nhân viên đến nơi an toàn, kiểm tra nguyên nhân, liên hệ lực lượng chuyên môn và chỉ hoạt động lại khi đủ điều kiện an toàn."
   },
   {
     "title": "Khách có bệnh nền gặp sự cố sức khỏe giữa tour",
     "description": "Một khách lớn tuổi có bệnh nền tim mạch cảm thấy khó thở giữa tour leo núi tại Mộc Châu, trong khi đoàn không có nhân viên y tế đi kèm và cách trạm y tế gần nhất hơn 14 giờ di chuyển.",
     "topic": "Health",
-    "difficulty": 5
+    "difficulty": 5,
+    "quick_answer": "Ưu tiên cấp cứu và đưa khách đến cơ sở y tế gần nhất, liên hệ người thân nếu cần, ghi nhận sự việc và rà soát phương án y tế cho các tour sau."
   },
   {
     "title": "Sụt giảm mạnh nhu cầu ngoài mùa vụ",
     "description": "Sau kỳ nghỉ lễ, lượng đặt tour đến Phong Nha giảm 20% trong 5 tuần liên tiếp, khiến công ty phải cân nhắc cắt giảm nhân sự thời vụ hoặc tìm sản phẩm tour bổ sung.",
     "topic": "Seasonal Demand",
-    "difficulty": 2
+    "difficulty": 2,
+    "quick_answer": "Phân tích nguyên nhân sụt giảm, điều chỉnh sản phẩm và marketing theo mùa, kiểm soát nhân sự thời vụ và tìm thêm phân khúc khách phù hợp."
   },
   {
     "title": "Bài báo điều tra tiêu cực về điều kiện làm việc",
     "description": "Một bài báo điều tra cáo buộc công ty để hướng dẫn viên làm việc quá giờ mà không có phụ cấp hợp lý tại các tour Cần Thơ, thu hút sự chú ý của dư luận và các tổ chức bảo vệ người lao động.",
     "topic": "Public Relations",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Xác minh thông tin, đưa ra phản hồi chính thức và minh bạch, xử lý nguyên nhân nội bộ nếu có và theo dõi dư luận để bảo vệ uy tín doanh nghiệp."
   },
   {
     "title": "Vi phạm quy định giấy phép kinh doanh lữ hành",
     "description": "Một đợt thanh tra phát hiện chi nhánh tại Đà Nẵng đang hoạt động vượt phạm vi giấy phép lữ hành hiện có, có nguy cơ bị xử phạt hành chính và tạm đình chỉ hoạt động.",
     "topic": "Legal & Compliance",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Kiểm tra yêu cầu pháp lý, tạm điều chỉnh hoạt động liên quan nếu cần, khắc phục sai phạm và rà soát hợp đồng/quy trình để bảo đảm tuân thủ."
   },
   {
     "title": "Sai sót trong xác nhận đặt phòng gây mất chỗ",
     "description": "Do lỗi đồng bộ dữ liệu giữa hệ thống đặt phòng online và khách sạn đối tác tại Sa Pa, 12 khách đã thanh toán trước nhưng đến nơi không còn phòng, buộc phải xếp tạm vào khách sạn khác với chất lượng thấp hơn.",
     "topic": "Customer Service",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Xin lỗi khách, bố trí ngay phòng hoặc khách sạn thay thế tương đương hoặc tốt hơn, hỗ trợ chi phí phát sinh và kiểm tra lỗi hệ thống để tránh tái diễn."
   },
   {
     "title": "Tranh chấp quyền lợi giữa doanh nghiệp và hộ dân làm du lịch nhỏ lẻ",
     "description": "Các hộ dân kinh doanh homestay nhỏ lẻ tại Tam Đảo cho rằng công ty đang cạnh tranh không lành mạnh bằng cách giảm giá sâu, khiến họ mất khách trong mùa cao điểm.",
     "topic": "Local Community",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Trao đổi trực tiếp với cộng đồng, xác định nguyên nhân xung đột, tìm phương án chia sẻ lợi ích và điều chỉnh hoạt động để giảm ảnh hưởng đến người dân."
   },
   {
     "title": "Chi phí nhiên liệu tăng vọt ảnh hưởng biên lợi nhuận",
     "description": "Giá nhiên liệu vận tải tăng 25% trong quý khiến chi phí vận hành các tour đến Phú Quốc vượt ngân sách dự kiến, trong khi hợp đồng với khách đã ký giá cố định từ trước.",
     "topic": "Finance",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Đánh giá tác động tài chính, ưu tiên các khoản chi thiết yếu, thương lượng với đối tác và điều chỉnh kế hoạch giá hoặc chi phí để bảo vệ dòng tiền."
   },
   {
     "title": "Quy định mới về thuế du lịch ảnh hưởng giá tour",
     "description": "Chính quyền địa phương tại Đà Lạt áp dụng mức phí tham quan mới tăng thêm 25%, có hiệu lực chỉ sau 3 ngày thông báo, khiến công ty phải gấp rút điều chỉnh giá các tour đã bán.",
     "topic": "Government Regulation",
-    "difficulty": 2
+    "difficulty": 2,
+    "quick_answer": "Đánh giá tác động tài chính, ưu tiên các khoản chi thiết yếu, thương lượng với đối tác và điều chỉnh kế hoạch giá hoặc chi phí để bảo vệ dòng tiền."
   },
   {
     "title": "Thông tin sai lệch lan truyền trên mạng xã hội",
     "description": "Một bài đăng trên Facebook vu khống công ty bỏ rơi khách giữa tour tại Phú Quốc lan truyền nhanh dù sự việc thực tế không nghiêm trọng như mô tả, khiến nhiều khách hàng tiềm năng hủy đặt tour.",
     "topic": "Crisis Communication",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Xác minh thông tin, đưa ra phản hồi chính thức và minh bạch, xử lý nguyên nhân nội bộ nếu có và theo dõi dư luận để bảo vệ uy tín doanh nghiệp."
   },
   {
     "title": "Nhà hàng đối tác không đảm bảo chất lượng món ăn",
     "description": "Nhiều đoàn khách phản ánh chất lượng bữa ăn tại nhà hàng đối tác ở Mũi Né giảm sút rõ rệt trong 14 ngày liên tiếp, dù hợp đồng vẫn ghi rõ tiêu chuẩn thực đơn cố định.",
     "topic": "Suppliers",
-    "difficulty": 2
+    "difficulty": 2,
+    "quick_answer": "Làm việc ngay với nhà cung cấp, yêu cầu khắc phục theo hợp đồng, bảo vệ quyền lợi khách và chuẩn bị đối tác thay thế nếu chất lượng không được đảm bảo."
   },
   {
     "title": "Phát ngôn của nhân viên gây tranh cãi trên mạng",
     "description": "Một nhân viên chăm sóc khách hàng trả lời thiếu khéo léo trong bình luận công khai trên một hội nhóm review du lịch, bị cộng đồng mạng chụp màn hình và chia sẻ rộng rãi kèm chỉ trích thái độ phục vụ của công ty.",
     "topic": "Crisis Communication",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Xác minh thông tin, đưa ra phản hồi chính thức và minh bạch, xử lý nguyên nhân nội bộ nếu có và theo dõi dư luận để bảo vệ uy tín doanh nghiệp."
   },
   {
     "title": "Dòng tiền căng thẳng do khách hủy tour hàng loạt",
     "description": "Sau một sự kiện thời tiết bất lợi, 30% khách đã đặt tour đến Hội An đồng loạt yêu cầu hoàn tiền trong vòng 3 ngày, gây áp lực lớn lên dòng tiền ngắn hạn của công ty.",
     "topic": "Finance",
-    "difficulty": 4
+    "difficulty": 4,
+    "quick_answer": "Đánh giá tác động tài chính, ưu tiên các khoản chi thiết yếu, thương lượng với đối tác và điều chỉnh kế hoạch giá hoặc chi phí để bảo vệ dòng tiền."
   },
   {
     "title": "Tranh chấp quyền lợi giữa doanh nghiệp và hộ dân làm du lịch nhỏ lẻ",
     "description": "Các hộ dân kinh doanh homestay nhỏ lẻ tại Hà Giang cho rằng công ty đang cạnh tranh không lành mạnh bằng cách giảm giá sâu, khiến họ mất khách trong mùa cao điểm.",
     "topic": "Local Community",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Trao đổi trực tiếp với cộng đồng, xác định nguyên nhân xung đột, tìm phương án chia sẻ lợi ích và điều chỉnh hoạt động để giảm ảnh hưởng đến người dân."
   },
   {
     "title": "Tour du lịch gây tác động tiêu cực đến hệ sinh thái",
     "description": "Một tour trekking mới tại Côn Đảo bị các nhà bảo tồn cảnh báo đang làm xói mòn đường mòn tự nhiên do lượng khách tăng 45% mà chưa có biện pháp kiểm soát sức chứa phù hợp.",
     "topic": "Sustainability",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Giảm áp lực lên điểm đến, kiểm soát sức chứa, điều chỉnh lịch hoặc tuyến nếu cần và phối hợp với đơn vị quản lý địa phương để bảo vệ môi trường."
   },
   {
     "title": "Đối thủ sao chép sản phẩm tour độc quyền",
     "description": "Một đối thủ cạnh tranh vừa ra mắt sản phẩm tour trải nghiệm gần như sao chép hoàn toàn lộ trình độc quyền của công ty bạn tại Hội An, với mức giá thấp hơn 25%.",
     "topic": "Competitors",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Bảo vệ điểm khác biệt của sản phẩm, kiểm tra quyền sở hữu nội dung nếu có, tập trung vào giá trị dịch vụ và tránh cạnh tranh chỉ bằng giảm giá."
   },
   {
     "title": "Lạm phát khiến chi phí tour trong nước tăng nhanh",
     "description": "Lạm phát khiến giá dịch vụ lưu trú và ăn uống tại Quy Nhơn tăng 45% chỉ trong vài tháng, trong khi nhiều tour trọn gói đã bán ra với giá cố định từ đầu năm.",
     "topic": "Currency & Economics",
-    "difficulty": 3
+    "difficulty": 3,
+    "quick_answer": "Đánh giá tác động tài chính, ưu tiên các khoản chi thiết yếu, thương lượng với đối tác và điều chỉnh kế hoạch giá hoặc chi phí để bảo vệ dòng tiền."
   },
   {
     "title": "Đối thủ sao chép sản phẩm tour độc quyền",
     "description": "Một đối thủ cạnh tranh vừa ra mắt sản phẩm tour trải nghiệm gần như sao chép hoàn toàn lộ trình độc quyền của công ty bạn tại Phong Nha, với mức giá thấp hơn 15%.",
     "topic": "Competitors",
-    "difficulty": 2
+    "difficulty": 2,
+    "quick_answer": "Bảo vệ điểm khác biệt của sản phẩm, kiểm tra quyền sở hữu nội dung nếu có, tập trung vào giá trị dịch vụ và tránh cạnh tranh chỉ bằng giảm giá."
   },
   {
     "title": "Chiến dịch quảng cáo nhắm sai đối tượng khách hàng",
     "description": "Một chiến dịch quảng cáo trên Instagram nhắm đến khách châu Âu nhưng nội dung và giá tour không phù hợp thị hiếu, khiến tỷ lệ chuyển đổi thấp hơn 40% so với kỳ vọng dù đã chi ngân sách lớn.",
     "topic": "Marketing",
-    "difficulty": 1
+    "difficulty": 1,
+    "quick_answer": "Tạm điều chỉnh chiến dịch, xác định lại khách hàng mục tiêu, sửa nội dung sai và theo dõi dữ liệu chuyển đổi trước khi tiếp tục tăng ngân sách."
   }
 ]
