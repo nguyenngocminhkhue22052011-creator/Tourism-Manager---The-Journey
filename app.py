@@ -1165,13 +1165,29 @@ def page_crisis():
         st.caption(f"📍 Topic: {crisis.get('topic', 'General')}  ·  🎯 Difficulty: {crisis.get('difficulty', 'Medium')}")
         st.markdown(crisis.get("description", ""))
 
+        with st.expander("💡 Gợi ý trả lời ngắn gọn"):
+            st.info(
+                crisis.get(
+                    "quick_answer",
+                    "Chưa có gợi ý cho tình huống này."
+                )
+            )
+
         solution = st.text_area("💼 Quyết định của bạn:", height=150, key="crisis_solution_input")
 
         c1, c2 = st.columns([1, 1])
         with c1:
-            evaluate_clicked = st.button("📊 Evaluate Solution", type="primary", use_container_width=True)
+            evaluate_clicked = st.button(
+                "📊 Evaluate Solution",
+                type="primary",
+                use_container_width=True
+            )
+
         with c2:
-            if st.button("🔄 Đổi tình huống khác", use_container_width=True):
+            if st.button(
+                "🔄 Đổi tình huống khác",
+                use_container_width=True
+            ):
                 load_random_crisis()
                 st.session_state.crisis_result = None
                 st.rerun()
